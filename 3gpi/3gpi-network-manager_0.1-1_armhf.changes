@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 12 Sep 2014 01:41:25 +0000
+Source: 3gpi-network-manager
+Binary: 3gpi-network-manager
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ 3gpi-network-manager - NetworkManager settings for 3GPI
+Changes:
+ 3gpi-network-manager (0.1-1) unstable; urgency=low
+ .
+   * Initial release
+Checksums-Sha1:
+ 9aef1dba5f33099349652749091aa7799dca7c1c 1132 3gpi-network-manager_0.1-1.dsc
+ f091f4261cd477bd6509a92147a9908b4c6ef186 2258 3gpi-network-manager_0.1-1.tar.gz
+ fbce52ff8157c3d7947fc7971a10db340946b589 2432 3gpi-network-manager_0.1-1_all.deb
+Checksums-Sha256:
+ d2378caaace85a471537977a379fbb9554093e971730ab2848a625d2eafb8dda 1132 3gpi-network-manager_0.1-1.dsc
+ 5130ee2fcf8da5eb0de24719c609dcf3488b0d0fb80728a9ca3c752cc97a21a9 2258 3gpi-network-manager_0.1-1.tar.gz
+ 8c9843d9c6acf159868242c3eaf46bb9576231a590733c5fd95d00c567e5b7ce 2432 3gpi-network-manager_0.1-1_all.deb
+Files:
+ 7cb958b4d33120b38c2b2a3b31409db4 2432 unknown optional 3gpi-network-manager_0.1-1_all.deb
+ 8a5c98d8d4e1e8d37394f9b6aa119c52 1132 unknown optional 3gpi-network-manager_0.1-1.dsc
+ cdfa46a3664b4db5e5475d95b648d2a7 2258 unknown optional 3gpi-network-manager_0.1-1.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEbBAEBAgAGBQJUEsfeAAoJEM7eEZKc02WiCdAH90+lJP04zRH26hvw8zAVJ8zw
+3KXCsr7E6IhgQHq/hLsnn0iBDxPvU/4okTo/c65F3b7I1ZqfHlSyVGpSKNTP6SXc
+Q7mbU7zM0wTth5bvEkamDiJwCsUw65Hf6On/OQb79zqO4yrDqQ6OInlKGENXesmp
+ngBRA26YABxpCgQrVoJPcFnrOtY/MI0UYABjoYswpmtm7wuMFTyKHqQgKLsuqFYf
+IdF+zupMmRocc9IFZ1J4Xb8PXNx5a9ckF2zSuJCZNhDH47/IQgAMxOUQly25pdYj
+6GWoD+8fQoHEjncIeL8fvkoMXfKUEt/VWWJLJTLfIkKf/y8J1YuEaKI5Lv+pFQ==
+=gM3r
+-----END PGP SIGNATURE-----

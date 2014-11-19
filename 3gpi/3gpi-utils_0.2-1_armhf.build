@@ -1,0 +1,66 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package 3gpi-utils
+dpkg-buildpackage: source version 0.2-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
+ dpkg-source --before-build 3gpi-utils
+dpkg-buildpackage: host architecture armhf
+ fakeroot debian/rules clean
+dh clean --with systemd
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b 3gpi-utils
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory '3gpi-utils' is not <sourcepackage>-<upstreamversion> '3gpi-utils-0.2'
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.2-1.tar.gz
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.2-1.dsc
+ debian/rules build
+dh build --with systemd
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary --with systemd
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installcron
+   dh_systemd_enable
+   dh_installinit
+   dh_systemd_start
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: `../3gpi-utils_0.2-1_all.deb' にパッケージ `3gpi-utils' を構築しています。
+ dpkg-genchanges  >../3gpi-utils_0.2-1_armhf.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build 3gpi-utils
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: 3gpi-utils source: native-package-with-dash-version
+W: 3gpi-utils source: diff-contains-git-control-dir .git
+W: 3gpi-utils source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
+E: 3gpi-utils: copyright-contains-dh_make-todo-boilerplate
+E: 3gpi-utils: extended-description-is-empty
+E: 3gpi-utils: section-is-dh_make-template
+W: 3gpi-utils: init.d-script-not-marked-as-conffile etc/init.d/3gpi-utils
+E: 3gpi-utils: init.d-script-not-included-in-package etc/init.d/3gpi-utils
+W: 3gpi-utils: binary-without-manpage usr/sbin/3gpictl
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile 3gpi-utils_0.2-1.dsc Masahiro Honda <honda@mechatrax.com>
+
+ signfile 3gpi-utils_0.2-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+
+Successfully signed dsc and changes files

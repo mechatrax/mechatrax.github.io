@@ -1,0 +1,73 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package 3gpi-utils
+dpkg-buildpackage: source version 0.1-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
+ dpkg-source --before-build 3gpi-utils-0.1
+dpkg-buildpackage: host architecture armhf
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b 3gpi-utils-0.1
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.1-1.tar.gz
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.1-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installcron
+   dh_installinit
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `3gpi-utils' in `../3gpi-utils_0.1-1_all.deb'.
+ dpkg-genchanges  >../3gpi-utils_0.1-1_armhf.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build 3gpi-utils-0.1
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: 3gpi-utils source: native-package-with-dash-version
+W: 3gpi-utils source: no-debian-copyright
+W: 3gpi-utils: new-package-should-close-itp-bug
+E: 3gpi-utils: no-copyright-file
+E: 3gpi-utils: extended-description-is-empty
+E: 3gpi-utils: section-is-dh_make-template
+W: 3gpi-utils: script-with-language-extension usr/sbin/3gpiinit.sh
+W: 3gpi-utils: script-with-language-extension usr/sbin/3gpikeep.sh
+W: 3gpi-utils: binary-without-manpage usr/sbin/3gpictl
+W: 3gpi-utils: binary-without-manpage usr/sbin/3gpiinit.sh
+W: 3gpi-utils: binary-without-manpage usr/sbin/3gpikeep.sh
+W: 3gpi-utils: command-with-path-in-maintainer-script prerm:22 /usr/sbin/3gpictl
+W: 3gpi-utils: command-with-path-in-maintainer-script prerm:24 /usr/sbin/3gpictl
+W: 3gpi-utils: maintainer-script-calls-systemctl postrm:24
+W: 3gpi-utils: maintainer-script-calls-systemctl postinst:23
+W: 3gpi-utils: maintainer-script-calls-systemctl postinst:24
+W: 3gpi-utils: maintainer-script-calls-systemctl postinst:25
+W: 3gpi-utils: maintainer-script-calls-systemctl prerm:26
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile 3gpi-utils_0.1-1.dsc Masahiro Honda <honda@mechatrax.com>
+
+ signfile 3gpi-utils_0.1-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+gpg: Invalid passphrase; please try again ...
+
+Successfully signed dsc and changes files
