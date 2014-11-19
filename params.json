@@ -1,0 +1,1 @@
+{"name":"MechaTracks","tagline":"","body":"### リポジトリの追加\r\n3GPIのリポジトリを追加するには次のコマンドを実行してください。\r\n\r\n```\r\n$ sudo bash -c 'echo \"deb http://mechatrax.github.io/3gpi ./\" > /etc/apt/sources.list.d/3gpi.list'\r\n```\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
