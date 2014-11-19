@@ -24,9 +24,14 @@
       </header>
       <section>
         <h3>
-<a id="リポジトリの追加" class="anchor" href="#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E8%BF%BD%E5%8A%A0" aria-hidden="true"><span class="octicon octicon-link"></span></a>リポジトリの追加</h3>
+<a id="リポジトリの設定" class="anchor" href="#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E8%A8%AD%E5%AE%9A" aria-hidden="true"><span class="octicon octicon-link"></span></a>リポジトリの設定</h3>
 
-<p>3GPIのリポジトリを追加するには次のコマンドを実行してください。</p>
+<p>3GPIのリポジトリを利用するには次のapt-lineを追加してください。</p>
+
+<pre><code>deb http://mechatrax.github.io/3gpi ./
+</code></pre>
+
+<p>次のコマンドを実行することで設定ファイルが作成できます。</p>
 
 <pre><code>$ sudo bash -c 'echo "deb http://mechatrax.github.io/3gpi ./" &gt; /etc/apt/sources.list.d/3gpi.list'
 </code></pre>
