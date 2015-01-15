@@ -1,0 +1,71 @@
+Package: 3gpi-network-manager
+Binary: 3gpi-network-manager
+Version: 0.1-3
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.5
+Format: 1.0
+Files:
+ ca0b6839524444f0525497ecff215767 1135 3gpi-network-manager_0.1-3.dsc
+ 7f67c32e3b93d8321bd209e280e17d16 22389 3gpi-network-manager_0.1-3.tar.gz
+Homepage: http://www.mechatrax.com/
+Package-List:
+ 3gpi-network-manager deb unknown optional arch=all
+Checksums-Sha1:
+ 990e3b38718a87de8c9b6f73752743cbe767b5fb 1135 3gpi-network-manager_0.1-3.dsc
+ 40883b2b008dd7c594b6259b2f4a985737f8dead 22389 3gpi-network-manager_0.1-3.tar.gz
+Checksums-Sha256:
+ ec962f544cbc5ed3aac99b5efa047c3992752dec88c473b72367aa81c31806e5 1135 3gpi-network-manager_0.1-3.dsc
+ abff4cc81b8c7bf5464f85f989d4193e2e3fcdfe2d1a2962c0861eb76fc9ddf3 22389 3gpi-network-manager_0.1-3.tar.gz
+Checksums-Sha512:
+ e481b2af12a0babac735b3db476cdba291b2671a2790889245b275bdc168e0c4f3322fb539a6ef74a17717ff22737ca0a82ae46e79c841920f3afb3b4e3369c7 1135 3gpi-network-manager_0.1-3.dsc
+ 31b79694e957022655c75294cdec6445868a54b1c14ea2f4a45f51342fe48dcfeb9e19c33cbd4ef185aa35d58b818b4cfe1e1af69b2f12947322d9c43d7e1ac2 22389 3gpi-network-manager_0.1-3.tar.gz
+
+Package: 3gpi-utils
+Binary: 3gpi-utils
+Version: 0.3-1
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 9), dh-systemd
+Architecture: all
+Standards-Version: 3.9.5
+Format: 1.0
+Files:
+ fa56f988d39df9954a4366f17d2231d9 1087 3gpi-utils_0.3-1.dsc
+ afb9e8c16e955312a5523e3a98bea07e 42146 3gpi-utils_0.3-1.tar.gz
+Homepage: http://www.mechatrax.com/
+Package-List:
+ 3gpi-utils deb unknown optional arch=all
+Checksums-Sha1:
+ 5a30d764e931fe8499b1d4f3d3120d795c324c4c 1087 3gpi-utils_0.3-1.dsc
+ 7777cc41b9123018a42c06e593dc6841f3a5ba26 42146 3gpi-utils_0.3-1.tar.gz
+Checksums-Sha256:
+ 26ce6250e40e9c014ddc720e2cba049a60b6b1f3e672e1ffa451affc3f11029a 1087 3gpi-utils_0.3-1.dsc
+ adbfc9afca31ca0b1931b1518fe43af502928d6a651d5f2051e8560681e42047 42146 3gpi-utils_0.3-1.tar.gz
+Checksums-Sha512:
+ 71a5801762c443b281086bb851cef5fcf26641c80ba86734dfd52307e2bb6a8a167f506a42d34225c7039a15cded0421d2f7ab05a4afe20203e5930232284704 1087 3gpi-utils_0.3-1.dsc
+ 45948c5465c63759068dfa07ed3f8e686b301fef31a12c58dc017c48e8366c62672dd3c35480b2a59db467d239b7dc9ff9fb1321da80943458b678ecfe702ade 42146 3gpi-utils_0.3-1.tar.gz
+
+Package: 3gpi-archive-keyring
+Binary: 3gpi-archive-keyring
+Version: 20150114
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.5
+Format: 1.0
+Files:
+ 40d9e99b751000cc6263446ca3c906c9 1105 3gpi-archive-keyring_20150114.dsc
+ a32f92f63f07368c55a85a25fa61a140 3270 3gpi-archive-keyring_20150114.tar.gz
+Package-List:
+ 3gpi-archive-keyring deb misc optional arch=all
+Checksums-Sha1:
+ 657144d0fe3a7d7e38044c6fc3a0022dab2ce463 1105 3gpi-archive-keyring_20150114.dsc
+ 4ba42f09607684feead6b2f39cd77f8666eab0fa 3270 3gpi-archive-keyring_20150114.tar.gz
+Checksums-Sha256:
+ 5d614a7745117b8488db80c96da1560ce8332e5acf46b3d4da53695a86d96c32 1105 3gpi-archive-keyring_20150114.dsc
+ 763e248cf567997e2f3c3d36b86081b69965134cb28193c0bccf2ae4460fc2b6 3270 3gpi-archive-keyring_20150114.tar.gz
+Checksums-Sha512:
+ 15bed952d013f7ee5024a85b67415504006d4b0f3254fe84338f4c4198380c1f257b8448c4bd8367f07231ac8f88e3d27b1ff26ae7b85a1d32dc270deaf7a517 1105 3gpi-archive-keyring_20150114.dsc
+ 034ade580c0d59c474f09717f5b70fab41140d7034d869e52913b9508fcb23643259fcda42d44e5c6b49904d3e73c64334392a0a9091596e40ea4b2c789702df 3270 3gpi-archive-keyring_20150114.tar.gz
+

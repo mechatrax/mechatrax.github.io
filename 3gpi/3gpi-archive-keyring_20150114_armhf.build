@@ -1,0 +1,55 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package 3gpi-archive-keyring
+dpkg-buildpackage: source version 20150114
+dpkg-buildpackage: source distribution jessie
+dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
+ dpkg-source --before-build 3gpi-archive-keyring
+dpkg-buildpackage: host architecture armhf
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b 3gpi-archive-keyring
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory '3gpi-archive-keyring' is not <sourcepackage>-<upstreamversion> '3gpi-archive-keyring-20150114'
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building 3gpi-archive-keyring in 3gpi-archive-keyring_20150114.tar.gz
+dpkg-source: info: building 3gpi-archive-keyring in 3gpi-archive-keyring_20150114.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `3gpi-archive-keyring' in `../3gpi-archive-keyring_20150114_all.deb'.
+ dpkg-genchanges  >../3gpi-archive-keyring_20150114_armhf.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build 3gpi-archive-keyring
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: 3gpi-archive-keyring source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
+E: 3gpi-archive-keyring: extended-description-is-empty
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile 3gpi-archive-keyring_20150114.dsc Masahiro Honda <honda@mechatrax.com>
+
+ signfile 3gpi-archive-keyring_20150114_armhf.changes Masahiro Honda <honda@mechatrax.com>
+
+Successfully signed dsc and changes files

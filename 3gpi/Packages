@@ -1,0 +1,49 @@
+Package: 3gpi-network-manager
+Priority: optional
+Section: unknown
+Installed-Size: 42
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.1-3
+Depends: systemd, network-manager (>= 0.9.10), modemmanager (>= 1.2.0), 3gpi-utils
+Filename: ./3gpi-network-manager_0.1-3_all.deb
+Size: 3510
+MD5sum: 463c26b27a7beb8e871ad348db36e24a
+SHA1: 2c2235cdc907422cc55171aa0529c3741234b23d
+SHA256: d06a16f4a9e96900564e73da435d68a9837f34fb44e93b260234ea6ebf5deb70
+SHA512: 9656a63ff42d57609af04a2cecf045f684f2babdad96d890373747bd4d9b92fde80615d198ad68acf685253ee137f7252096cd2466a558671cfcec34cc5e105e
+Description: NetworkManager settings for 3GPI
+Homepage: http://www.mechatrax.com/
+
+Package: 3gpi-archive-keyring
+Priority: optional
+Section: misc
+Installed-Size: 33
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 20150114
+Depends: gnupg
+Filename: ./3gpi-archive-keyring_20150114_all.deb
+Size: 3814
+MD5sum: 615e6430de73ecc53d1d870f5c8d61b8
+SHA1: a8327e14291c226afab88848ef3c1ffe5f9d2d1e
+SHA256: e51396e7089ac5b54f4e1135d9042f05951c5e56b3853fb4707134940a32146d
+SHA512: 372b5d25a53ba7c44b91e200cc6347d79b8fe7acc5bf001119baa3866801bdedcb8079c23ec02fdae5028be501a9995a074dffe8b1fc41ef0ec2f303078c062a
+Description: GnuPG archive keys of the 3GPI archive
+
+Package: 3gpi-utils
+Priority: optional
+Section: unknown
+Installed-Size: 69
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.3-1
+Filename: ./3gpi-utils_0.3-1_all.deb
+Size: 4740
+MD5sum: 49e524f58f3aa7f3d46e5075c1cd7c48
+SHA1: a05ef609ea9d6ac97422d0207286ff0fe68abc3d
+SHA256: ee8f6cc32d0ce17f77dcfb90821a4139b1b693355f22d7d482c924f3b7f8b73f
+SHA512: d18d11a117857dd60492a9c44941e7929d3c254e23f459f38994ad8ff4e1dba63027fee5f5ded9fb551ecda54d746d9f07f3dbb3b543314805f80d41159f5172
+Description: Utilities for 3GPI
+Homepage: http://www.mechatrax.com/
+

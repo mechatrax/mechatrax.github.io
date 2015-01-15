@@ -1,0 +1,14 @@
+etc/cron.d/3gpi-utils					    3gpi-utils
+etc/default/3gpi-utils					    3gpi-utils
+lib/systemd/system/3gpi-utils.service			    3gpi-utils
+lib/udev/rules.d/70-3gpi-usbserial.rules		    3gpi-utils
+lib/udev/rules.d/81-3gpi-mm-blacklist.rules		    3gpi-network-manager
+lib/udev/rules.d/81-3gpi-mm-candidate.rules		    3gpi-network-manager
+usr/sbin/3gpictl					    3gpi-utils
+usr/share/doc/3gpi-archive-keyring/changelog.gz		    3gpi-archive-keyring
+usr/share/doc/3gpi-archive-keyring/copyright		    3gpi-archive-keyring
+usr/share/doc/3gpi-network-manager/changelog.Debian.gz	    3gpi-network-manager
+usr/share/doc/3gpi-network-manager/copyright		    3gpi-network-manager
+usr/share/doc/3gpi-utils/changelog.Debian.gz		    3gpi-utils
+usr/share/doc/3gpi-utils/copyright			    3gpi-utils
+usr/share/keyrings/3gpi-archive-keyring.gpg		    3gpi-archive-keyring
