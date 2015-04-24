@@ -1,0 +1,86 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package sleepi-utils
+dpkg-buildpackage: source version 0.1-1
+dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
+ dpkg-source --before-build sleepi-utils
+dpkg-buildpackage: host architecture armhf
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b sleepi-utils
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory 'sleepi-utils' is not <sourcepackage>-<upstreamversion> 'sleepi-utils-0.1'
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building sleepi-utils in sleepi-utils_0.1-1.tar.gz
+dpkg-source: info: building sleepi-utils in sleepi-utils_0.1-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_installgsettings
+   dh_bugfiles
+   dh_ucf
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `sleepi-utils' in `../sleepi-utils_0.1-1_all.deb'.
+ dpkg-genchanges  >../sleepi-utils_0.1-1_armhf.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build sleepi-utils
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: sleepi-utils source: native-package-with-dash-version
+W: sleepi-utils source: diff-contains-git-control-dir .git
+W: sleepi-utils: new-package-should-close-itp-bug
+E: sleepi-utils: copyright-contains-dh_make-todo-boilerplate
+E: sleepi-utils: extended-description-is-empty
+E: sleepi-utils: section-is-dh_make-template
+W: sleepi-utils: binary-without-manpage usr/sbin/sleepictl
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile sleepi-utils_0.1-1.dsc Masahiro Honda <honda@mechatrax.com>
+
+ signfile sleepi-utils_0.1-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+
+Successfully signed dsc and changes files

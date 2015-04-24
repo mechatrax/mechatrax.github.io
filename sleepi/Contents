@@ -1,0 +1,15 @@
+boot/overlays/sleepi-overlay.dtb			    sleepi-firmware
+etc/default/sleepi-monitor				    sleepi-monitor
+etc/default/sleepi-utils				    sleepi-utils
+etc/init.d/sleepi-monitor				    sleepi-monitor
+usr/sbin/sleepictl					    sleepi-utils
+usr/sbin/sleepimon					    sleepi-monitor
+usr/share/doc/sleepi-archive-keyring/changelog.Debian.gz    sleepi-archive-keyring
+usr/share/doc/sleepi-archive-keyring/copyright		    sleepi-archive-keyring
+usr/share/doc/sleepi-firmware/changelog.Debian.gz	    sleepi-firmware
+usr/share/doc/sleepi-firmware/copyright			    sleepi-firmware
+usr/share/doc/sleepi-monitor/changelog.Debian.gz	    sleepi-monitor
+usr/share/doc/sleepi-monitor/copyright			    sleepi-monitor
+usr/share/doc/sleepi-utils/changelog.Debian.gz		    sleepi-utils
+usr/share/doc/sleepi-utils/copyright			    sleepi-utils
+usr/share/keyrings/sleepi-archive-keyring.gpg		    sleepi-archive-keyring

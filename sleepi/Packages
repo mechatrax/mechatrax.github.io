@@ -1,0 +1,66 @@
+Package: sleepi-archive-keyring
+Priority: optional
+Section: misc
+Installed-Size: 6
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 20150424-1
+Filename: ./sleepi-archive-keyring_20150424-1_all.deb
+Size: 3778
+MD5sum: fc427581326d154699b0516ba7cf7d81
+SHA1: 73091acaa5367bcad4faa4c3d099ca7e282c2830
+SHA256: 08e786c3a3d6e2cf370711619e824e83fd40a960ac8e4cd1304af60262166278
+SHA512: 3738d6d2ce69fa8312e81e41c4b20260576a52c0af035b6c30c26c76737a20dda9e54aa333a90b8d4bf8a2dd6e3f31f619dae32ad324c866f9d68b43905c3587
+Description: GnuPG archive keys of the slee-Pi archive
+
+Package: sleepi-firmware
+Priority: extra
+Section: unknown
+Installed-Size: 6
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: armhf
+Version: 0.1-1
+Depends: raspberrypi-bootloader (>= 1.20150214-1)
+Filename: ./sleepi-firmware_0.1-1_armhf.deb
+Size: 3368
+MD5sum: 94be0f4ddf4bf09b156733b58b946aa7
+SHA1: 28c9c0e6c8b2db87164aa79d9093feebeb71a830
+SHA256: 5c69ac8ec3b9163538aee8d7e2af677103cf178770fa5b069d76c0e4a75fd769
+SHA512: d34311e30bcf16838b4f26deeb6fbfb75d91e2401fd8817ea6ad82d1f43a10e07b9bd7f99f3bfbf1df4a2f70b7b588c5a0f3b200dc82c5b677511d7fd7b23e0b
+Description: Devicetree overlay binary for slee-Pi
+Homepage: http://www.mechatrax.com/
+
+Package: sleepi-monitor
+Priority: extra
+Section: unknown
+Installed-Size: 9
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.1-1
+Depends: sleepi-utils (>= 0.1), ruby (>= 1:1.9.3)
+Filename: ./sleepi-monitor_0.1-1_all.deb
+Size: 4862
+MD5sum: d1063734b90a8314a5556a5ea9c48756
+SHA1: 993492f529215406aaee5d4b1b601dfcd7ce5e2e
+SHA256: 190e65e4d063a1e822c1627575c1dcf45de254c9398f09f296547fdbdfa87f91
+SHA512: ef57d4d42fe90b4193265940d43dfbcdeafa51dead25d8b8cb5f062d6fe87e44759ca0279fbc0f7711260acb0e6a8f6be6fc37856b294beb53c440c9758fc842
+Description: Monitoring daemon for slee-Pi
+Homepage: http://www.mechatrax.com/
+
+Package: sleepi-utils
+Priority: extra
+Section: unknown
+Installed-Size: 5
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.1-1
+Depends: sleepi-firmware (>= 0.1), i2c-tools (>= 3.1.0)
+Filename: ./sleepi-utils_0.1-1_all.deb
+Size: 3220
+MD5sum: 8ca0861efa39ab9ef010fc7902d13239
+SHA1: cb71ebb881498da0264422c1d754c9776534198a
+SHA256: db80250ecad0c54bc4a3c14ca6a01d001ff07065087fd5d3886311419c46d892
+SHA512: 7d6b1f96ece3fa701561414f28a09a90ff8c43c524eee3170a5ddff2607a2e6e5d0645b8d20756265bfe5ac1a7310141c979e82785796649e59e7184233d7918
+Description: Utilities for slee-Pi
+Homepage: http://www.mechatrax.com/
+
