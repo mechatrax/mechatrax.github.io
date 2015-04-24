@@ -48,36 +48,36 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- 28ea62fbf0279ed980155df1695edb30 1112 sleepi-monitor_0.1-1.dsc
- 470ebc3ec6caa214d0887791b9c011ae 11579 sleepi-monitor_0.1-1.tar.gz
+ f21cf86b9c4f79982b12ed5dcad2e26c 1112 sleepi-monitor_0.1-1.dsc
+ c235723358fd833b8653917867871cb7 11541 sleepi-monitor_0.1-1.tar.gz
 Homepage: http://www.mechatrax.com/
 Package-List: 
  sleepi-monitor deb unknown extra
 Checksums-Sha1:
- eb05003d4f36866d6415a5bd76858a0913c813a4 1112 sleepi-monitor_0.1-1.dsc
- a9d85aa613c28820c8fe3e1060d30f8ab6022ed7 11579 sleepi-monitor_0.1-1.tar.gz
+ 9f9271bf0f77b5fc1e58813d2f24a980dc407ff7 1112 sleepi-monitor_0.1-1.dsc
+ 29f36be24f0007275061f516d048511658ce2737 11541 sleepi-monitor_0.1-1.tar.gz
 Checksums-Sha256:
- 33605b7a2585d128930af6ba08c46099a75839acd6392af6fd6baa0b8281fb09 1112 sleepi-monitor_0.1-1.dsc
- 52cdab83b73033cd7acc4e2e6d3ba87f779d2aa9ffd530233600ea538c287065 11579 sleepi-monitor_0.1-1.tar.gz
+ c86a35aecc612f77f363cfd31283492e36b0d16215d03fab42cec672932d34d3 1112 sleepi-monitor_0.1-1.dsc
+ b75b5684bc057da87cfd3215ab890427d90e311128b92895935f60e93832d2b0 11541 sleepi-monitor_0.1-1.tar.gz
 
 Package: sleepi-utils
 Binary: sleepi-utils
-Version: 0.1-1
+Version: 0.1-2
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Build-Depends: debhelper (>= 8.0.0)
 Architecture: all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- f84ad5efc9423d9fbaf3b2a24a9acf03 1100 sleepi-utils_0.1-1.dsc
- 41b6a303760f58a0dcfb5c9564b90d3e 10135 sleepi-utils_0.1-1.tar.gz
+ 9dd2391f7288a695f7f5ea1fd7f7465f 1100 sleepi-utils_0.1-2.dsc
+ b1571e243a1ccf707d6bedec5cf57b0f 24189 sleepi-utils_0.1-2.tar.gz
 Homepage: http://www.mechatrax.com/
 Package-List: 
  sleepi-utils deb unknown extra
 Checksums-Sha1:
- 78f72bde05fb3cfb5061e6db537fa2ed3dee4914 1100 sleepi-utils_0.1-1.dsc
- d538bc4b4ef83d5a942c24dadd1f99e1d43cc4d7 10135 sleepi-utils_0.1-1.tar.gz
+ f898bdcb2252f2e35c97340e417d5cd60d7d0835 1100 sleepi-utils_0.1-2.dsc
+ 110e83279081587838c45215a16c9f34a0f44c5f 24189 sleepi-utils_0.1-2.tar.gz
 Checksums-Sha256:
- ca7a60160c40105593e0fe6151d3a8f29b2fe4bb479ad7185bd8d21529b7690c 1100 sleepi-utils_0.1-1.dsc
- e4528f4dc34da9ac55a41f9bc3816e445320a032df7a2f2d77da801c94925202 10135 sleepi-utils_0.1-1.tar.gz
+ 81daa4ccb95fc22d5f26b37157a99dfdbd0ad5721ee27ca9f89e3f312b22e29a 1100 sleepi-utils_0.1-2.dsc
+ aec6e01161d780091861248ab54bb759d3b8814ca275882128d0eb878c167f74 24189 sleepi-utils_0.1-2.tar.gz
 

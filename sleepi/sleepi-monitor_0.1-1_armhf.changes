@@ -18,26 +18,26 @@ Changes:
  .
    * Initial release
 Checksums-Sha1: 
- eb05003d4f36866d6415a5bd76858a0913c813a4 1112 sleepi-monitor_0.1-1.dsc
- a9d85aa613c28820c8fe3e1060d30f8ab6022ed7 11579 sleepi-monitor_0.1-1.tar.gz
- 993492f529215406aaee5d4b1b601dfcd7ce5e2e 4862 sleepi-monitor_0.1-1_all.deb
+ 9f9271bf0f77b5fc1e58813d2f24a980dc407ff7 1112 sleepi-monitor_0.1-1.dsc
+ 29f36be24f0007275061f516d048511658ce2737 11541 sleepi-monitor_0.1-1.tar.gz
+ 3bb0bccb2afcd714a0d10fa6f9c8e5d405a03a51 4840 sleepi-monitor_0.1-1_all.deb
 Checksums-Sha256: 
- 33605b7a2585d128930af6ba08c46099a75839acd6392af6fd6baa0b8281fb09 1112 sleepi-monitor_0.1-1.dsc
- 52cdab83b73033cd7acc4e2e6d3ba87f779d2aa9ffd530233600ea538c287065 11579 sleepi-monitor_0.1-1.tar.gz
- 190e65e4d063a1e822c1627575c1dcf45de254c9398f09f296547fdbdfa87f91 4862 sleepi-monitor_0.1-1_all.deb
+ c86a35aecc612f77f363cfd31283492e36b0d16215d03fab42cec672932d34d3 1112 sleepi-monitor_0.1-1.dsc
+ b75b5684bc057da87cfd3215ab890427d90e311128b92895935f60e93832d2b0 11541 sleepi-monitor_0.1-1.tar.gz
+ 32686043c7594d6d35ab34d4e71c7510748da2996ffc9b6f39377322530be8af 4840 sleepi-monitor_0.1-1_all.deb
 Files: 
- 28ea62fbf0279ed980155df1695edb30 1112 unknown extra sleepi-monitor_0.1-1.dsc
- 470ebc3ec6caa214d0887791b9c011ae 11579 unknown extra sleepi-monitor_0.1-1.tar.gz
- d1063734b90a8314a5556a5ea9c48756 4862 unknown extra sleepi-monitor_0.1-1_all.deb
+ f21cf86b9c4f79982b12ed5dcad2e26c 1112 unknown extra sleepi-monitor_0.1-1.dsc
+ c235723358fd833b8653917867871cb7 11541 unknown extra sleepi-monitor_0.1-1.tar.gz
+ 953c2c2ac6071f82b090d077e64aae7c 4840 unknown extra sleepi-monitor_0.1-1_all.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJVOMh1AAoJEM7eEZKc02Wi8kIH/R78ti3TihDCDiTJC5hpn1CV
-lsv2gvvrNXK/ANp71Pj0oqQuYjVmOx756NV26DdZMksYCXKnHqYyFinCeUpcvccV
-mAHFoIAZ4C01t4+mN7ezgAWTdShFZ9Tjrrkxoxvt6a0uXDwslRA1q+bFkUTqLsQ7
-ucpQzWSloQmeKeY64p4sVRJVsKtiL2WFFZuHjPSQoYDf93bv8SDP85qsq3o9GLiy
-dP6bxttA0N6a6Y83IfAj0AfDs42PRF6O4QkzDLF86jmTAymEdcbz67F4S0Hl97CU
-Uq6lAU20/fJ9ECEbm9Dxz8UqwEmk9XBx77+ErOgK4BMpXHpLBxrxB1gRX1kDflQ=
-=Z3xu
+iQEcBAEBAgAGBQJVOgnRAAoJEM7eEZKc02WiWkQH/0g8wXE0/fSHHitisEtd3kXc
+1ZlzRdFpU0ZlHlNAGML9yiqQ2IgXcXaq+acthL4dvijLEAYEzICNqZsU58D26jZq
+pCvpFijvW56ZLLeP3B0uJ4drY1gHSz69O4QGz7i2ZjwGkCGG4PFJewdi7EN39d7O
+XyBszNas7Vh5bUa2eCNQB2s9ykoyUC6W4flUc3IgdU2u4gc1JlwrNoEceUKmVu1k
+TSE74BQPO+DGGro3yMpJE+QydpA7oz90AfRbHWkFkM75imVhqpcxOM4kWkE/qG45
+AD0s18JU3YqEfarEKiEfvNTKpN61Uzjc0ml5P9b+pzb2zvwF5ib+HPJPeIslaVA=
+=Cp+O
 -----END PGP SIGNATURE-----
