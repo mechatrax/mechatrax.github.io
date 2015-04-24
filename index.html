@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>MechaTracks</h1>
-        <p>3GPI関連のパッケージを公開しています。</p>
+        <p>Raspberry Pi 関連製品のソフトウェアを公開しています。</p>
 
 
         <p class="view"><a href="https://github.com/mechatrax">View My GitHub Profile</a></p>
@@ -24,9 +24,22 @@
       </header>
       <section>
         <h3>
-<a id="リポジトリの設定" class="anchor" href="#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E8%A8%AD%E5%AE%9A" aria-hidden="true"><span class="octicon octicon-link"></span></a>リポジトリの設定</h3>
+<a id="3gpi" class="anchor" href="#3gpi" aria-hidden="true"><span class="octicon octicon-link"></span></a>3GPI</h3>
 
-<p>3GPIのリポジトリを利用するには次のapt-lineを追加してください。</p>
+<p>3GPI のリポジトリを利用するには次の apt-line を追加してください。</p>
+
+<pre><code>deb http://mechatrax.github.io/3gpi ./
+</code></pre>
+
+<p>次のコマンドを実行することで設定ファイルが作成できます。</p>
+
+<pre><code>$ sudo bash -c 'echo "deb http://mechatrax.github.io/3gpi ./" &gt; /etc/apt/sources.list.d/3gpi.list'
+</code></pre>
+
+<h3>
+<a id="slee-pi" class="anchor" href="#slee-pi" aria-hidden="true"><span class="octicon octicon-link"></span></a>slee-Pi</h3>
+
+<p>slee-Pi のリポジトリを利用するには次の apt-line を追加してください。</p>
 
 <pre><code>deb http://mechatrax.github.io/3gpi ./
 </code></pre>
