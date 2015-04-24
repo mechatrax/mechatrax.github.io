@@ -1,39 +1,25 @@
-apt 0.9.7.9 for armhf compiled on Oct 28 2014 23:09:37
-Usage: apt-ftparchive [options] command
-Commands: packages binarypath [overridefile [pathprefix]]
-          sources srcpath [overridefile [pathprefix]]
-          contents path
-          release path
-          generate config [groups]
-          clean config
-
-apt-ftparchive generates index files for Debian archives. It supports
-many styles of generation from fully automated to functional replacements
-for dpkg-scanpackages and dpkg-scansources
-
-apt-ftparchive generates Package files from a tree of .debs. The
-Package file contains the contents of all the control fields from
-each package as well as the MD5 hash and filesize. An override file
-is supported to force the value of Priority and Section.
-
-Similarly apt-ftparchive generates Sources files from a tree of .dscs.
-The --source-override option can be used to specify a src override file
-
-The 'packages' and 'sources' command should be run in the root of the
-tree. BinaryPath should point to the base of the recursive search and 
-override file should contain the override flags. Pathprefix is
-appended to the filename fields if present. Example usage from the 
-Debian archive:
-   apt-ftparchive packages dists/potato/main/binary-i386/ > \
-               dists/potato/main/binary-i386/Packages
-
-Options:
-  -h    This help text
-  --md5 Control MD5 generation
-  -s=?  Source override file
-  -q    Quiet
-  -d=?  Select the optional caching database
-  --no-delink Enable delinking debug mode
-  --contents  Control contents file generation
-  -c=?  Read this configuration file
-  -o=?  Set an arbitrary configuration option
+Date: Fri, 24 Apr 2015 02:54:38 UTC
+MD5Sum:
+ 9c43e115dbce359ae5e16f216d9dea2b             2508 Packages
+ 9e046d6ae481bc0e42402d68e293c753             1191 Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e                0 Release
+ 24512de10baa392141ca6bc48f62bcf9             3284 Sources
+ b2150d18a7e47826332e8d318d208155             1170 Sources.gz
+SHA1:
+ ebfb2b6bdd3fb38db50d610f4cddefef3d781437             2508 Packages
+ 8cc5c15f75bbf1b38662b50c5c6ba480b13f91b0             1191 Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Release
+ acb4f4ebc9c151933219b48b75aa61261faa7769             3284 Sources
+ 19e448eaa70deafdf38f10378d3108aad95ab610             1170 Sources.gz
+SHA256:
+ 09f76097a138d9878aee38811db7345e5d10a0d27282e6f2db1689e9b9b634e4             2508 Packages
+ 2d25b81a7432321572ed9bff2cb57c5a19fc0e645a91be7e31e4ac2125b7ff02             1191 Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Release
+ 88862ad74de28ccfb158904095ca4a5f37644eb75cad67d51f3bb27c7e6d345c             3284 Sources
+ 252a5cb485824fd52b5d7d1b9e984ceadf0b86be24c3185558f8fa4efa655471             1170 Sources.gz
+SHA512:
+ 65b2ba31acb2988ed4689965d398d46b74bd617693b1fa5dbfa31a4e39b2adfc3133438b5676ecb317c6ce7f5e15275c56c1998209aff5d7c99546bddf61d9be             2508 Packages
+ 5439d30e08c8cf48d23f1ac67e284e4628ca4d628307c612a7bc7d0c9fa9e3be728671516179eec9f98e0445a09706ea3f910a6c2a943f70cac79bab1db19284             1191 Packages.gz
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Release
+ c5377fb7fc80d5101e720ca57b40cd842f71347054607b6d2dc506ce9194aa3a29e9ab1826c56567b2e38c0dccac0345e28b615a6325383f6a99c661f13938bc             3284 Sources
+ 99023f5bbeb9c3293c98973d8e22aa97887936f288d8001e4264750bbe8a71d90356810cef48124170719ab9a864834aee2f8225bd2edc4112906eca97943655             1170 Sources.gz
