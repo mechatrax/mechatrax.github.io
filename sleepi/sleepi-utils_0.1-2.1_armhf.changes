@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 27 Apr 2015 09:40:21 +0000
+Source: sleepi-utils
+Binary: sleepi-utils
+Architecture: source all
+Version: 0.1-2.1
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ sleepi-utils - Utilities for slee-Pi
+Changes:
+ sleepi-utils (0.1-2.1) unstable; urgency=low
+ .
+   * Modify defaults description
+Checksums-Sha1:
+ adb15264d942205ce850dd99a6751b21dd575987 1096 sleepi-utils_0.1-2.1.dsc
+ 6687ca31be779622be0ddc3fa80f5a16e00cabd3 32295 sleepi-utils_0.1-2.1.tar.gz
+ e22ca43430e4b2987e79d4c87781490f61e102a2 4742 sleepi-utils_0.1-2.1_all.deb
+Checksums-Sha256:
+ a87caa8afd2ec5ad8a7fb55251eef3ff133b54d412d59ac15b6c0c9cde23a0c8 1096 sleepi-utils_0.1-2.1.dsc
+ 1302c48de8463e8c4d89a0d0c3888431fa00759cdfbed1f2c8bfc0cb4fa61235 32295 sleepi-utils_0.1-2.1.tar.gz
+ 7504bbaf258fb1f446ff8b4633a600d64d7011ec40808a937fa2e88f422098c7 4742 sleepi-utils_0.1-2.1_all.deb
+Files:
+ 4497fc4d08d7d7f0acd4b8b124eb5cae 1096 unknown extra sleepi-utils_0.1-2.1.dsc
+ 4b6e75dda4e5b068d9d384977b28b2c4 32295 unknown extra sleepi-utils_0.1-2.1.tar.gz
+ 71c5baef5a1525b95eabf27d61992823 4742 unknown extra sleepi-utils_0.1-2.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVPgXhAAoJEM7eEZKc02WitTkH/iZsJj41gx2FrXCWZOiX3N7L
+qpx4Pv/I82cUaEx5GHZfExuwDT2Eq7twEMsVG+Qzq3kWxo1TMGoCnbSCCzps7sFW
+MZPgzwN/6sd5Wg4FoXjLsNkfp6oEDwEJbNQ3ZYMPUG2XmQZPYTKsH9JKadwz3bhx
+PtuAlAWDPLzFd38UmjrFr/letRyGwWcr/QHOhhzSBl06D45sZvsN4lNGYShgTVaz
+NKf2jNHIhxatiR0e8qW/rHEnyEUKnw9gJPlHlbkebLgdEDE9o5VaDBNYFsG3jrp4
+1vkarKOHAzS516nK6a8k4pPeQ9dLgC63E3Ifc1tVqQAAPFbrLlQHQct+MOgDwq0=
+=GwF4
+-----END PGP SIGNATURE-----

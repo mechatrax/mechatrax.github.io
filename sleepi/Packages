@@ -30,38 +30,38 @@ SHA512: d34311e30bcf16838b4f26deeb6fbfb75d91e2401fd8817ea6ad82d1f43a10e07b9bd7f9
 Description: Devicetree overlay binary for slee-Pi
 Homepage: http://www.mechatrax.com/
 
-Package: sleepi-monitor
-Priority: extra
-Section: unknown
-Installed-Size: 9
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: all
-Version: 0.1-1
-Depends: sleepi-utils (>= 0.1), ruby (>= 1:1.9.3)
-Filename: ./sleepi-monitor_0.1-1_all.deb
-Size: 4840
-MD5sum: 953c2c2ac6071f82b090d077e64aae7c
-SHA1: 3bb0bccb2afcd714a0d10fa6f9c8e5d405a03a51
-SHA256: 32686043c7594d6d35ab34d4e71c7510748da2996ffc9b6f39377322530be8af
-SHA512: b1c9ee6b53c0545d86813419ade5849fba9466cea49c8fddda3ebdb5cab253312c957559ab12d51445e98da736a23523b0da4294b5a161d541bd387bbce3478f
-Description: Monitoring daemon for slee-Pi
-Homepage: http://www.mechatrax.com/
-
 Package: sleepi-utils
 Priority: extra
 Section: unknown
 Installed-Size: 8
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Architecture: all
-Version: 0.1-2
+Version: 0.1-2.1
 Depends: sleepi-firmware (>= 0.1), i2c-tools (>= 3.1.0)
 Conflicts: fake-hwclock
-Filename: ./sleepi-utils_0.1-2_all.deb
-Size: 4558
-MD5sum: 4c4bd84254bd7f0fd1f6fe9448da812e
-SHA1: 05c32a729d2a85a858ceb8f527be7b5321719fde
-SHA256: 0a6737898a6a5e46997c577965a077a5d47ef29c18759700327c82dbd9fb80d0
-SHA512: 79bf2d8d89f85fd676e1d181f42d7df9d39aaee0c247f1c06c8ccf406b91bef0758967a0cce1ec8d493ca36f6f33cee1b56006133246420fad047a7dd983efe3
+Filename: ./sleepi-utils_0.1-2.1_all.deb
+Size: 4742
+MD5sum: 71c5baef5a1525b95eabf27d61992823
+SHA1: e22ca43430e4b2987e79d4c87781490f61e102a2
+SHA256: 7504bbaf258fb1f446ff8b4633a600d64d7011ec40808a937fa2e88f422098c7
+SHA512: c906113eda317e0e1d34e287dbff3a5bbc25341eeff7322fcdcca25ac6f218519d1b5871732c30e137151bf0ae7f1b95595607bbf6367eec9311dad284feae32
 Description: Utilities for slee-Pi
+Homepage: http://www.mechatrax.com/
+
+Package: sleepi-monitor
+Priority: extra
+Section: unknown
+Installed-Size: 10
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.1-2
+Depends: sleepi-utils (>= 0.1), ruby (>= 1:1.9.3)
+Filename: ./sleepi-monitor_0.1-2_all.deb
+Size: 5114
+MD5sum: 86e9974e8689ebdad89988d722724c7c
+SHA1: 3951e7a5f845d1c236f79581fe5837154cadbc94
+SHA256: 7b7c304a60afdeb020573db3b5779903138557636de479b0ed217dca3ed06224
+SHA512: cc0e907a852f262744ce190f86525e44b089831f897c4529efad8f5815ae9cefb515fd4c662a412bcd421eb96045e8d625b0d646784b45bbfe767d9efc90b6af
+Description: Monitoring daemon for slee-Pi
 Homepage: http://www.mechatrax.com/
 

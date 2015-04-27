@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 27 Apr 2015 11:31:05 +0000
+Source: sleepi-monitor
+Binary: sleepi-monitor
+Architecture: source all
+Version: 0.1-2
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ sleepi-monitor - Monitoring daemon for slee-Pi
+Changes:
+ sleepi-monitor (0.1-2) unstable; urgency=low
+ .
+   * Fix typo
+   * Modify defaults description
+Checksums-Sha1:
+ c53a7bebc1ae2d50bebb76a6dcb2d9ecc426b619 1100 sleepi-monitor_0.1-2.dsc
+ 35b3f4e371fac476ea5e1ed46d3622a1046ac05a 28726 sleepi-monitor_0.1-2.tar.gz
+ 3951e7a5f845d1c236f79581fe5837154cadbc94 5114 sleepi-monitor_0.1-2_all.deb
+Checksums-Sha256:
+ f229d935b4e654a25c16249dc4d96868089ce1d34ac1cccf3825d4bf5483fb6f 1100 sleepi-monitor_0.1-2.dsc
+ 4699cc6dc85904ee7131f86e1b6d0bd0d162f725a067aa28aa241424c8493a32 28726 sleepi-monitor_0.1-2.tar.gz
+ 7b7c304a60afdeb020573db3b5779903138557636de479b0ed217dca3ed06224 5114 sleepi-monitor_0.1-2_all.deb
+Files:
+ 4c40d2e48a06ddc6a758a05e600d6551 1100 unknown extra sleepi-monitor_0.1-2.dsc
+ 752f2a600a6a6704f81dfdd09fffe8ef 28726 unknown extra sleepi-monitor_0.1-2.tar.gz
+ 86e9974e8689ebdad89988d722724c7c 5114 unknown extra sleepi-monitor_0.1-2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVPiclAAoJEM7eEZKc02WiPgIH/idvCzroFVEUJsI7kUdTUqJT
+ORvYe1a8GMPQjmtFJmYUzB9bUhFg9eATLIV9IopclghOYVaYW68nzyN0hsE1X/Fe
+MYs+U2slMpKQ0JA3JO2qKM4IgEP8BOBgt9A73BzmVvx4WMT0ZoOtLhegiTnakcwE
+1D+ChMsgKHnNfAzGY/dnd+4Oj6okmr2v8g5LB5UfZTeVQOEtk6SnSA24mzWAphbC
+m+w5BpJt7wgAwIUI7AD8YKZ5c+bWYaXJspDH5S/QTBD58FmlIKSBccvKn9lFYs5X
+gy2gUJns7uzdWdwHj2l+JY1ATICurEtOsD4zsKdn9KctOd9w03YOrZOVsPYHqEU=
+=kPdk
+-----END PGP SIGNATURE-----
