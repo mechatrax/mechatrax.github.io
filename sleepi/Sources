@@ -9,7 +9,7 @@ Format: 1.0
 Files:
  4209c416c23af5fc55c36d2f74e34920 1144 sleepi-archive-keyring_20150424-1.dsc
  0dc0c9d518373c24e4ce18705a97d36f 10394 sleepi-archive-keyring_20150424-1.tar.gz
-Package-List:
+Package-List: 
  sleepi-archive-keyring deb misc optional
 Checksums-Sha1:
  64de789a25d231b5ab61d3b2465a830485704be6 1144 sleepi-archive-keyring_20150424-1.dsc
@@ -17,33 +17,6 @@ Checksums-Sha1:
 Checksums-Sha256:
  eff661db59229ef9f122e58d010f7bdd2e95603605bf40d2da6cd2851a60fccc 1144 sleepi-archive-keyring_20150424-1.dsc
  62562182751efe086701e53a06831ca9878189d89fccdd7337c03cda43d294d0 10394 sleepi-archive-keyring_20150424-1.tar.gz
-Checksums-Sha512:
- a1dace5fa8d2cff1781e9d14ab1d11c6c6766966f2da8fa9368e7614b18bf3a11b3f939a49f6acd302e07152e5d6f616df79d211f3a04fca45b76d0cffef3275 1144 sleepi-archive-keyring_20150424-1.dsc
- 93ba73eceb6d725c3ad98458accbcd548a06f3f97b6c176c12558b241b1c34a39e2c97aea41ecf58f38d39d995eef91c74551f294bce7efd3ae4531126d05dff 10394 sleepi-archive-keyring_20150424-1.tar.gz
-
-Package: sleepi-firmware
-Binary: sleepi-firmware
-Version: 0.1-1
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 8.0.0)
-Architecture: armhf
-Standards-Version: 3.9.3
-Format: 1.0
-Files:
- e3f6b60a7b083592dfd42aa71338a77a 1120 sleepi-firmware_0.1-1.dsc
- b220544631487d54ac1329ae897238a5 10489 sleepi-firmware_0.1-1.tar.gz
-Homepage: http://www.mechatrax.com/
-Package-List:
- sleepi-firmware deb unknown extra
-Checksums-Sha1:
- 1098c4f7378b081eec180a35d4ff402272e6575e 1120 sleepi-firmware_0.1-1.dsc
- 60fa4083c2b94a8267daf0ec7d6c3dfe422251e2 10489 sleepi-firmware_0.1-1.tar.gz
-Checksums-Sha256:
- 720996d307f9b63c6d0f1fb254af09ab7446c18b0736bffa8e2e7b8bc5b5600a 1120 sleepi-firmware_0.1-1.dsc
- ed3102e369679b8bf5c181beff4007cca830b5b28cccfa6a3fb7eb5b1ec2056b 10489 sleepi-firmware_0.1-1.tar.gz
-Checksums-Sha512:
- fab99b187e80a0336e33386a7467a993c90dfecf7c0452f7be3c7cbd529e0f37762d1b830e9972390fc630c97db80903e1e6870de8c3d61a2b91d137dfe1620c 1120 sleepi-firmware_0.1-1.dsc
- ba936e41bbc506a7cd1da3715b099b65a122325994a7ee77653527e418ea95c8f84d4949f4e506daee56348c2f8b14646bf3d53f5c3411c8d7643b413ca082e5 10489 sleepi-firmware_0.1-1.tar.gz
 
 Package: sleepi-utils
 Binary: sleepi-utils
@@ -65,9 +38,6 @@ Checksums-Sha1:
 Checksums-Sha256:
  a87caa8afd2ec5ad8a7fb55251eef3ff133b54d412d59ac15b6c0c9cde23a0c8 1096 sleepi-utils_0.1-2.1.dsc
  1302c48de8463e8c4d89a0d0c3888431fa00759cdfbed1f2c8bfc0cb4fa61235 32295 sleepi-utils_0.1-2.1.tar.gz
-Checksums-Sha512:
- c6a0855a84f767af2e86c6a9d231dff94e8126f139962d3cea1db3e0f4cdb2bfe6acc64c573912ef12b56e4221e8ef9c3fe0314697dd916d14095d0b20410b0f 1096 sleepi-utils_0.1-2.1.dsc
- 59b20c4916766554313977b55734158d06d1981d2fb305f5828d5c90540c17f1c0994434d2fcf485f120a0670e1f39279000d5aa993bf63d2ee4d712cb20631d 32295 sleepi-utils_0.1-2.1.tar.gz
 
 Package: sleepi-monitor
 Binary: sleepi-monitor
@@ -89,7 +59,25 @@ Checksums-Sha1:
 Checksums-Sha256:
  f229d935b4e654a25c16249dc4d96868089ce1d34ac1cccf3825d4bf5483fb6f 1100 sleepi-monitor_0.1-2.dsc
  4699cc6dc85904ee7131f86e1b6d0bd0d162f725a067aa28aa241424c8493a32 28726 sleepi-monitor_0.1-2.tar.gz
-Checksums-Sha512:
- 39ef23cd6882bb71ed66155cedd36790c5b4db44ab5d25b5d0a70d737665af542cf77bd3aeb29346c971443bbfdec4e8d739a264d6b59be23892e82fe2eb6689 1100 sleepi-monitor_0.1-2.dsc
- 4077e369a4309dc46ecd3499d514085b3e2ec7505e5146f981b39b8ac66bd405a961eec7ed8d35ba175448d3f0f71540b729d9f17370fcd89236dd141c9092a0 28726 sleepi-monitor_0.1-2.tar.gz
+
+Package: sleepi-firmware
+Binary: sleepi-firmware
+Version: 0.1-2
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 8.0.0)
+Architecture: armhf
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ 7f112d3b95c0070e46e6e415f0bf4f11 1120 sleepi-firmware_0.1-2.dsc
+ 0219312115836dbc2b27ea1121d24b91 16663 sleepi-firmware_0.1-2.tar.gz
+Homepage: http://www.mechatrax.com/
+Package-List: 
+ sleepi-firmware deb unknown extra
+Checksums-Sha1:
+ d5abaf3a8edabbf20f0d42367550da61b34af15f 1120 sleepi-firmware_0.1-2.dsc
+ be2ab27619bac18ed7b6645e32fe2d3b8c117071 16663 sleepi-firmware_0.1-2.tar.gz
+Checksums-Sha256:
+ 4be3190d8e17b1c6ee8483db3169f10285aed3c6da07d6318387a3d5e2e156f6 1120 sleepi-firmware_0.1-2.dsc
+ 37c992ba770796467d9f92e4ebe07e4f4d2b6bee6ef1e648769799b1e87c9a8c 16663 sleepi-firmware_0.1-2.tar.gz
 

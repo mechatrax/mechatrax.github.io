@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 28 Apr 2015 07:27:59 +0000
+Source: sleepi-firmware
+Binary: sleepi-firmware
+Architecture: source armhf
+Version: 0.1-2
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description: 
+ sleepi-firmware - Devicetree overlay binary for slee-Pi
+Changes: 
+ sleepi-firmware (0.1-2) unstable; urgency=low
+ .
+   * Add preinst script
+Checksums-Sha1: 
+ d5abaf3a8edabbf20f0d42367550da61b34af15f 1120 sleepi-firmware_0.1-2.dsc
+ be2ab27619bac18ed7b6645e32fe2d3b8c117071 16663 sleepi-firmware_0.1-2.tar.gz
+ f79addf633c4a1a003444aad7d63a76887719cba 3554 sleepi-firmware_0.1-2_armhf.deb
+Checksums-Sha256: 
+ 4be3190d8e17b1c6ee8483db3169f10285aed3c6da07d6318387a3d5e2e156f6 1120 sleepi-firmware_0.1-2.dsc
+ 37c992ba770796467d9f92e4ebe07e4f4d2b6bee6ef1e648769799b1e87c9a8c 16663 sleepi-firmware_0.1-2.tar.gz
+ dcc637d12c3442aa02770e6ccb717c25f27d7d3bea3aca3d634f4bf07c14ddf2 3554 sleepi-firmware_0.1-2_armhf.deb
+Files: 
+ 7f112d3b95c0070e46e6e415f0bf4f11 1120 unknown extra sleepi-firmware_0.1-2.dsc
+ 0219312115836dbc2b27ea1121d24b91 16663 unknown extra sleepi-firmware_0.1-2.tar.gz
+ 4e905d93d57b3c3575b3522a5a021b27 3554 unknown extra sleepi-firmware_0.1-2_armhf.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJVPzgwAAoJEM7eEZKc02WiiPAH/1F3CAzX+4KZ8cblflifPiqm
+foJspnMsJR5o2wEKuay5PwuHJkqhu3OmtJTMpM9FT+8jRtAaG0QplOygqZZ2jqMb
+IrhemRemgBy6GJ9sZRGNFb2r3JaqxCmVfUdlkehwArnRxc9Qv6VqYAVY66gpRA3a
+lO0dXIkIVLouOBqmqogwj0J2ScZyCCWUcr2qf/dspSp/nzBBGtheqfBrSMrOzZFu
+JwVDxyCwxAjb5obr4ENKtloF7fA37iZqaoyFlyD3iWwye4HXRLOW0DJLao+07ZiA
+Gt9a81yNScb3dD1PyIYE5z8sUOSiLJ6IR0yoXo8ITOTLNvrP/sd8SNHflWtf4Y4=
+=rVgW
+-----END PGP SIGNATURE-----

@@ -13,23 +13,6 @@ SHA256: 08e786c3a3d6e2cf370711619e824e83fd40a960ac8e4cd1304af60262166278
 SHA512: 3738d6d2ce69fa8312e81e41c4b20260576a52c0af035b6c30c26c76737a20dda9e54aa333a90b8d4bf8a2dd6e3f31f619dae32ad324c866f9d68b43905c3587
 Description: GnuPG archive keys of the slee-Pi archive
 
-Package: sleepi-firmware
-Priority: extra
-Section: unknown
-Installed-Size: 6
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: armhf
-Version: 0.1-1
-Depends: raspberrypi-bootloader (>= 1.20150214-1)
-Filename: ./sleepi-firmware_0.1-1_armhf.deb
-Size: 3368
-MD5sum: 94be0f4ddf4bf09b156733b58b946aa7
-SHA1: 28c9c0e6c8b2db87164aa79d9093feebeb71a830
-SHA256: 5c69ac8ec3b9163538aee8d7e2af677103cf178770fa5b069d76c0e4a75fd769
-SHA512: d34311e30bcf16838b4f26deeb6fbfb75d91e2401fd8817ea6ad82d1f43a10e07b9bd7f99f3bfbf1df4a2f70b7b588c5a0f3b200dc82c5b677511d7fd7b23e0b
-Description: Devicetree overlay binary for slee-Pi
-Homepage: http://www.mechatrax.com/
-
 Package: sleepi-utils
 Priority: extra
 Section: unknown
@@ -63,5 +46,22 @@ SHA1: 3951e7a5f845d1c236f79581fe5837154cadbc94
 SHA256: 7b7c304a60afdeb020573db3b5779903138557636de479b0ed217dca3ed06224
 SHA512: cc0e907a852f262744ce190f86525e44b089831f897c4529efad8f5815ae9cefb515fd4c662a412bcd421eb96045e8d625b0d646784b45bbfe767d9efc90b6af
 Description: Monitoring daemon for slee-Pi
+Homepage: http://www.mechatrax.com/
+
+Package: sleepi-firmware
+Priority: extra
+Section: unknown
+Installed-Size: 7
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: armhf
+Version: 0.1-2
+Depends: raspberrypi-bootloader (>= 1.20150214-1)
+Filename: ./sleepi-firmware_0.1-2_armhf.deb
+Size: 3554
+MD5sum: 4e905d93d57b3c3575b3522a5a021b27
+SHA1: f79addf633c4a1a003444aad7d63a76887719cba
+SHA256: dcc637d12c3442aa02770e6ccb717c25f27d7d3bea3aca3d634f4bf07c14ddf2
+SHA512: cdaffaa6c25581d7b2f188817841efa9b1eb6caf8793a3b40f0614322c27c5a9be07fe74c046dbff7adc5c23634e8acd55050e18e37f633245cedbd655a658de
+Description: Devicetree overlay binary for slee-Pi
 Homepage: http://www.mechatrax.com/
 
