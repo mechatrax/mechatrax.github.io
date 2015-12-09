@@ -1,18 +1,3 @@
-Package: sleepi-archive-keyring
-Priority: optional
-Section: misc
-Installed-Size: 6
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: all
-Version: 20150424-1
-Filename: ./sleepi-archive-keyring_20150424-1_all.deb
-Size: 3778
-MD5sum: fc427581326d154699b0516ba7cf7d81
-SHA1: 73091acaa5367bcad4faa4c3d099ca7e282c2830
-SHA256: 08e786c3a3d6e2cf370711619e824e83fd40a960ac8e4cd1304af60262166278
-SHA512: 3738d6d2ce69fa8312e81e41c4b20260576a52c0af035b6c30c26c76737a20dda9e54aa333a90b8d4bf8a2dd6e3f31f619dae32ad324c866f9d68b43905c3587
-Description: GnuPG archive keys of the slee-Pi archive
-
 Package: sleepi-utils
 Priority: extra
 Section: unknown
@@ -64,4 +49,21 @@ SHA256: dcc637d12c3442aa02770e6ccb717c25f27d7d3bea3aca3d634f4bf07c14ddf2
 SHA512: cdaffaa6c25581d7b2f188817841efa9b1eb6caf8793a3b40f0614322c27c5a9be07fe74c046dbff7adc5c23634e8acd55050e18e37f633245cedbd655a658de
 Description: Devicetree overlay binary for slee-Pi
 Homepage: http://www.mechatrax.com/
+
+Package: sleepi-archive-keyring
+Priority: optional
+Section: misc
+Installed-Size: 6
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 20150424.1
+Filename: ./sleepi-archive-keyring_20150424.1_all.deb
+Size: 3882
+MD5sum: 7f7ba602854823ab2133b5f55d161a2f
+SHA1: 76eb03022c459b44852c60640a408017bc96c1e9
+SHA256: ee928e59e17f0eace36a3bd721f5ddb2f0c9996c1eb3d21183309a2c5b6b236d
+SHA512: 9be290f579fc85c2e18e42e484405c07e3753c9719805b35d916f1871c2f1da53b4472ca300bb637dea98543b97293203d8fd40d193e4f8777e0987370be6821
+Description: GnuPG archive keys of the slee-Pi archive
+ The slee-Pi archive digitally signs its Release files.
+ This package contains the archive keys used for that.
 

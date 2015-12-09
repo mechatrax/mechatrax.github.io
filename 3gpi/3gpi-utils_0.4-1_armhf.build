@@ -1,6 +1,6 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package 3gpi-utils
-dpkg-buildpackage: source version 0.3-1
+dpkg-buildpackage: source version 0.4-1
 dpkg-buildpackage: source distribution unstable
 dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
  dpkg-source --before-build 3gpi-utils
@@ -12,10 +12,10 @@ dh clean
    dh_clean
  dpkg-source -b 3gpi-utils
 dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
-dpkg-source: warning: source directory '3gpi-utils' is not <sourcepackage>-<upstreamversion> '3gpi-utils-0.3'
+dpkg-source: warning: source directory '3gpi-utils' is not <sourcepackage>-<upstreamversion> '3gpi-utils-0.4'
 dpkg-source: info: using source format `1.0'
-dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.3-1.tar.gz
-dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.3-1.dsc
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.4-1.tar.gz
+dpkg-source: info: building 3gpi-utils in 3gpi-utils_0.4-1.dsc
  debian/rules build
 dh build
    dh_testdir
@@ -40,8 +40,8 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package `3gpi-utils' in `../3gpi-utils_0.3-1_all.deb'.
- dpkg-genchanges  >../3gpi-utils_0.3-1_armhf.changes
+dpkg-deb: building package `3gpi-utils' in `../3gpi-utils_0.4-1_all.deb'.
+ dpkg-genchanges  >../3gpi-utils_0.4-1_armhf.changes
 dpkg-genchanges: including full source code in upload
  dpkg-source --after-build 3gpi-utils
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
@@ -51,15 +51,11 @@ W: 3gpi-utils source: diff-contains-git-control-dir .git
 W: 3gpi-utils source: maintainer-script-lacks-debhelper-token debian/prerm
 W: 3gpi-utils source: maintainer-script-lacks-debhelper-token debian/postrm
 W: 3gpi-utils source: maintainer-script-lacks-debhelper-token debian/postinst
-W: 3gpi-utils source: out-of-date-standards-version 3.9.5 (current is 3.9.6)
-E: 3gpi-utils: copyright-contains-dh_make-todo-boilerplate
-E: 3gpi-utils: extended-description-is-empty
-E: 3gpi-utils: section-is-dh_make-template
 W: 3gpi-utils: binary-without-manpage usr/sbin/3gpictl
 Finished running lintian.
 Now signing changes and any dsc files...
- signfile 3gpi-utils_0.3-1.dsc Masahiro Honda <honda@mechatrax.com>
+ signfile 3gpi-utils_0.4-1.dsc Masahiro Honda <honda@mechatrax.com>
 
- signfile 3gpi-utils_0.3-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+ signfile 3gpi-utils_0.4-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
 
 Successfully signed dsc and changes files

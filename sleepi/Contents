@@ -7,7 +7,7 @@ lib/udev/rules.d/85-sleepi-utils.rules			    sleepi-utils
 lib/udev/sleepi-utils.sh				    sleepi-utils
 usr/sbin/sleepictl					    sleepi-utils
 usr/sbin/sleepimon					    sleepi-monitor
-usr/share/doc/sleepi-archive-keyring/changelog.Debian.gz    sleepi-archive-keyring
+usr/share/doc/sleepi-archive-keyring/changelog.gz	    sleepi-archive-keyring
 usr/share/doc/sleepi-archive-keyring/copyright		    sleepi-archive-keyring
 usr/share/doc/sleepi-firmware/changelog.Debian.gz	    sleepi-firmware
 usr/share/doc/sleepi-firmware/copyright			    sleepi-firmware

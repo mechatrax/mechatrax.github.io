@@ -1,0 +1,75 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package ruby-soracom
+dpkg-buildpackage: source version 1.0.7-1
+dpkg-buildpackage: source distribution unstable
+dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
+ dpkg-source --before-build soracom-sdk-ruby
+dpkg-buildpackage: host architecture armhf
+ fakeroot debian/rules clean
+dh clean --buildsystem=ruby --with ruby
+   dh_testdir -O--buildsystem=ruby
+   dh_auto_clean -O--buildsystem=ruby
+  Entering dh_ruby --clean
+  Leaving dh_ruby --clean
+   dh_clean -O--buildsystem=ruby
+ dpkg-source -b soracom-sdk-ruby
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory 'soracom-sdk-ruby' is not <sourcepackage>-<upstreamversion> 'ruby-soracom-1.0.7'
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building ruby-soracom in ruby-soracom_1.0.7-1.tar.gz
+dpkg-source: info: building ruby-soracom in ruby-soracom_1.0.7-1.dsc
+ debian/rules build
+dh build --buildsystem=ruby --with ruby
+   dh_testdir -O--buildsystem=ruby
+   dh_auto_configure -O--buildsystem=ruby
+   dh_auto_build -O--buildsystem=ruby
+   dh_auto_test -O--buildsystem=ruby
+ fakeroot debian/rules binary
+dh binary --buildsystem=ruby --with ruby
+   dh_testroot -O--buildsystem=ruby
+   dh_prep -O--buildsystem=ruby
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/home/honda/Workspace/RaspberryPi/src/deb/soracom-sdk-ruby'
+install -d debian/ruby-soracom
+dh_ruby --install debian/ruby-soracom
+  Entering dh_ruby --install
+Rewriting shebang line of /home/honda/Workspace/RaspberryPi/src/deb/soracom-sdk-ruby/debian/ruby-soracom/usr/bin/console
+Not rewriting shebang line of /home/honda/Workspace/RaspberryPi/src/deb/soracom-sdk-ruby/debian/ruby-soracom/usr/bin/setup
+Running tests for ruby2.1: found no way to run a test suite!
+generating gemspec at ${target}
+  Leaving dh_ruby --install
+rm debian/ruby-soracom/usr/bin/console
+rm debian/ruby-soracom/usr/bin/setup
+install -D -m755 exe/soracom debian/ruby-soracom/usr/bin/soracom
+install -d debian/ruby-soracom debian/ruby-soracom/usr/share/bash-completion/completions
+ruby -r'./lib/soracom/cli.rb' -e 'SoracomCli::CLI.new.complete' > debian/ruby-soracom/usr/share/bash-completion/completions/soracom
+make[1]: Leaving directory '/home/honda/Workspace/RaspberryPi/src/deb/soracom-sdk-ruby'
+   dh_installdocs -O--buildsystem=ruby
+   dh_installchangelogs -O--buildsystem=ruby
+   dh_perl -O--buildsystem=ruby
+   dh_link -O--buildsystem=ruby
+   dh_compress -X.rb -O--buildsystem=ruby
+   dh_fixperms -O--buildsystem=ruby
+   dh_installdeb -O--buildsystem=ruby
+   dh_gencontrol -O--buildsystem=ruby
+dpkg-gencontrol: warning: package ruby-soracom: unused substitution variable ${ruby:Versions}
+   dh_md5sums -O--buildsystem=ruby
+   dh_builddeb -O--buildsystem=ruby
+dpkg-deb: building package `ruby-soracom' in `../ruby-soracom_1.0.7-1_all.deb'.
+ dpkg-genchanges  >../ruby-soracom_1.0.7-1_armhf.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build soracom-sdk-ruby
+dpkg-buildpackage: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: ruby-soracom source: native-package-with-dash-version
+W: ruby-soracom source: diff-contains-git-control-dir .git
+W: ruby-soracom source: debian-watch-file-in-native-package
+W: ruby-soracom: new-package-should-close-itp-bug
+W: ruby-soracom: binary-without-manpage usr/bin/soracom
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile ruby-soracom_1.0.7-1.dsc Masahiro Honda <honda@mechatrax.com>
+
+ signfile ruby-soracom_1.0.7-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+
+Successfully signed dsc and changes files

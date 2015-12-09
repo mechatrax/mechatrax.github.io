@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 27 Nov 2015 05:02:42 +0000
+Source: 3gpi-archive-keyring
+Binary: 3gpi-archive-keyring
+Architecture: source all
+Version: 20150114.1
+Distribution: jessie
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ 3gpi-archive-keyring - GnuPG archive keys of the 3GPI archive
+Changes:
+ 3gpi-archive-keyring (20150114.1) jessie; urgency=low
+ .
+   * Fix package description.
+Checksums-Sha1:
+ afd480a74d28a766840276348715ab9af21838a2 1116 3gpi-archive-keyring_20150114.1.dsc
+ d3b71e914c8592115fd39df0f59e7315b8e1f8c9 17224 3gpi-archive-keyring_20150114.1.tar.gz
+ 94e4233d1a9b2652f0973202697980fda3984ae1 3966 3gpi-archive-keyring_20150114.1_all.deb
+Checksums-Sha256:
+ bb301121726a4bc3b7276be6da529e56cad799bfc02877f2afd45a73197db45c 1116 3gpi-archive-keyring_20150114.1.dsc
+ 674db81fac7a0e57e85c04961c521e6158cb0a50c3a6f56856bdfa232a520557 17224 3gpi-archive-keyring_20150114.1.tar.gz
+ 5a9dc72d885ea5b49d98d8d15ae84af24883122525bd4cedc4c5d8c0a1006aa6 3966 3gpi-archive-keyring_20150114.1_all.deb
+Files:
+ b728ba51897304acd42b3339966f763e 1116 misc optional 3gpi-archive-keyring_20150114.1.dsc
+ 17391204db492b7907773bba3a7c736a 17224 misc optional 3gpi-archive-keyring_20150114.1.tar.gz
+ 576dd43c7f99d2904a2878093ad4249b 3966 misc optional 3gpi-archive-keyring_20150114.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWV/sKAAoJEM7eEZKc02WiZYwH/jPwI8fahnpraUI/Fr8SWDyc
+aZ4yAjUwAT7dMv8C4D9C99CyXLXIgAUk3y1SLh4OAndgshI0n60Bd87UhIQZxUIg
+ASD7gz+k+vJcIQUo0J+4dSPibtcaIAH7sGpRdf0F2G/G+47AhLr067uYj3s+uDKr
+tZxZzHtbuO9pvyJxLcmTZYOO5z8nxgHfV7/WdPuEOzIXwrtXzJNp238i9dfzP3Ue
+sZhlQow+KwgkE4kRW7Pjs+8brUqP8sQBYqHEVJDtMnEHeMPgDn96ohyLf71wcVrY
+8G7K7Sc4FMoB+athVhBUibdyTAKYpW33E2zCn0YBt7PCAaR5ZMpil5nVtMJNIbw=
+=ngaw
+-----END PGP SIGNATURE-----

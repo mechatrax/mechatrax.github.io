@@ -1,6 +1,6 @@
  dpkg-buildpackage -rfakeroot -D -us -uc
 dpkg-buildpackage: source package sleepi-archive-keyring
-dpkg-buildpackage: source version 20150424-1
+dpkg-buildpackage: source version 20150424.1
 dpkg-buildpackage: source changed by Masahiro Honda <honda@mechatrax.com>
  dpkg-source --before-build sleepi-archive-keyring
 dpkg-buildpackage: host architecture armhf
@@ -11,10 +11,10 @@ dh clean
    dh_clean
  dpkg-source -b sleepi-archive-keyring
 dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
-dpkg-source: warning: source directory 'sleepi-archive-keyring' is not <sourcepackage>-<upstreamversion> 'sleepi-archive-keyring-20150424'
+dpkg-source: warning: source directory 'sleepi-archive-keyring' is not <sourcepackage>-<upstreamversion> 'sleepi-archive-keyring-20150424.1'
 dpkg-source: info: using source format `1.0'
-dpkg-source: info: building sleepi-archive-keyring in sleepi-archive-keyring_20150424-1.tar.gz
-dpkg-source: info: building sleepi-archive-keyring in sleepi-archive-keyring_20150424-1.dsc
+dpkg-source: info: building sleepi-archive-keyring in sleepi-archive-keyring_20150424.1.tar.gz
+dpkg-source: info: building sleepi-archive-keyring in sleepi-archive-keyring_20150424.1.dsc
  debian/rules build
 dh build 
    dh_testdir
@@ -64,20 +64,18 @@ dh binary
    dh_gencontrol
    dh_md5sums
    dh_builddeb
-dpkg-deb: building package `sleepi-archive-keyring' in `../sleepi-archive-keyring_20150424-1_all.deb'.
- dpkg-genchanges  >../sleepi-archive-keyring_20150424-1_armhf.changes
+dpkg-deb: building package `sleepi-archive-keyring' in `../sleepi-archive-keyring_20150424.1_all.deb'.
+ dpkg-genchanges  >../sleepi-archive-keyring_20150424.1_armhf.changes
 dpkg-genchanges: including full source code in upload
  dpkg-source --after-build sleepi-archive-keyring
 dpkg-buildpackage: full upload; Debian-native package (full source is included)
 Now running lintian...
-W: sleepi-archive-keyring source: native-package-with-dash-version
 W: sleepi-archive-keyring source: diff-contains-git-control-dir .git
-W: sleepi-archive-keyring: new-package-should-close-itp-bug
-E: sleepi-archive-keyring: extended-description-is-empty
+W: sleepi-archive-keyring: latest-debian-changelog-entry-changed-to-native
 Finished running lintian.
 Now signing changes and any dsc files...
- signfile sleepi-archive-keyring_20150424-1.dsc Masahiro Honda <honda@mechatrax.com>
+ signfile sleepi-archive-keyring_20150424.1.dsc Masahiro Honda <honda@mechatrax.com>
 
- signfile sleepi-archive-keyring_20150424-1_armhf.changes Masahiro Honda <honda@mechatrax.com>
+ signfile sleepi-archive-keyring_20150424.1_armhf.changes Masahiro Honda <honda@mechatrax.com>
 
 Successfully signed dsc and changes files

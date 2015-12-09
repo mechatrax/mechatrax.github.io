@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 30 Nov 2015 07:15:51 +0000
+Source: 3gpi-network-manager
+Binary: 3gpi-network-manager
+Architecture: source all
+Version: 0.2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ 3gpi-network-manager - NetworkManager settings for 3GPI
+Changes:
+ 3gpi-network-manager (0.2-1) unstable; urgency=low
+ .
+   * Add support for soracom
+   * Add support for iij
+   * Remove support for asahinet
+   * Remove support for dti
+   * Modify udev rule
+   * Fix copyright description
+   * Fix package maintainer scripts
+Checksums-Sha1:
+ d912de4b9e8c92d6b205529235e54be4f8477872 1131 3gpi-network-manager_0.2-1.dsc
+ 3ed99bdc10ede71ffba9a48fadbc5a5e601c65fc 30421 3gpi-network-manager_0.2-1.tar.gz
+ d6311cda0520f1ef909fd7f1ee2366b763adc894 3586 3gpi-network-manager_0.2-1_all.deb
+Checksums-Sha256:
+ fc7c22550ef97c9c0f237efd49a5a825c920dddc11a6f5d93d9daf35e9bfb1cf 1131 3gpi-network-manager_0.2-1.dsc
+ 556795d94b4a1c0bdae609eb411e2b9bcac458e1163e890eadcd8888cbbfa4cb 30421 3gpi-network-manager_0.2-1.tar.gz
+ cb89b7097ad57550a1cce712d85db7f7da80f90db2114467ba4215aeb7bd4b09 3586 3gpi-network-manager_0.2-1_all.deb
+Files:
+ 9dcc19157195f093e3f56178aead6ac1 1131 net optional 3gpi-network-manager_0.2-1.dsc
+ b83fa6af58cb82e2acf4286ab3c8807f 30421 net optional 3gpi-network-manager_0.2-1.tar.gz
+ 16dc0a14b8c81a57c7dfeabf0254ce6e 3586 net optional 3gpi-network-manager_0.2-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJWW/hSAAoJEM7eEZKc02WioasH/1vFLLwsZsI5oNBiYF6dqkEr
+KfOojdxy+Pni716yLxN5ZDJCfnxGgxxVaiwrPrMWXR3lFALLNaLcbM6jBjOoWpEz
+PnTrQqQnhb396+9wzD4reDJAHQusI0jjtg0f+rxR/ZnIfETia4TNkBMxQGkOaHFV
+luHxdMkYWQa5O8lIHYzApgPbZ2pB3pjc9DDNQAxo782yvZ8ucrk3ePD1ar6hE61Q
+2KxAIXPJecX+TdAgLXB97mLtBb/YMyHbY2IMihuihaa+3oEGI7ZVV+h+0JA7gXES
+J+IiLa2mQdLpA0tTtYi2LUCuGQ9wQuZf1k3NxcHDWPjzzFc4indytVfb0RMmvDs=
+=cgWv
+-----END PGP SIGNATURE-----

@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 27 Nov 2015 06:43:19 +0000
+Source: sleepi-archive-keyring
+Binary: sleepi-archive-keyring
+Architecture: source all
+Version: 20150424.1
+Distribution: unstable
+Urgency: low
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description: 
+ sleepi-archive-keyring - GnuPG archive keys of the slee-Pi archive
+Changes: 
+ sleepi-archive-keyring (20150424.1) unstable; urgency=low
+ .
+   * Fix package description.
+Checksums-Sha1: 
+ d0697a88ea9687a92d0cd2d27875d0e80ab8678f 1144 sleepi-archive-keyring_20150424.1.dsc
+ 0929f85ad534dafaaa6a0dd54d4f5f172b376684 20059 sleepi-archive-keyring_20150424.1.tar.gz
+ 76eb03022c459b44852c60640a408017bc96c1e9 3882 sleepi-archive-keyring_20150424.1_all.deb
+Checksums-Sha256: 
+ 93887fd92667be1dce15237b0cebf92c3551a63e8ac520884b05b3772f59b1fa 1144 sleepi-archive-keyring_20150424.1.dsc
+ 8a0f481be8fc930a7c6d0e37e7c64b7e20c07b345eaa67a4bd53d282daee7c50 20059 sleepi-archive-keyring_20150424.1.tar.gz
+ ee928e59e17f0eace36a3bd721f5ddb2f0c9996c1eb3d21183309a2c5b6b236d 3882 sleepi-archive-keyring_20150424.1_all.deb
+Files: 
+ d21434b99f253a215c984dab0335a4e7 1144 misc optional sleepi-archive-keyring_20150424.1.dsc
+ 16e71906d0a8f32d992f18a1ed8ec94d 20059 misc optional sleepi-archive-keyring_20150424.1.tar.gz
+ 7f7ba602854823ab2133b5f55d161a2f 3882 misc optional sleepi-archive-keyring_20150424.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJWW/ktAAoJEM7eEZKc02Wi5YAH/jOAL4nGKQvMRZiilE1c/chv
+3hJoNOQELe2CRgY5PS5RZch7c9izqJfHYAemhs9gdUj0BrYaFKHWnyIqB4OCL5c+
+2kifP5BeIawONlW1OrFCzFoJXgQ1LP4gEfTHQ25lr/Mbwi81mL8QFiz48hNOoDWV
+sxWuX7vyhR+fJ1ysHvO0Qm8/8sXWHRRyG2xUGtLJvxSVMx3EcJLMEFG2QlT0ylZ7
+bSAHuSHGsWg778da4I6hEEyuQE5WMeGm5nJtgtKh68g4cfsWCFQ6AL/RQ7mIkbp1
+VzNYEjk6WUL/D37Kah/6+gzvLyjeLlKol6EM09MIJZl/bthyAE3i6JrX8quSSvI=
+=B9/V
+-----END PGP SIGNATURE-----
