@@ -54,18 +54,18 @@ Homepage: http://www.mechatrax.com/
 Package: ruby-soracom
 Priority: optional
 Section: ruby
-Installed-Size: 60
+Installed-Size: 61
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Architecture: all
-Version: 1.1.3-1
+Version: 1.1.4-1
 Depends: ruby (>= 2.0~), ruby-thor
 Suggests: jq
-Filename: ./ruby-soracom_1.1.3-1_all.deb
-Size: 12828
-MD5sum: d44a6e08a38619c185ada1fae6ff9e0b
-SHA1: bb182f5f94be86684d60d0c5960cde196092502f
-SHA256: 257952ff6d557fcb659bdc99f415a67979bebbc3fc9fb762e6e13e098a944de7
-SHA512: bc640eaded87b132865de0a511247230c4f8aeba3996a27ee6f8c5d2bd584598a30d872b1f2b85fa21e3dc470993d0be130e8c559d92c7d16977a1f42702bbff
+Filename: ./ruby-soracom_1.1.4-1_all.deb
+Size: 12868
+MD5sum: d940a21141640617a0ad6a2a6291b896
+SHA1: d50970c26db51eaf8ff78f31c571244812840ad6
+SHA256: 583c6150cdbf8f7310be713121e2c4240bddcf9b3bd3b7ac414807002a911cb2
+SHA512: 76369f60f134d1e9e4b15602c21ec0f18b1c5683b90bcbddcd3f36fc2cf63298a3479b971e6e79be6222ab632735e0f6e5e96310ab6e5c66e55715067fb61886
 Description: SORACOM API Client library and tool
  SORACOM provides sets of APIs to control their IoT platform service.
  This gem package will let you call SORACOM API either via command line
