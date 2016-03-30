@@ -18,33 +18,6 @@ Checksums-Sha1:
 Checksums-Sha256:
  a87caa8afd2ec5ad8a7fb55251eef3ff133b54d412d59ac15b6c0c9cde23a0c8 1096 sleepi-utils_0.1-2.1.dsc
  1302c48de8463e8c4d89a0d0c3888431fa00759cdfbed1f2c8bfc0cb4fa61235 32295 sleepi-utils_0.1-2.1.tar.gz
-Checksums-Sha512:
- c6a0855a84f767af2e86c6a9d231dff94e8126f139962d3cea1db3e0f4cdb2bfe6acc64c573912ef12b56e4221e8ef9c3fe0314697dd916d14095d0b20410b0f 1096 sleepi-utils_0.1-2.1.dsc
- 59b20c4916766554313977b55734158d06d1981d2fb305f5828d5c90540c17f1c0994434d2fcf485f120a0670e1f39279000d5aa993bf63d2ee4d712cb20631d 32295 sleepi-utils_0.1-2.1.tar.gz
-
-Package: sleepi-monitor
-Binary: sleepi-monitor
-Version: 0.1-2
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 8.0.0)
-Architecture: all
-Standards-Version: 3.9.3
-Format: 1.0
-Files:
- 4c40d2e48a06ddc6a758a05e600d6551 1100 sleepi-monitor_0.1-2.dsc
- 752f2a600a6a6704f81dfdd09fffe8ef 28726 sleepi-monitor_0.1-2.tar.gz
-Homepage: http://www.mechatrax.com/
-Package-List:
- sleepi-monitor deb unknown extra arch=all
-Checksums-Sha1:
- c53a7bebc1ae2d50bebb76a6dcb2d9ecc426b619 1100 sleepi-monitor_0.1-2.dsc
- 35b3f4e371fac476ea5e1ed46d3622a1046ac05a 28726 sleepi-monitor_0.1-2.tar.gz
-Checksums-Sha256:
- f229d935b4e654a25c16249dc4d96868089ce1d34ac1cccf3825d4bf5483fb6f 1100 sleepi-monitor_0.1-2.dsc
- 4699cc6dc85904ee7131f86e1b6d0bd0d162f725a067aa28aa241424c8493a32 28726 sleepi-monitor_0.1-2.tar.gz
-Checksums-Sha512:
- 39ef23cd6882bb71ed66155cedd36790c5b4db44ab5d25b5d0a70d737665af542cf77bd3aeb29346c971443bbfdec4e8d739a264d6b59be23892e82fe2eb6689 1100 sleepi-monitor_0.1-2.dsc
- 4077e369a4309dc46ecd3499d514085b3e2ec7505e5146f981b39b8ac66bd405a961eec7ed8d35ba175448d3f0f71540b729d9f17370fcd89236dd141c9092a0 28726 sleepi-monitor_0.1-2.tar.gz
 
 Package: sleepi-firmware
 Binary: sleepi-firmware
@@ -58,7 +31,7 @@ Files:
  7f112d3b95c0070e46e6e415f0bf4f11 1120 sleepi-firmware_0.1-2.dsc
  0219312115836dbc2b27ea1121d24b91 16663 sleepi-firmware_0.1-2.tar.gz
 Homepage: http://www.mechatrax.com/
-Package-List:
+Package-List: 
  sleepi-firmware deb unknown extra
 Checksums-Sha1:
  d5abaf3a8edabbf20f0d42367550da61b34af15f 1120 sleepi-firmware_0.1-2.dsc
@@ -66,9 +39,6 @@ Checksums-Sha1:
 Checksums-Sha256:
  4be3190d8e17b1c6ee8483db3169f10285aed3c6da07d6318387a3d5e2e156f6 1120 sleepi-firmware_0.1-2.dsc
  37c992ba770796467d9f92e4ebe07e4f4d2b6bee6ef1e648769799b1e87c9a8c 16663 sleepi-firmware_0.1-2.tar.gz
-Checksums-Sha512:
- 71e1f641614c14e56147d467977808d4b308a01a41cbd6b500ed326866f9da39931ede4de9e4a7d5e5e8403ce6a4899c55a6fcffeaeae9349e2f4719b2201a29 1120 sleepi-firmware_0.1-2.dsc
- de939e5066fb1bcce0893842f6c09fbffd5282d7c60666c4d23c7ee187b2830b6a02996425b669b15c1e1bd37ab207948ce5e01659208ec593534178a6d80662 16663 sleepi-firmware_0.1-2.tar.gz
 
 Package: sleepi-archive-keyring
 Binary: sleepi-archive-keyring
@@ -81,7 +51,7 @@ Format: 1.0
 Files:
  d21434b99f253a215c984dab0335a4e7 1144 sleepi-archive-keyring_20150424.1.dsc
  16e71906d0a8f32d992f18a1ed8ec94d 20059 sleepi-archive-keyring_20150424.1.tar.gz
-Package-List:
+Package-List: 
  sleepi-archive-keyring deb misc optional
 Checksums-Sha1:
  d0697a88ea9687a92d0cd2d27875d0e80ab8678f 1144 sleepi-archive-keyring_20150424.1.dsc
@@ -89,7 +59,25 @@ Checksums-Sha1:
 Checksums-Sha256:
  93887fd92667be1dce15237b0cebf92c3551a63e8ac520884b05b3772f59b1fa 1144 sleepi-archive-keyring_20150424.1.dsc
  8a0f481be8fc930a7c6d0e37e7c64b7e20c07b345eaa67a4bd53d282daee7c50 20059 sleepi-archive-keyring_20150424.1.tar.gz
-Checksums-Sha512:
- fee818a6d8dacb4f5bd56c26548e74b9b9c96a811ee351cf5533636a13dfc6cd83755b8273ea35d925662fd6cbdf5445766986bd04bdffb14209a59ebea4dcd9 1144 sleepi-archive-keyring_20150424.1.dsc
- 9d956c2426ea7a36916b2072e04259be2c97037c928b02aa8b1ca41374a881764486e74d146f393ca0a42ca73ca2612b8f6124965b3dbc67ba902ef023bf950b 20059 sleepi-archive-keyring_20150424.1.tar.gz
+
+Package: sleepi-monitor
+Binary: sleepi-monitor
+Version: 0.2-1
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 8.0.0)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ 14fd4e8d0431046efc4c0ed00fceb84b 1112 sleepi-monitor_0.2-1.dsc
+ 6d33cf295df5fadd4806615a6068e202 33329 sleepi-monitor_0.2-1.tar.gz
+Homepage: http://www.mechatrax.com/
+Package-List: 
+ sleepi-monitor deb unknown extra
+Checksums-Sha1:
+ 6fd129de62ac3599f6392d138a0dca498d462323 1112 sleepi-monitor_0.2-1.dsc
+ 26bcd5499aa5ef89a52ab464de62de196c390225 33329 sleepi-monitor_0.2-1.tar.gz
+Checksums-Sha256:
+ 723a8b8c412647f69c2b6ea97d04470025e6a91d1808cefa67a2d327a4cac6eb 1112 sleepi-monitor_0.2-1.dsc
+ d35aac67f6c01814b40ee667382b88e18e192622859893b7cc8917df6243e8f4 33329 sleepi-monitor_0.2-1.tar.gz
 

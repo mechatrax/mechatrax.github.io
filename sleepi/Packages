@@ -16,23 +16,6 @@ SHA512: c906113eda317e0e1d34e287dbff3a5bbc25341eeff7322fcdcca25ac6f218519d1b5871
 Description: Utilities for slee-Pi
 Homepage: http://www.mechatrax.com/
 
-Package: sleepi-monitor
-Priority: extra
-Section: unknown
-Installed-Size: 10
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: all
-Version: 0.1-2
-Depends: sleepi-utils (>= 0.1), ruby (>= 1:1.9.3)
-Filename: ./sleepi-monitor_0.1-2_all.deb
-Size: 5114
-MD5sum: 86e9974e8689ebdad89988d722724c7c
-SHA1: 3951e7a5f845d1c236f79581fe5837154cadbc94
-SHA256: 7b7c304a60afdeb020573db3b5779903138557636de479b0ed217dca3ed06224
-SHA512: cc0e907a852f262744ce190f86525e44b089831f897c4529efad8f5815ae9cefb515fd4c662a412bcd421eb96045e8d625b0d646784b45bbfe767d9efc90b6af
-Description: Monitoring daemon for slee-Pi
-Homepage: http://www.mechatrax.com/
-
 Package: sleepi-firmware
 Priority: extra
 Section: unknown
@@ -66,4 +49,21 @@ SHA512: 9be290f579fc85c2e18e42e484405c07e3753c9719805b35d916f1871c2f1da53b4472ca
 Description: GnuPG archive keys of the slee-Pi archive
  The slee-Pi archive digitally signs its Release files.
  This package contains the archive keys used for that.
+
+Package: sleepi-monitor
+Priority: extra
+Section: unknown
+Installed-Size: 9
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.2-1
+Depends: sleepi-utils (>= 0.1), ruby (>= 1:1.9.3)
+Filename: ./sleepi-monitor_0.2-1_all.deb
+Size: 4786
+MD5sum: 0e3a615682ef1f28b7451cfdec6ebbad
+SHA1: 86462d929a7b3b967dbd09798a78a9f071561be2
+SHA256: bd8ae5543f178507c69600d7f83aac94cfa8ae945d9916e1f8d19ebade37e722
+SHA512: d5da769da421db1cbc55a1d7f40c5c121652ce7435be6a5c79764ec4efa111d914d7d70865ecdd2e29915d99d23ccec8a77bf629970e6ba35f1ab7f37b6a343f
+Description: Monitoring daemon for slee-Pi
+Homepage: http://www.mechatrax.com/
 
