@@ -1,10 +1,10 @@
 Package: 3gpi-archive-keyring
-Priority: optional
-Section: misc
-Installed-Size: 6
-Maintainer: Masahiro Honda <honda@mechatrax.com>
 Architecture: all
 Version: 20150114.1
+Priority: optional
+Section: misc
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 6
 Depends: gnupg
 Filename: ./3gpi-archive-keyring_20150114.1_all.deb
 Size: 3966
@@ -17,12 +17,12 @@ Description: GnuPG archive keys of the 3GPI archive
  This package contains the archive keys used for that.
 
 Package: 3gpi-network-manager
-Priority: optional
-Section: net
-Installed-Size: 6
-Maintainer: Masahiro Honda <honda@mechatrax.com>
 Architecture: all
 Version: 0.2-1
+Priority: optional
+Section: net
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 6
 Depends: systemd, network-manager (>= 0.9.10), modemmanager (>= 1.2.0), 3gpi-utils
 Filename: ./3gpi-network-manager_0.2-1_all.deb
 Size: 3586
@@ -30,46 +30,46 @@ MD5sum: 16dc0a14b8c81a57c7dfeabf0254ce6e
 SHA1: d6311cda0520f1ef909fd7f1ee2366b763adc894
 SHA256: cb89b7097ad57550a1cce712d85db7f7da80f90db2114467ba4215aeb7bd4b09
 SHA512: 3c4b335a47afbe32e8735c153679c80d980f81ef0354594a42adaaabb8da2a9ed27fdce17bf692c69a87abd8308a98c35fa42ad2810136c5748a6939ce62eb7d
+Homepage: http://www.mechatrax.com/
 Description: NetworkManager settings for 3GPI
  This package contains udev rules and APN settings for using 3GPI with NetworkManager.
-Homepage: http://www.mechatrax.com/
 
 Package: 3gpi-utils
-Priority: optional
-Section: net
-Installed-Size: 10
-Maintainer: Masahiro Honda <honda@mechatrax.com>
 Architecture: all
 Version: 0.4-1
+Priority: optional
+Section: net
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 10
 Filename: ./3gpi-utils_0.4-1_all.deb
 Size: 4742
 MD5sum: f520085afa0667c15465d15e44e6d5cc
 SHA1: 0b07c88a677b9e679af240064c78f9a20a484c1f
 SHA256: 56a4641a0af1c780d295d65ab9d6d8ea1e9f42938a725962c78c1d0c0dfb5d22
 SHA512: 02f1cb6c2a29b1f6f18eecd08f8b1b5cb72dac784133166a0c375e3adb9f6a7ac81c82183715894b6ce15eccacd5186c80dd7d28d76739e8c62008e463e8d29f
+Homepage: http://www.mechatrax.com/
 Description: Utilities for 3GPI
  This package contains command utilities to control 3GPI.
-Homepage: http://www.mechatrax.com/
 
 Package: ruby-soracom
+Architecture: all
+Version: 1.1.5-1
 Priority: optional
 Section: ruby
-Installed-Size: 61
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: all
-Version: 1.1.4-1
+Installed-Size: 61
 Depends: ruby (>= 2.0~), ruby-thor
 Suggests: jq
-Filename: ./ruby-soracom_1.1.4-1_all.deb
-Size: 12868
-MD5sum: d940a21141640617a0ad6a2a6291b896
-SHA1: d50970c26db51eaf8ff78f31c571244812840ad6
-SHA256: 583c6150cdbf8f7310be713121e2c4240bddcf9b3bd3b7ac414807002a911cb2
-SHA512: 76369f60f134d1e9e4b15602c21ec0f18b1c5683b90bcbddcd3f36fc2cf63298a3479b971e6e79be6222ab632735e0f6e5e96310ab6e5c66e55715067fb61886
+Filename: ./ruby-soracom_1.1.5-1_all.deb
+Size: 12892
+MD5sum: a886aa1bcb5b70f887caff872fead4c9
+SHA1: ea74e097a33e6ec36aff735a2b4037bc86e4981b
+SHA256: 4cfca08c4390a91af20af919602a0bb39ee23c5f971b9747e7c41f967d54abaa
+SHA512: cb830321d486cc06ccf8ca04d8ac9c8aa155df01a7d1a8596f4187265532190e5595916383dcd865b1425776a772c9b7d683659e64d4cc1170daced09fbcf96f
+Homepage: https://github.com/soracom/soracom-sdk-ruby/
 Description: SORACOM API Client library and tool
  SORACOM provides sets of APIs to control their IoT platform service.
  This gem package will let you call SORACOM API either via command line
  interface or Ruby program.
-Homepage: https://github.com/soracom/soracom-sdk-ruby/
 Ruby-Versions: all
 

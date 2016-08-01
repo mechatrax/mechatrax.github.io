@@ -25,4 +25,4 @@ usr/share/doc/ruby-soracom/README.md			    ruby-soracom
 usr/share/doc/ruby-soracom/changelog.Debian.gz		    ruby-soracom
 usr/share/doc/ruby-soracom/copyright			    ruby-soracom
 usr/share/keyrings/3gpi-archive-keyring.gpg		    3gpi-archive-keyring
-usr/share/rubygems-integration/all/specifications/soracom-1.1.4.gemspec ruby-soracom
+usr/share/rubygems-integration/all/specifications/soracom-1.1.5.gemspec ruby-soracom

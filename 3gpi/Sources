@@ -1,16 +1,16 @@
 Package: 3gpi-archive-keyring
+Format: 1.0
 Binary: 3gpi-archive-keyring
+Architecture: all
 Version: 20150114.1
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 9)
-Architecture: all
 Standards-Version: 3.9.6
-Format: 1.0
+Build-Depends: debhelper (>= 9)
+Package-List:
+ 3gpi-archive-keyring deb misc optional arch=all
 Files:
  b728ba51897304acd42b3339966f763e 1116 3gpi-archive-keyring_20150114.1.dsc
  17391204db492b7907773bba3a7c736a 17224 3gpi-archive-keyring_20150114.1.tar.gz
-Package-List:
- 3gpi-archive-keyring deb misc optional arch=all
 Checksums-Sha1:
  afd480a74d28a766840276348715ab9af21838a2 1116 3gpi-archive-keyring_20150114.1.dsc
  d3b71e914c8592115fd39df0f59e7315b8e1f8c9 17224 3gpi-archive-keyring_20150114.1.tar.gz
@@ -22,19 +22,19 @@ Checksums-Sha512:
  cbca23023d069faab444909945be1a530b49cec1690cd2cde68044da5c2baba05e65ecee475b513849f4a3aa22b7e252e31bca14235b28f9b5fe4a8f87b5f212 17224 3gpi-archive-keyring_20150114.1.tar.gz
 
 Package: 3gpi-network-manager
+Format: 1.0
 Binary: 3gpi-network-manager
+Architecture: all
 Version: 0.2-1
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 9)
-Architecture: all
 Standards-Version: 3.9.6
-Format: 1.0
-Files:
- 9dcc19157195f093e3f56178aead6ac1 1131 3gpi-network-manager_0.2-1.dsc
- b83fa6af58cb82e2acf4286ab3c8807f 30421 3gpi-network-manager_0.2-1.tar.gz
+Build-Depends: debhelper (>= 9)
 Homepage: http://www.mechatrax.com/
 Package-List:
  3gpi-network-manager deb net optional arch=all
+Files:
+ 9dcc19157195f093e3f56178aead6ac1 1131 3gpi-network-manager_0.2-1.dsc
+ b83fa6af58cb82e2acf4286ab3c8807f 30421 3gpi-network-manager_0.2-1.tar.gz
 Checksums-Sha1:
  d912de4b9e8c92d6b205529235e54be4f8477872 1131 3gpi-network-manager_0.2-1.dsc
  3ed99bdc10ede71ffba9a48fadbc5a5e601c65fc 30421 3gpi-network-manager_0.2-1.tar.gz
@@ -46,19 +46,19 @@ Checksums-Sha512:
  1bd3a23ebd7a9e20707579b6305f1de92f45a1d3cd77577632df35d6cf87c8716f1688dfe02b60d563eef8165965dfa933e4a7115802166adffa99bb35f70914 30421 3gpi-network-manager_0.2-1.tar.gz
 
 Package: 3gpi-utils
+Format: 1.0
 Binary: 3gpi-utils
+Architecture: all
 Version: 0.4-1
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 9), dh-systemd
-Architecture: all
 Standards-Version: 3.9.6
-Format: 1.0
-Files:
- e5163428031c7ed13e8b010a09fa4615 1083 3gpi-utils_0.4-1.dsc
- fad58a42e0b44d405a27194a9a95ce17 44184 3gpi-utils_0.4-1.tar.gz
+Build-Depends: debhelper (>= 9), dh-systemd
 Homepage: http://www.mechatrax.com/
 Package-List:
  3gpi-utils deb net optional arch=all
+Files:
+ e5163428031c7ed13e8b010a09fa4615 1083 3gpi-utils_0.4-1.dsc
+ fad58a42e0b44d405a27194a9a95ce17 44184 3gpi-utils_0.4-1.tar.gz
 Checksums-Sha1:
  fd992d843cbdaf6b7588eb0ec28768d949b10374 1083 3gpi-utils_0.4-1.dsc
  962f4cf6f74b0c7315fdc9c27da10fc1ae1bdfe0 44184 3gpi-utils_0.4-1.tar.gz
@@ -70,28 +70,28 @@ Checksums-Sha512:
  ed6b1072f76dd73cb072e8ead97ba51b9f00b8fa69fd6f8f4d7db8982f074bd3be592f054db08f78ddabe4bd6838f95c9d4bb7776edfe0c1176316a262f9fa57 44184 3gpi-utils_0.4-1.tar.gz
 
 Package: ruby-soracom
-Binary: ruby-soracom
-Version: 1.1.4-1
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 9~), gem2deb, ruby (>= 2.0~), ruby-thor
-Architecture: all
-Standards-Version: 3.9.6
 Format: 1.0
-Files:
- 61c88144b98bfe8c6b4356934debd77c 1202 ruby-soracom_1.1.4-1.dsc
- 3c4f509fc487a92cd5778f7531272076 250181 ruby-soracom_1.1.4-1.tar.gz
-Homepage: https://github.com/soracom/soracom-sdk-ruby/
+Binary: ruby-soracom
+Architecture: all
+Version: 1.1.5-1
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9~), gem2deb, ruby (>= 2.0~), ruby-thor
 Testsuite: autopkgtest-pkg-ruby
+Homepage: https://github.com/soracom/soracom-sdk-ruby/
 Package-List:
  ruby-soracom deb ruby optional arch=all
+Files:
+ 79d2d3572fb4803d252aa09e03e8fb10 1202 ruby-soracom_1.1.5-1.dsc
+ 81bc487ae8e16e82036fb46453984220 261638 ruby-soracom_1.1.5-1.tar.gz
 Checksums-Sha1:
- 3273ba9ded43f0c4a10218bd98ca39303564483e 1202 ruby-soracom_1.1.4-1.dsc
- fe8cbca8be431581fc61a80462249071a184c977 250181 ruby-soracom_1.1.4-1.tar.gz
+ 8a2b8fe4d778b18dc9595da24ee29575a692f983 1202 ruby-soracom_1.1.5-1.dsc
+ 17b33a633a621d4d9d00ceb34c4ca0f4e485dfb7 261638 ruby-soracom_1.1.5-1.tar.gz
 Checksums-Sha256:
- c6357792728cf98f25951f9da040fd5afbda02f002c9bed45aa7dc0b149d42ec 1202 ruby-soracom_1.1.4-1.dsc
- bdb787a1237c755caa03f22e9060a23ac3d32e9840fb1890c12867cfeeb10fe5 250181 ruby-soracom_1.1.4-1.tar.gz
-Ruby-Versions: all
+ 362ee498a122d23e4c82155cf3e47a63b7748daf4326527fde02908a109be461 1202 ruby-soracom_1.1.5-1.dsc
+ ce70686f9dfb7634adbbd617a92f695337f96cc44bac7ffc5ea9749cf3e75823 261638 ruby-soracom_1.1.5-1.tar.gz
 Checksums-Sha512:
- 6448eeeb72a23bd4a2ac60f0c9f56566ec9a0d9117fca41d87b0eaf27c6916a2f5788cb24635227ac5155a1585e57e826a03eccf2a7437b029ec7d1a22a74264 1202 ruby-soracom_1.1.4-1.dsc
- df9f4aa41b4621dce2962c63b4cb7b377598b0c3017bd43e5b4ac3f382bf492738c6a1c8f87562e8bfd63ca84cca636b872945a86e08fd8089bbf5de0001553b 250181 ruby-soracom_1.1.4-1.tar.gz
+ 0d9547cbe86f9dab288ba0ee2775d1ccdd08fb276e4021b617530a9abb16a97a22a92016e05f49b045198945133d8e157fe7d0b658756b22f75bbccc018e64ad 1202 ruby-soracom_1.1.5-1.dsc
+ fe7bb2c84b7a245133f249ce7a9a2162d682242e1e84d771562df1f6323655f715f5c9f74c5172d360888fe36d348d52eea1f1780e46feb412bc53e87d3378c6 261638 ruby-soracom_1.1.5-1.tar.gz
+Ruby-Versions: all
 
