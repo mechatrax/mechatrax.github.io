@@ -73,7 +73,7 @@ Package: ruby-soracom
 Format: 1.0
 Binary: ruby-soracom
 Architecture: all
-Version: 1.1.5-1
+Version: 1.1.6-1
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9~), gem2deb, ruby (>= 2.0~), ruby-thor
@@ -82,16 +82,16 @@ Homepage: https://github.com/soracom/soracom-sdk-ruby/
 Package-List:
  ruby-soracom deb ruby optional arch=all
 Files:
- 79d2d3572fb4803d252aa09e03e8fb10 1202 ruby-soracom_1.1.5-1.dsc
- 81bc487ae8e16e82036fb46453984220 261638 ruby-soracom_1.1.5-1.tar.gz
+ 6b3e32b383196d7bfd64dc2ca1691dd2 1202 ruby-soracom_1.1.6-1.dsc
+ f7ded121c01eeb7d62ea2ce2f0d3fc87 283208 ruby-soracom_1.1.6-1.tar.gz
 Checksums-Sha1:
- 8a2b8fe4d778b18dc9595da24ee29575a692f983 1202 ruby-soracom_1.1.5-1.dsc
- 17b33a633a621d4d9d00ceb34c4ca0f4e485dfb7 261638 ruby-soracom_1.1.5-1.tar.gz
+ b9e420b05507c77ee5cdf5504ccbfab1d76d13e9 1202 ruby-soracom_1.1.6-1.dsc
+ 2f93d8225be08b932e5352bc96dfc19512a89143 283208 ruby-soracom_1.1.6-1.tar.gz
 Checksums-Sha256:
- 362ee498a122d23e4c82155cf3e47a63b7748daf4326527fde02908a109be461 1202 ruby-soracom_1.1.5-1.dsc
- ce70686f9dfb7634adbbd617a92f695337f96cc44bac7ffc5ea9749cf3e75823 261638 ruby-soracom_1.1.5-1.tar.gz
+ 2c2e494c4494499e97ef9360dbc41727e05abef475a0db09dc86c3ab9f7b3237 1202 ruby-soracom_1.1.6-1.dsc
+ 78cf1c121c2ca14075150ad419bc06560e90b3f527d340270defdcd1dc043bba 283208 ruby-soracom_1.1.6-1.tar.gz
 Checksums-Sha512:
- 0d9547cbe86f9dab288ba0ee2775d1ccdd08fb276e4021b617530a9abb16a97a22a92016e05f49b045198945133d8e157fe7d0b658756b22f75bbccc018e64ad 1202 ruby-soracom_1.1.5-1.dsc
- fe7bb2c84b7a245133f249ce7a9a2162d682242e1e84d771562df1f6323655f715f5c9f74c5172d360888fe36d348d52eea1f1780e46feb412bc53e87d3378c6 261638 ruby-soracom_1.1.5-1.tar.gz
+ 7c2e73b381df64c2cbf40705b7d84d1ca360f168ccdd3c3c8113eb94de97ac1f4aaf5fac5f0a2fbae888b9a55d3c52895a1156fc7775daba2c4425b21574528d 1202 ruby-soracom_1.1.6-1.dsc
+ 5dc04515c6e6df721f9b9c9efca11603936f1313a325f95a1021ffdcc6e2ae0b8fe4964475367f1fe809921b3512a87324e97afbf3fbb95a62a7262b6d914aaf 283208 ruby-soracom_1.1.6-1.tar.gz
 Ruby-Versions: all
 
