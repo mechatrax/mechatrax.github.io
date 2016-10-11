@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 11 Oct 2016 04:56:04 +0000
+Source: ruby-soracom
+Binary: ruby-soracom
+Architecture: source all
+Version: 1.1.7-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ ruby-soracom - SORACOM API Client library and tool
+Changes:
+ ruby-soracom (1.1.7-1) unstable; urgency=medium
+ .
+   * New upstream release
+Checksums-Sha1:
+ 863add48c2f78c21e4b782ecbe92887349942f65 1202 ruby-soracom_1.1.7-1.dsc
+ ec5b1e0a7793eb42cd7bde6f2129c410c482b3bf 293976 ruby-soracom_1.1.7-1.tar.gz
+ 8430e304eecdd76f317b5937f0ce2bf27bf4581f 12972 ruby-soracom_1.1.7-1_all.deb
+Checksums-Sha256:
+ c0d501d247958a426f9b2c75b1f6c1c875eb47038215ae36574fd1ef38d716f9 1202 ruby-soracom_1.1.7-1.dsc
+ 44a5cb5d60a66539ea56aa8a97a08f11ee9386316318113d7693c912a3207f1a 293976 ruby-soracom_1.1.7-1.tar.gz
+ b240351b19072d50bbac8c88504a617316cdab9b9414bee16673fd95b16c5813 12972 ruby-soracom_1.1.7-1_all.deb
+Files:
+ 50e4a93d2626811f7827a8b26936c3f0 1202 ruby optional ruby-soracom_1.1.7-1.dsc
+ 1affb8f3b4e17714890891cc4416ef1f 293976 ruby optional ruby-soracom_1.1.7-1.tar.gz
+ d7f1f5b275737d19abad037a52a08866 12972 ruby optional ruby-soracom_1.1.7-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJX/HHUAAoJEM7eEZKc02WiyRIH/3FyL+5J2ckpmQJCxG+O/er7
+rDDR3RbkSz78YPgL6WJsp09QpNi595eSW7qJhEuP80EQMEUS+dweRFqu5AUxJG7H
+ehpQnKiWYj0Tx87kJxgrYayeG+d2TjuTmmMBqd9aGDIGWeqeCXPaPTypC3YqiPRG
+tyv7pPyokFxojaOcVzT6x/6xnyV6ovIjnuW0A9exUwxBJ5jyEDOL/cM3XIbINCBh
+XaDNg4hN87EJu40cB/VNz3SLkIkOnRD0Hzsf8270fGyK067ILCJVkNq3vBpaSgUr
+mMPH+3Vnx++T9fhnPQPNx8JanWvGDpTX3N5wJ31kPB/wa9gU/xt1TPFWjNbbfgM=
+=+3WE
+-----END PGP SIGNATURE-----
