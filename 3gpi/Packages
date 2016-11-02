@@ -34,23 +34,6 @@ Description: NetworkManager settings for 3GPI
  This package contains udev rules and APN settings for using 3GPI with NetworkManager.
 Homepage: http://www.mechatrax.com/
 
-Package: 3gpi-utils
-Priority: optional
-Section: net
-Installed-Size: 10
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Architecture: all
-Version: 0.4-1
-Filename: ./3gpi-utils_0.4-1_all.deb
-Size: 4742
-MD5sum: f520085afa0667c15465d15e44e6d5cc
-SHA1: 0b07c88a677b9e679af240064c78f9a20a484c1f
-SHA256: 56a4641a0af1c780d295d65ab9d6d8ea1e9f42938a725962c78c1d0c0dfb5d22
-SHA512: 02f1cb6c2a29b1f6f18eecd08f8b1b5cb72dac784133166a0c375e3adb9f6a7ac81c82183715894b6ce15eccacd5186c80dd7d28d76739e8c62008e463e8d29f
-Description: Utilities for 3GPI
- This package contains command utilities to control 3GPI.
-Homepage: http://www.mechatrax.com/
-
 Package: ruby-soracom
 Priority: optional
 Section: ruby
@@ -72,4 +55,21 @@ Description: SORACOM API Client library and tool
  interface or Ruby program.
 Homepage: https://github.com/soracom/soracom-sdk-ruby/
 Ruby-Versions: all
+
+Package: 3gpi-utils
+Priority: optional
+Section: net
+Installed-Size: 10
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: all
+Version: 0.5-1
+Filename: ./3gpi-utils_0.5-1_all.deb
+Size: 4766
+MD5sum: a7b528f99e1fd50bbb8ba9f89aa9a7d2
+SHA1: 24f4c7e75aeb48bc28bdaffde32992be3070927b
+SHA256: cb613f72e127c68049af448da974b8f417f109e51b18d1f6191e204bba110582
+SHA512: 14d5694303e7314f98f8d6340c16d130b89a8523a5b3d436159f97f041d1580531c3c0d1c4e39e1bee289b205a2468cff2dcfa36b3f36461c8703c0b7fd56436
+Description: Utilities for 3GPI
+ This package contains command utilities to control 3GPI.
+Homepage: http://www.mechatrax.com/
 

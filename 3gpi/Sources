@@ -45,30 +45,6 @@ Checksums-Sha512:
  d5bd1db4746e6e63bb88e6296a0bdad31e5f0a7ea1a90d49005f57ed232bb1cb713f84ee4bb075e36c6aab14a64d3489ebd7805f772254698b16a5a2097602ed 1131 3gpi-network-manager_0.2-1.dsc
  1bd3a23ebd7a9e20707579b6305f1de92f45a1d3cd77577632df35d6cf87c8716f1688dfe02b60d563eef8165965dfa933e4a7115802166adffa99bb35f70914 30421 3gpi-network-manager_0.2-1.tar.gz
 
-Package: 3gpi-utils
-Binary: 3gpi-utils
-Version: 0.4-1
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Build-Depends: debhelper (>= 9), dh-systemd
-Architecture: all
-Standards-Version: 3.9.6
-Format: 1.0
-Files:
- e5163428031c7ed13e8b010a09fa4615 1083 3gpi-utils_0.4-1.dsc
- fad58a42e0b44d405a27194a9a95ce17 44184 3gpi-utils_0.4-1.tar.gz
-Homepage: http://www.mechatrax.com/
-Package-List:
- 3gpi-utils deb net optional arch=all
-Checksums-Sha1:
- fd992d843cbdaf6b7588eb0ec28768d949b10374 1083 3gpi-utils_0.4-1.dsc
- 962f4cf6f74b0c7315fdc9c27da10fc1ae1bdfe0 44184 3gpi-utils_0.4-1.tar.gz
-Checksums-Sha256:
- b3d12f4db8df34f2bac6fef55476af552549c7ff66acd7e61ce17dc9d5d7ab93 1083 3gpi-utils_0.4-1.dsc
- 2aeb4e77ed4e6f4e2cc0f7d493a8306047cccc5fc928076f3f36f69bae1fda62 44184 3gpi-utils_0.4-1.tar.gz
-Checksums-Sha512:
- 813d477c2de40435cb10a7820e53f3cf0e1b2894b1adac293ad6845fe79cdceb03f088f2bf152ce5ce890f465978bf29ca2211865bdd0c892fd1772255d313a0 1083 3gpi-utils_0.4-1.dsc
- ed6b1072f76dd73cb072e8ead97ba51b9f00b8fa69fd6f8f4d7db8982f074bd3be592f054db08f78ddabe4bd6838f95c9d4bb7776edfe0c1176316a262f9fa57 44184 3gpi-utils_0.4-1.tar.gz
-
 Package: ruby-soracom
 Binary: ruby-soracom
 Version: 1.1.7-1
@@ -94,4 +70,28 @@ Ruby-Versions: all
 Checksums-Sha512:
  1c233100a342dcb32723f665bf756c17dd8d2b84d3ebbc966cbee0c199b3b6a1e83e0d635a31cc39729b4b96cb8396491ef48f76816b0ec67cf38e035fc5817f 1202 ruby-soracom_1.1.7-1.dsc
  226733bc46252445a6b01002185ae66bb0752f5abb7189301711ddccafcc7a8c3a6457c713c875c9837351ddf3fe95a316ffdc35f46f502d5dfce3d0b3b66024 293976 ruby-soracom_1.1.7-1.tar.gz
+
+Package: 3gpi-utils
+Binary: 3gpi-utils
+Version: 0.5-1
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Build-Depends: debhelper (>= 9), dh-systemd
+Architecture: all
+Standards-Version: 3.9.6
+Format: 1.0
+Files:
+ 99fcf6f9d90094d0f1c5c884d410d724 1083 3gpi-utils_0.5-1.dsc
+ c625fb957205755f506d0b3093305989 51597 3gpi-utils_0.5-1.tar.gz
+Homepage: http://www.mechatrax.com/
+Package-List:
+ 3gpi-utils deb net optional arch=all
+Checksums-Sha1:
+ c5a4de5dc2f794d84a0f76a57e1519a33dc97f07 1083 3gpi-utils_0.5-1.dsc
+ 77084eb38d090f57ca3e4525293ebb61d6ace96f 51597 3gpi-utils_0.5-1.tar.gz
+Checksums-Sha256:
+ d2057193f6d6f637daa99733c25ed9614787483ca1b875d0b90f187c1268d69c 1083 3gpi-utils_0.5-1.dsc
+ 0b8a88233bb8055b101ab4e434d9fd6cd81553f9f571976368d04e7b242bc664 51597 3gpi-utils_0.5-1.tar.gz
+Checksums-Sha512:
+ 3f09a4c7dfe5b5614f14b441bbdda0c111041d9632cb97fc92dd6621cf56c81221b005c33cff0028f935f74446fbc8c7995b84e2b217975725d581215e7e0c5a 1083 3gpi-utils_0.5-1.dsc
+ c7726201205745e20d0667867abba02df20f6c476206049ea60e4bbf348335e9c1496aeff09c42c628c0310e6ca1e4f8ab137ccbdc1b129eb2ca9592b557dfb0 51597 3gpi-utils_0.5-1.tar.gz
 

@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 17 Oct 2016 11:15:22 +0000
+Source: 3gpi-utils
+Binary: 3gpi-utils
+Architecture: source all
+Version: 0.5-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Changed-By: Masahiro Honda <honda@mechatrax.com>
+Description:
+ 3gpi-utils - Utilities for 3GPI
+Changes:
+ 3gpi-utils (0.5-1) unstable; urgency=medium
+ .
+   * Update 3gpictl
+Checksums-Sha1:
+ c5a4de5dc2f794d84a0f76a57e1519a33dc97f07 1083 3gpi-utils_0.5-1.dsc
+ 77084eb38d090f57ca3e4525293ebb61d6ace96f 51597 3gpi-utils_0.5-1.tar.gz
+ 24f4c7e75aeb48bc28bdaffde32992be3070927b 4766 3gpi-utils_0.5-1_all.deb
+Checksums-Sha256:
+ d2057193f6d6f637daa99733c25ed9614787483ca1b875d0b90f187c1268d69c 1083 3gpi-utils_0.5-1.dsc
+ 0b8a88233bb8055b101ab4e434d9fd6cd81553f9f571976368d04e7b242bc664 51597 3gpi-utils_0.5-1.tar.gz
+ cb613f72e127c68049af448da974b8f417f109e51b18d1f6191e204bba110582 4766 3gpi-utils_0.5-1_all.deb
+Files:
+ 99fcf6f9d90094d0f1c5c884d410d724 1083 net optional 3gpi-utils_0.5-1.dsc
+ c625fb957205755f506d0b3093305989 51597 net optional 3gpi-utils_0.5-1.tar.gz
+ a7b528f99e1fd50bbb8ba9f89aa9a7d2 4766 net optional 3gpi-utils_0.5-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJYDZQKAAoJEM7eEZKc02WiqiQIAJFTu5YKQY2B4Mkhaa32d73V
+3v4qlbYzRiAa7JRtZxCAFBpyAIyudNUwQQ6TGpKCNAMuHGY+2CHbzsGYQ2NkzH+Y
+JrbiwYVtQUjysTrhArpJITeYAfSgURljeYy9f2IBXdyTgZHlIbCnqjPLRWVpq3sJ
+zBsJAnv9s7I6+A9HfCdMnzNcBW1WaQ8Dk0mbdBgf6FyNxbnVWqpGZwknGONFaseg
+BgENirYF7zFWzf6CUQM85gxTIb1G2zZDnso2mmJu1JJs9aPrAlH5uJYzSUdkcsC5
+xbUERv6w6I1HJ34KjEwc+xY/KNKiVW/f/0O9z8Hh6MqAeIESFtuVad5Ov4uySEc=
+=l0Ye
+-----END PGP SIGNATURE-----
