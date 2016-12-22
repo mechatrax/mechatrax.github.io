@@ -1,0 +1,18 @@
+Package: mechatrax-artwork
+Version: 0.1
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 37
+Provides: pixel-wallpaper
+Homepage: http://www.mechatrax.com/
+Priority: optional
+Section: x11
+Filename: pool/non-free/m/mechatrax-artwork/mechatrax-artwork_0.1_all.deb
+Size: 15112
+SHA256: aff9de8de75d040ee355835691b3e96cc54855716e33be0cd2397da1cb45ee10
+SHA1: 8c6573aae59b00baeb2c068b3081a0807a2877a9
+MD5sum: a5c70b0e25859723a120754cddc4fba6
+Description: artwork provided by MechaTracks
+ Artwok provided by MechaTracks Co., Ltd., contained the wallpaper and others
+ specific images and logs.
+

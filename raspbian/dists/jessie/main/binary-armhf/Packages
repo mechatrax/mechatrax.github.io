@@ -1,0 +1,58 @@
+Package: 3gpi-network-manager
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 6
+Depends: systemd, network-manager (>= 0.9.10), modemmanager (>= 1.2.0), 3gpi-utils
+Conflicts: 3gpi-network-manager
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: net
+Filename: pool/main/3/3gpi-network-manager/3gpi-network-manager_1.0.0_all.deb
+Size: 3594
+SHA256: 96beae2f2a33b57f073917d00ae8f50f28d4b054fac39738c281b7d2aa786068
+SHA1: 1563085984bbacee467e24e217ce6f6614f24359
+MD5sum: 70540a1094a9264f07883702b44f406d
+Description: NetworkManager settings for 3GPi
+ This package contains udev rules and APN settings for using 3GPi with
+ NetworkManager.
+
+Package: 3gpi-utils-1.0
+Source: 3gpi-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 11
+Depends: systemd
+Breaks: 3gpi-utils (<< 1.0)
+Replaces: 3gpi-utils (<< 1.0)
+Provides: 3gpi-utils
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: net
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.0_all.deb
+Size: 5476
+SHA256: a6d109bdbb3cce117ad2c042d783dc873584b7ae5141fabb1de0d137c2111fb3
+SHA1: 582ebb7b46af95cdf594b670e81455d7e0e390c3
+MD5sum: 48eda5f36f915d62a2121249ded3802e
+Description: Utilities for 3GPi family
+ This package contains command utilities to control 3GPi family.
+
+Package: mechatrax-archive-keyring
+Version: 2016.12.19
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 6
+Depends: gnupg
+Homepage: http://www.mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2016.12.19_all.deb
+Size: 4856
+SHA256: dacbee6e2f4db3e4b41e5e909ce9360f5456af56190205df5d363a8989dac005
+SHA1: 99d30c5d995466691381e59c94b59bb78cfd1c1c
+MD5sum: 3a3d53bcc36dee4537392a688c95380f
+Description: GnuPG archive keys of the mechatrax archive
+ The mechatrax archive digitally signs its Release files.
+ This package contains the archive keys used for that.
+

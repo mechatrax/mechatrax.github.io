@@ -1,0 +1,64 @@
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax-Jessie
+Codename: jessie
+Date: Mon, 19 Dec 2016 08:14:15 UTC
+Architectures: armhf
+Components: main contrib non-free
+Description: Mechatrax archive for Raspbian jessie
+MD5Sum:
+ 437a5668a20c9a515a388fdbbc429d2b 1999 main/binary-armhf/Packages
+ 4c45608e61f53f3cb1ecfb1e92b49c6d 872 main/binary-armhf/Packages.gz
+ 375a3739a53ded091513900d61c38501 141 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 8bf55d152dd5beebac9e859f78485e0e 142 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armhf/Packages.gz
+ 81293175e3256fc950830f1f13dcd1b6 144 contrib/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
+ aae4daf486432eff7016b9cb57dffeba 145 contrib/source/Release
+ b48cf4a3cb17c5426aeadd02823508c6 618 non-free/binary-armhf/Packages
+ b9eea370d76dfcd923bd60a8e096aae9 417 non-free/binary-armhf/Packages.gz
+ be0cdac4109f8166be432979d9428e20 145 non-free/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
+ d24ad8f3723248482659c073f0186e48 146 non-free/source/Release
+SHA1:
+ f5188a4b9594e35ce0deb77e952a6598a67ff002 1999 main/binary-armhf/Packages
+ 495b999343718d8f4debfbf204caf1b6bf3eb5e4 872 main/binary-armhf/Packages.gz
+ 1c5ebb6f67e94e55f65437b69a049247251f2912 141 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ a23e605e81e44d8fc071d2e042ca7837d24182ed 142 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armhf/Packages.gz
+ d7bbb21c8261dab76da4acfa5c3e5c24ec6be3c5 144 contrib/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
+ 40107b8982b82454571f4db969f00406edbfa162 145 contrib/source/Release
+ c7f6375c5846f448532e881350ebae5f78fe6b82 618 non-free/binary-armhf/Packages
+ f172f086e31b7ace105ade5bdfde964e81dff9ce 417 non-free/binary-armhf/Packages.gz
+ 3cf61a9c804bbf06576c91f678db3d235292b0c3 145 non-free/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
+ 33685ee2eb65dd8b63bbe88f3cc1162bd5211d4f 146 non-free/source/Release
+SHA256:
+ a24e920188894a0e872bf0182438c3389abbb96a1607847442f8481129ea75c6 1999 main/binary-armhf/Packages
+ 6a17c38241f81dd17dc409bc6f25cba282f81f31b85bc777a3029cb7ab186dc2 872 main/binary-armhf/Packages.gz
+ 77ac8eac135bdaff06bc20f407e07e451c1e41216f29814461baee8711824499 141 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 305539d59452f065dffc46c02b58991c2009a56b3b3ed89bb14c36d16db40d9a 142 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-armhf/Packages.gz
+ 193c56617fe0accabbaaa0c0c41725ce8397da9e4ac6b179d790ca42812756bc 144 contrib/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
+ 052ae8c87f76ae0206707454fbaad5715b67c712b1808f3c0f4addda0190f1b7 145 contrib/source/Release
+ cac6993b686fee750cb7589cc38b8bf3d1537b3d6d98aa8b483ecf5f3f4585ca 618 non-free/binary-armhf/Packages
+ 83b18ff0ca3b592fcd72cdbe35cb9e943179d4fa420f21b05a1f3bd22cd60543 417 non-free/binary-armhf/Packages.gz
+ 7590a427a1f0a055e8b536f6c389833f974a6e3762b62edda2d0901e97bb5ac2 145 non-free/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
+ b24b9fc75379553a04141bba8b10d43bfb343f7bfc7fcfa54b370846904872ea 146 non-free/source/Release
