@@ -56,3 +56,17 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: soracom-cli
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Version: 0.1.7-1
+Architecture: armhf
+Priority: extra
+Section: net
+Filename: pool/main/s/soracom-cli/soracom-cli_0.1.7-1_armhf.deb
+Size: 2923884
+SHA256: 9c883908d92563f143291aad6cbe2ef3aa6c081b2d2ebd3be3d71bba05707f6d
+SHA1: 9876048962afc4f2a2389bea15c981da27113664
+MD5sum: e85be6b6c6ac464cc54cb00f89d70b2d
+Description: A command line tool soracom to invoke SORACOM API
+Installed-Size: 1
+
