@@ -13,20 +13,20 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  mechatrax-artwork deb x11 optional arch=all
 Checksums-Sha1:
- e6680f54a7e20a79de795f4ccc3f0310bb171670 34204 mechatrax-artwork_0.2.tar.xz
+ eba6a0f900ee18f0251060f62a1b2e25a1f503bd 41352 mechatrax-artwork_0.2.tar.xz
 Checksums-Sha256:
- 08c4290becc19b2233b02bc023606074b4c92cba9fdf4b6ecb6051b55582bb5f 34204 mechatrax-artwork_0.2.tar.xz
+ 2e371acbbd10917b3f6943f1ac149fefdff2fe3aa9b9a2e6b0d7f2425ea386b1 41352 mechatrax-artwork_0.2.tar.xz
 Files:
- 4e6a2effbf8022c3825a8e2bb0f818a0 34204 mechatrax-artwork_0.2.tar.xz
+ 3a440dc69ee874b93f8ff6466cb6a1e5 41352 mechatrax-artwork_0.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBCgAGBQJYYKJ2AAoJEM7eEZKc02WigFoIAJ8vFGX/kD42+lIlwU2+Z3G9
-f6Nfrq+ozs7m2lslh4Wxn8axliY/1TaRgRl1bSAA5nLGLERECYpAPdHCND+t5HIN
-joSOnESPasQOCt8rth+idpDZbDPVST/pnsN4X/NA6tE4AVGxfL38rvVXFRV0UmlE
-Yk7S/x58SAmxPZ5Y5Ub+lbY+18VhLn4uQDpRVBFZpqnawjMiGxdIiXiorGU9MNTK
-983ddwf55BRuaMK8a+gT+N+hfpioPQ7IFK8ZC3Fy76+7ueQdYXn++xDSS2Zsw4RU
-wbJ3WwMotQfnYFSbRPzhW5owBCSPZHYpSBCj4pYlTFe3p2O5F0diSK4WHU6+N/M=
-=fXTv
+iQEcBAEBCgAGBQJYYhSTAAoJEM7eEZKc02WiGbkH/RnL/Yf8ZCCx/Up/E/+uvFn/
+8WRupTtF7xECFftMS+2JC42IiYioB1Pl5oxScDX7NrOMfPpeKz+cPcL4fotwtC7K
+5JAji/0x0DET+ZLKJAERCNYP+yfst2xgJZVj2cDHaAOXRscefV9D7xotxRPPICIo
+Lm1ukLSG6PvP5Axw+jmEy3anTihJbkAJHfkEGfJB4Bw+p2pq3gxQKmCWL3xhOmVn
+3Yo8pPbNgqAfaULa5UrYngZVnEMn1g1GV+vigHbBAybtydWpr2dn4SGIMU1rlUBx
+axtUNaPX01rbuI2gbFbDnnKDYaCaPXdlG0lttIQG/1H9JOeDR4Bl6+A/Q1h/S8s=
+=PQpK
 -----END PGP SIGNATURE-----
