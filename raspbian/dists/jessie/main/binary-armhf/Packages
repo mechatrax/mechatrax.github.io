@@ -56,6 +56,45 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: python-sleepi
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 52
+Depends: python-smbus, python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: python
+Filename: pool/main/p/python-sleepi/python-sleepi_1.0.0_all.deb
+Size: 3934
+SHA256: 0bee0d1ce17482fb3c1490aa99e534bc3c1d7f314a0323a58263ef757e2592ff
+SHA1: 09be0beab0be346c9228001ac3f07a7b546992ce
+MD5sum: 0fa0bd258616e4dcd0ce36809a9d4c00
+Description: Python module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-sleepi
+Source: python-sleepi
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 52
+Depends: python3-smbus, python3:any (>= 3.4~)
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: python
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.0.0_all.deb
+Size: 4026
+SHA256: 2a440883e41339d3e81449dbf2efde803730dc1af180611100fda265b5545330
+SHA1: d598bce111eb6d13630c635e950d3f1c2badc041
+MD5sum: 04f765976810f7319d127e3ddb19ce3c
+Description: Python 3 module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 3.
+
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Version: 0.1.7-1

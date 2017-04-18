@@ -1,0 +1,35 @@
+Package: sleepi2-monitor
+Version: 1.0.1
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 54
+Depends: init-system-helpers (>= 1.18~), sleepi2-utils, python3-sleepi, python3, systemd
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: misc
+Filename: pool/contrib/s/sleepi2-monitor/sleepi2-monitor_1.0.1_all.deb
+Size: 4336
+SHA256: 915ae204fab3b273db9d66365d795daf840530dd3af46f0bfb475ed4ed487bba
+SHA1: ca6e982aa9220619ac809a92e814145d25d42383
+MD5sum: 1546a5afb61adb7a11c696db89bc0394
+Description: Monitoring daemon for slee-Pi 2
+ This package contains the daemon to monitor slee-Pi 2.
+
+Package: sleepi2-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 84
+Depends: init-system-helpers (>= 1.18~), sleepi2-firmware (>= 0.1), python3-sleepi, python3
+Conflicts: fake-hwclock, sleepi-utils
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: admin
+Filename: pool/contrib/s/sleepi2-utils/sleepi2-utils_1.0.0_all.deb
+Size: 7074
+SHA256: f39902b94adcded39d70fba5c196eabef200b3a8603ae85fbd05d82ebe222956
+SHA1: 3c844918a2675bde3151cff4383a21779abf120d
+MD5sum: c08ee6f1888644f307e1d0ec71e028e7
+Description: Utilities for slee-Pi 2
+ This package contains command utilities to control slee-Pi 2.
+

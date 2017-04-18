@@ -16,3 +16,21 @@ Description: artwork provided by MechaTracks
  Artwok provided by MechaTracks Co., Ltd., contained the wallpaper and others
  specific images and logs.
 
+Package: sleepi2-firmware
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 39
+Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20150506-1), raspi-config (>= 20150506)
+Conflicts: sleepi-firmware
+Homepage: http://www.mechatrax.com/
+Priority: extra
+Section: misc
+Filename: pool/non-free/s/sleepi2-firmware/sleepi2-firmware_1.0.0_armhf.deb
+Size: 3644
+SHA256: efbdc373dfe6d9238d2800aa1068d7748c44df1bec2d78e3088970cdc9f43d09
+SHA1: f3c63572ab9d449ab6bd4a3c3d1f9eaa77f700c1
+MD5sum: e9db30652fc83e8c327f85ad7d87cf69
+Description: Device tree overlay binary for slee-Pi 2
+ This package contains the device tree overlay binary for slee-Pi 2.
+
