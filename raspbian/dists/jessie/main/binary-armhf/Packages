@@ -19,10 +19,10 @@ Description: NetworkManager settings for 3GPi
 
 Package: 3gpi-utils-1.0
 Source: 3gpi-utils
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 11
+Installed-Size: 78
 Depends: systemd
 Breaks: 3gpi-utils (<< 1.0)
 Replaces: 3gpi-utils (<< 1.0)
@@ -30,11 +30,11 @@ Provides: 3gpi-utils
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: net
-Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.0_all.deb
-Size: 5476
-SHA256: a6d109bdbb3cce117ad2c042d783dc873584b7ae5141fabb1de0d137c2111fb3
-SHA1: 582ebb7b46af95cdf594b670e81455d7e0e390c3
-MD5sum: 48eda5f36f915d62a2121249ded3802e
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.1_all.deb
+Size: 5520
+SHA256: 0e1732b89d01abc810ac366786311fce22de573164fab5e839b6dab8aaca364d
+SHA1: 17b612d98cbffc8c813c9201da8ac3ea99c480bc
+MD5sum: aeecd4d70d2d8de66ad97fa9fb89465d
 Description: Utilities for 3GPi family
  This package contains command utilities to control 3GPi family.
 
