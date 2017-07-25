@@ -17,20 +17,20 @@ Description: artwork provided by MechaTracks
  specific images and logs.
 
 Package: sleepi2-firmware
-Version: 1.1.0
+Version: 1.1.1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 39
+Installed-Size: 7
 Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20150506-1), raspi-config (>= 20150506)
 Conflicts: sleepi-firmware
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: misc
-Filename: pool/non-free/s/sleepi2-firmware/sleepi2-firmware_1.1.0_armhf.deb
-Size: 3750
-SHA256: cd3c6120e84f5044be86fb47e9dcc345389a3b54e9d3031ab431c0d13b620327
-SHA1: c451808de8a948cd3d13aa2aa3b850bcfcbc3249
-MD5sum: 6272a875fb9e42561bbeb408d0a9c649
+Filename: pool/non-free/s/sleepi2-firmware/sleepi2-firmware_1.1.1_armhf.deb
+Size: 3564
+SHA256: cd69cbc2c700041553d4eab17b4fc19e29e64bddf8b08e6705918e265f4e9d4c
+SHA1: 9299559b4aee4509886b37a742de5d1b24f0eaab
+MD5sum: 0077a11b5a0b96c4d0e4f13d64ef1030
 Description: Device tree overlay binary for slee-Pi 2
  This package contains the device tree overlay binary for slee-Pi 2.
 
