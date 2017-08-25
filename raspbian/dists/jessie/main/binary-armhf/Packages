@@ -1,25 +1,25 @@
 Package: 3gpi-network-manager
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 6
+Installed-Size: 53
 Depends: systemd, network-manager (>= 0.9.10), modemmanager (>= 1.2.0), 3gpi-utils
 Conflicts: 3gpi-network-manager
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: net
-Filename: pool/main/3/3gpi-network-manager/3gpi-network-manager_1.0.0_all.deb
-Size: 3594
-SHA256: 96beae2f2a33b57f073917d00ae8f50f28d4b054fac39738c281b7d2aa786068
-SHA1: 1563085984bbacee467e24e217ce6f6614f24359
-MD5sum: 70540a1094a9264f07883702b44f406d
+Filename: pool/main/3/3gpi-network-manager/3gpi-network-manager_1.0.1_all.deb
+Size: 3630
+SHA256: 0d1f25765b1c003037de328579563492a9cbff1bc29f87034a2c18bcee37199f
+SHA1: 91549ad149e0e37ef5752945df286165268a173b
+MD5sum: 40303b75c2963d9c426bf38e38299fb1
 Description: NetworkManager settings for 3GPi
  This package contains udev rules and APN settings for using 3GPi with
  NetworkManager.
 
 Package: 3gpi-utils-1.0
 Source: 3gpi-utils
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 78
@@ -30,11 +30,11 @@ Provides: 3gpi-utils
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: net
-Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.1_all.deb
-Size: 5520
-SHA256: 0e1732b89d01abc810ac366786311fce22de573164fab5e839b6dab8aaca364d
-SHA1: 17b612d98cbffc8c813c9201da8ac3ea99c480bc
-MD5sum: aeecd4d70d2d8de66ad97fa9fb89465d
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.2_all.deb
+Size: 5538
+SHA256: 902a53362c45b3b9f8ceecfe9a8b3974b27b0b8c9130ba50eaab79ec29fb1990
+SHA1: 733ca6a96ba63218b2068bf9f0a3c5bbd4e10050
+MD5sum: afbb693edc437283fdef0326d92b18ee
 Description: Utilities for 3GPi family
  This package contains command utilities to control 3GPi family.
 
@@ -57,7 +57,7 @@ Description: GnuPG archive keys of the mechatrax archive
  This package contains the archive keys used for that.
 
 Package: python-sleepi
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 52
@@ -65,11 +65,11 @@ Depends: python-smbus, python:any (<< 2.8), python:any (>= 2.7.5-5~)
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: python
-Filename: pool/main/p/python-sleepi/python-sleepi_1.0.0_all.deb
-Size: 3934
-SHA256: 0bee0d1ce17482fb3c1490aa99e534bc3c1d7f314a0323a58263ef757e2592ff
-SHA1: 09be0beab0be346c9228001ac3f07a7b546992ce
-MD5sum: 0fa0bd258616e4dcd0ce36809a9d4c00
+Filename: pool/main/p/python-sleepi/python-sleepi_1.0.1_all.deb
+Size: 3988
+SHA256: ccbea13a1b236d4e3b39ea48b05360afde8d0b0e131473e2810f76766581dd82
+SHA1: bd0e85f062626d7bc4ddacc8809efc89ee600770
+MD5sum: 273ca9ea84859858cb8a0512ef4d8561
 Description: Python module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
@@ -77,19 +77,19 @@ Description: Python module for slee-Pi family.
 
 Package: python3-sleepi
 Source: python-sleepi
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 52
-Depends: python3-smbus, python3:any (>= 3.4~)
+Depends: python3:any (>= 3.4~), python3-smbus
 Homepage: http://www.mechatrax.com/
 Priority: extra
 Section: python
-Filename: pool/main/p/python-sleepi/python3-sleepi_1.0.0_all.deb
-Size: 4026
-SHA256: 2a440883e41339d3e81449dbf2efde803730dc1af180611100fda265b5545330
-SHA1: d598bce111eb6d13630c635e950d3f1c2badc041
-MD5sum: 04f765976810f7319d127e3ddb19ce3c
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.0.1_all.deb
+Size: 4072
+SHA256: 6df985ab7d77eede7ab85d94246a8d0afbe7e0df8fdda038a1bf1c9a1b900a71
+SHA1: 41f60a4cf737585e09d4e25a303505d0f84e6535
+MD5sum: d6a3d7989d4f7dd169f23d473c437281
 Description: Python 3 module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
