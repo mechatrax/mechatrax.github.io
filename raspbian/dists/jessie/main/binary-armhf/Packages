@@ -97,15 +97,15 @@ Description: Python 3 module for slee-Pi family.
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.2.4-1
+Version: 0.2.5-1
 Architecture: armhf
 Priority: extra
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.2.4-1_armhf.deb
-Size: 3170726
-SHA256: 5fcd304dc1e0f878801bf672c979ec1e08cf20b88bf12093621701bc791706c3
-SHA1: aa4fb85b9601db99cdd28e009661f9da9b28b534
-MD5sum: 527f0191bd07ab692b6626e33cb445c8
+Filename: pool/main/s/soracom-cli/soracom-cli_0.2.5-1_armhf.deb
+Size: 3180120
+SHA256: 1432c9e8c1041c4bbc3d6ed8207ae1c58ba9b2a6c25d57d935baf6708cb8344c
+SHA1: 9d48593f1fe3967480d7fb481b29c22341cea6ed
+MD5sum: a1830f6cb1ddba4ca0641547f3b6d95d
 Description: A command line tool soracom to invoke SORACOM API
 Installed-Size: 1
 
