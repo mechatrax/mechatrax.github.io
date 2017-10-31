@@ -1,0 +1,36 @@
+Package: mechatrax-artwork
+Version: 0.4
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 80
+Provides: pixel-wallpaper, rpd-wallpaper
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: x11
+Filename: pool/non-free/m/mechatrax-artwork/mechatrax-artwork_0.4_all.deb
+Size: 42050
+SHA256: dc349e8b26a2f16250a6d61430c5e63af8c98307773928b737616a57059a1d56
+SHA1: b32b0a99e8898c3ff96c5ee28aec4067ae6ffa6b
+MD5sum: d6c0fafa3cce3926f4a8bfe39d5f4472
+Description: artwork provided by MechaTracks
+ Artwok provided by MechaTracks Co., Ltd., contained the wallpaper and others
+ specific images and logs.
+
+Package: sleepi2-firmware
+Version: 1.1.3
+Architecture: armhf
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 17
+Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20150506-1), raspi-config (>= 20150506)
+Conflicts: sleepi-firmware
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/non-free/s/sleepi2-firmware/sleepi2-firmware_1.1.3_armhf.deb
+Size: 3558
+SHA256: 0d72955b7b1a9474d9123b59d1d68450e93983643df80774acadeaf914b5c113
+SHA1: 9ec0cb99cb4edeced5ee87ed745071e1ff661e50
+MD5sum: 97f48502fc36136345fe63372115f163
+Description: Device tree overlay binary for slee-Pi 2
+ This package contains the device tree overlay binary for slee-Pi 2.
+
