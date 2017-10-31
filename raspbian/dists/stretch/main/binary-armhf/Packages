@@ -1,0 +1,111 @@
+Package: 3gpi-network-manager
+Version: 1.2.1
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 21
+Depends: systemd, network-manager (>= 1.6.2), modemmanager (>= 1.6.4), 3gpi-utils
+Conflicts: 3gpi-network-manager
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/3/3gpi-network-manager/3gpi-network-manager_1.2.1_all.deb
+Size: 3158
+SHA256: e0be6205b64477bfeea45b244bc839dd347c6d96430336edc58a93851db38f0f
+SHA1: 78450e834ade434b62a1a1f6d5994a9e796e82f2
+MD5sum: b2697608d38d24a04216b3ce85f84515
+Description: NetworkManager settings for 3GPi
+ This package contains udev rules and APN settings for using 3GPi with
+ NetworkManager.
+
+Package: 3gpi-utils-1.0
+Source: 3gpi-utils
+Version: 1.0.3
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 35
+Depends: systemd
+Breaks: 3gpi-utils (<< 1.0)
+Replaces: 3gpi-utils (<< 1.0)
+Provides: 3gpi-utils
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.3_all.deb
+Size: 5520
+SHA256: aca62877a9b4718e93616294d551c46f0d782fbe5d40daa510aa1a71b270eddd
+SHA1: 302a986f376d12ba640b9750b0eae446ca34e501
+MD5sum: 2c061489e1d92f94581367f9fae11561
+Description: Utilities for 3GPi family
+ This package contains command utilities to control 3GPi family.
+
+Package: mechatrax-archive-keyring
+Version: 2016.12.19.1
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 18
+Depends: gnupg
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2016.12.19.1_all.deb
+Size: 4880
+SHA256: 2a7039dc91e0c6f768ccc3fc1b1cdfd9af04cf9eb45b77a065e457cec8570e83
+SHA1: edc51d493e19f55a0ab7b2b11dc69c5d31ac7b71
+MD5sum: 2ee580fc6a8078b0b0101f5395fba911
+Description: GnuPG archive keys of the mechatrax archive
+ The mechatrax archive digitally signs its Release files.
+ This package contains the archive keys used for that.
+
+Package: python-sleepi
+Version: 1.0.2
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 27
+Depends: python:any (<< 2.8), python:any (>= 2.7.5-5~), python-smbus
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-sleepi/python-sleepi_1.0.2_all.deb
+Size: 4020
+SHA256: 7dcc53e0224d2710ed96d92c335ab0fe7b6ed2e6f48901167123ad3624434f5b
+SHA1: c35262095d00a401dbf9beefa2e317bdd1f9d1b3
+MD5sum: 0b81ad4ddc288a0a9ae30207e91d980a
+Description: Python module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 2.
+
+Package: python3-sleepi
+Source: python-sleepi
+Version: 1.0.2
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 27
+Depends: python3:any (>= 3.4~), python3-smbus
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.0.2_all.deb
+Size: 4110
+SHA256: 2ac32307aa9132408a67299348f440ab60b858b67383b8267bd544e9b3b8bbe9
+SHA1: 7514f7de445bfa080796b9fda085a0f13b79fce9
+MD5sum: dd2bae1560f9e63443c4c225f5eff671
+Description: Python 3 module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 3.
+
+Package: soracom-cli
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Version: 0.2.5-2
+Architecture: armhf
+Priority: optional
+Section: net
+Filename: pool/main/s/soracom-cli/soracom-cli_0.2.5-2_armhf.deb
+Size: 3183722
+SHA256: 1213e3a1cd7bbecd00d380c162cc4db6b539c8f99880fd1fea281a8871a2390f
+SHA1: 0edef10aee745a2d54973991c3fba28c61feeff9
+MD5sum: 59f1864f29ff21484041e26227dfcc2e
+Description: A command line tool soracom to invoke SORACOM API
+Installed-Size: 2
+
