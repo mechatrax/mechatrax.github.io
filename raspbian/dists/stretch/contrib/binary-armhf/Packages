@@ -1,3 +1,20 @@
+Package: adpi-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 30
+Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/contrib/a/adpi-utils/adpi-utils_1.0.0_all.deb
+Size: 4714
+SHA256: cd3d8fa34cf1e71421220891a7244d0b1cdce0d3de0252e5c030f0fd3e95b70d
+SHA1: d68bee47e0d86d4e993618b37eb0f626dff04804
+MD5sum: aabe1ee2ec3b60100639293d4e882733
+Description: Utilities for ADPi
+ This package contains command utilities to control ADPi.
+
 Package: sleepi2-monitor
 Version: 1.0.3
 Architecture: all
