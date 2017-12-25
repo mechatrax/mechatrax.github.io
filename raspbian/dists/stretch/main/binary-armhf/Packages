@@ -18,39 +18,39 @@ Description: NetworkManager settings for 3GPi
  NetworkManager.
 
 Package: 3gpi-utils
-Version: 2.0.0
+Version: 2.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 49
-Depends: pppconfig
+Depends: ppp
 Breaks: 3gpi-utils-1.0 (<< 2.0.0)
 Replaces: 3gpi-utils-1.0 (<< 2.0.0)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/3/3gpi-utils/3gpi-utils_2.0.0_all.deb
-Size: 6800
-SHA256: a0e0f630ebe8033bb89855fdd5be63a57df27789c7cc5cd2b0f1486f88d727be
-SHA1: a5d65d549d9d3d4cb787a0c5b9789e50fe321d8e
-MD5sum: 27e64eae8361d4a461dc1a306d49e832
+Filename: pool/main/3/3gpi-utils/3gpi-utils_2.0.1_all.deb
+Size: 6842
+SHA256: 0a0129c507d9ff3da22839555304b0e27fe11529828f35843920d9833811eda3
+SHA1: c2c6245eb1a40c26168af09ef7051e4669d919ae
+MD5sum: ad15a019e7d9ad7f6eddf8330f1d97a4
 Description: Utilities for 3GPi family
  This package contains command line utilities to control 3GPi family.
 
 Package: 3gpi-utils-1.0
 Source: 3gpi-utils
-Version: 2.0.0
+Version: 2.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 9
-Depends: 3gpi-utils (= 2.0.0)
+Depends: 3gpi-utils (= 2.0.1)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_2.0.0_all.deb
-Size: 2530
-SHA256: 1bf7ce8559c5189b0e9ea13c9839babc9db2775fcb85805e1aa2ffcbf321267a
-SHA1: f26b27918d11957bb2a55eef51622a10b2757760
-MD5sum: 95c3f24c5d5b9b33336519224058e72f
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_2.0.1_all.deb
+Size: 2554
+SHA256: cf500f2f5eea91bf7826ff034dbea98654037886039c880bf178b2bf02a36495
+SHA1: ea162a58efaf71238748021148a11cb5e173222d
+MD5sum: 37aeef2a569f532760e33f4d59465aaa
 Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
