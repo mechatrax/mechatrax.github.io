@@ -17,26 +17,42 @@ Description: NetworkManager settings for 3GPi
  This package contains udev rules and APN settings for using 3GPi with
  NetworkManager.
 
-Package: 3gpi-utils-1.0
-Source: 3gpi-utils
-Version: 1.0.3
+Package: 3gpi-utils
+Version: 2.0.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 35
-Depends: systemd
-Breaks: 3gpi-utils (<< 1.0)
-Replaces: 3gpi-utils (<< 1.0)
-Provides: 3gpi-utils
+Installed-Size: 49
+Depends: pppconfig
+Breaks: 3gpi-utils-1.0 (<< 2.0.0)
+Replaces: 3gpi-utils-1.0 (<< 2.0.0)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_1.0.3_all.deb
-Size: 5520
-SHA256: aca62877a9b4718e93616294d551c46f0d782fbe5d40daa510aa1a71b270eddd
-SHA1: 302a986f376d12ba640b9750b0eae446ca34e501
-MD5sum: 2c061489e1d92f94581367f9fae11561
+Filename: pool/main/3/3gpi-utils/3gpi-utils_2.0.0_all.deb
+Size: 6800
+SHA256: a0e0f630ebe8033bb89855fdd5be63a57df27789c7cc5cd2b0f1486f88d727be
+SHA1: a5d65d549d9d3d4cb787a0c5b9789e50fe321d8e
+MD5sum: 27e64eae8361d4a461dc1a306d49e832
 Description: Utilities for 3GPi family
- This package contains command utilities to control 3GPi family.
+ This package contains command line utilities to control 3GPi family.
+
+Package: 3gpi-utils-1.0
+Source: 3gpi-utils
+Version: 2.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 9
+Depends: 3gpi-utils (= 2.0.0)
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/3/3gpi-utils/3gpi-utils-1.0_2.0.0_all.deb
+Size: 2530
+SHA256: 1bf7ce8559c5189b0e9ea13c9839babc9db2775fcb85805e1aa2ffcbf321267a
+SHA1: f26b27918d11957bb2a55eef51622a10b2757760
+MD5sum: 95c3f24c5d5b9b33336519224058e72f
+Description: Utilities for 3GPi family
+ Dummy package for upgrade.
 
 Package: mechatrax-archive-keyring
 Version: 2016.12.19.1
