@@ -1,17 +1,17 @@
 Package: adpi-utils
-Version: 1.0.0
+Version: 1.1.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 30
+Installed-Size: 35
 Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/contrib/a/adpi-utils/adpi-utils_1.0.0_all.deb
-Size: 4714
-SHA256: cd3d8fa34cf1e71421220891a7244d0b1cdce0d3de0252e5c030f0fd3e95b70d
-SHA1: d68bee47e0d86d4e993618b37eb0f626dff04804
-MD5sum: aabe1ee2ec3b60100639293d4e882733
+Filename: pool/contrib/a/adpi-utils/adpi-utils_1.1.0_all.deb
+Size: 5582
+SHA256: 4e3db055547c4dc59a3e314ffd66846397ff36d02a1a726aaee38617f266e64d
+SHA1: 92e4eb4931b79d73fa9910441f2a8349b099144d
+MD5sum: 0bf4ba4d414f8035a2b2386eca225780
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
