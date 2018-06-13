@@ -1,5 +1,5 @@
 Package: adpi-firmware
-Version: 1.1.0
+Version: 1.2.0
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 22
@@ -7,11 +7,11 @@ Depends: raspberrypi-kernel-mtx (>= 1.20180327-1~mtx1)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/non-free/a/adpi-firmware/adpi-firmware_1.1.0_armhf.deb
-Size: 3618
-SHA256: 042e81210ac03b334696df85d79a98eacf212746ca942753520a7e5f2d508624
-SHA1: 3febc17c16a28e77f9629a67683b05e890076c5b
-MD5sum: d532f1be6f4526bf3c606cf6b2a02999
+Filename: pool/non-free/a/adpi-firmware/adpi-firmware_1.2.0_armhf.deb
+Size: 3688
+SHA256: fd12befb2e660d918a35a0503ce99b363c1da16045c3adf45a36c82c5b83ca0e
+SHA1: 278fc743184f8be0e443845896acf9397a917a8f
+MD5sum: e7b5de29b7b445d53dffd41c0d0508c2
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
