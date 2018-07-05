@@ -54,6 +54,26 @@ MD5sum: 37aeef2a569f532760e33f4d59465aaa
 Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
+Package: adpi-utils-backend-spidev
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 26
+Depends: init-system-helpers (>= 1.18~), python3-adpi
+Conflicts: adpi-firmware, adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.0_all.deb
+Size: 4934
+SHA256: 13d63621939ed2bc8d4b8f4fc51a093e0c65defe089fc94c997c4e5e507bc771
+SHA1: 59c9707738e1d0ff8b73c3092f774df58be9d717
+MD5sum: eaad5663894c6eb54e8895b6c6584969
+Description: Backend of adpi-utils to control ADPi with SPI
+ This package contains backend files of adpi-utils to control ADPi with SPI.
+
 Package: mechatrax-archive-keyring
 Version: 2016.12.19.1
 Architecture: all
@@ -71,6 +91,25 @@ MD5sum: 2ee580fc6a8078b0b0101f5395fba911
 Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
+
+Package: python-adpi
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 33
+Depends: python-spidev, python:any (<< 2.8), python:any (>= 2.7.5-5~), python-smbus
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-adpi/python-adpi_1.0.0_all.deb
+Size: 4654
+SHA256: e704e53def18e36f181cde44368ed1a0acc75e4fda1e60f06a29f4c68a045c21
+SHA1: c4e8c0e013f970723b7fb424733af819b1eda6fb
+MD5sum: 8e06a660a5370cee090ccfd90615c1c3
+Description: Python module for ADPi family.
+ This package contains python module to control ADPi family.
+ .
+ This package installs the library for Python 2.
 
 Package: python-sleepi
 Version: 1.0.2
@@ -90,6 +129,26 @@ Description: Python module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
  This package installs the library for Python 2.
+
+Package: python3-adpi
+Source: python-adpi
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 33
+Depends: python3-spidev, python3:any (>= 3.4~), python3-smbus
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-adpi/python3-adpi_1.0.0_all.deb
+Size: 4740
+SHA256: 868f8a53a084c37dcbc414add0c1466e5fc24486f411abcec0cff62cf08fc337
+SHA1: 662b96d01ed87d26823188b584fcedabe0e59e79
+MD5sum: 1e1df41802ffaeae27f18b2f616bfca0
+Description: Python 3 module for ADPi family.
+ This package contains python module to control ADPi family.
+ .
+ This package installs the library for Python 3.
 
 Package: python3-sleepi
 Source: python-sleepi
