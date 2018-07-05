@@ -1,19 +1,39 @@
 Package: adpi-utils
-Version: 1.1.0
+Version: 2.0.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 35
-Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
+Installed-Size: 25
+Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/contrib/a/adpi-utils/adpi-utils_1.1.0_all.deb
-Size: 5582
-SHA256: 4e3db055547c4dc59a3e314ffd66846397ff36d02a1a726aaee38617f266e64d
-SHA1: 92e4eb4931b79d73fa9910441f2a8349b099144d
-MD5sum: 0bf4ba4d414f8035a2b2386eca225780
+Filename: pool/contrib/a/adpi-utils/adpi-utils_2.0.0_all.deb
+Size: 4458
+SHA256: d5d6e5ac04d5840c0d45d1d2e13a6f07d3a83159dc64bb233ee36f8333df55ca
+SHA1: ef32bb7087d046982a902d48c6aee5e31a3a88bb
+MD5sum: 6abef4d74f5b8a351aec8520f818880f
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
+
+Package: adpi-utils-backend-iio
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 28
+Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
+Conflicts: adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/contrib/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.0_all.deb
+Size: 4428
+SHA256: 1dc911ce1da1945172f633e02ffc41eb1700f8f63a3fd0fc4d1920600d519397
+SHA1: fe2e7c03c75e0c8df2bd038f70766a54ae2e3843
+MD5sum: 6f699e2d3c8dacd3c84c5818ae79dde5
+Description: Backend of adpi-utils to control ADPi with IIO
+ This package contains backend files of adpi-utils to control ADPi with IIO.
 
 Package: sleepi2-monitor
 Version: 1.0.3
