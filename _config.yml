@@ -1,7 +1,7 @@
 title: MechaTracks
 description: Raspberry Pi 関連製品のソフトウェアを公開しています。
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
 
 gems:
