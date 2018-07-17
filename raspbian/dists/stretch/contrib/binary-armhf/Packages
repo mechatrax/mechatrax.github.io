@@ -36,7 +36,7 @@ Description: Backend of adpi-utils to control ADPi with IIO
  This package contains backend files of adpi-utils to control ADPi with IIO.
 
 Package: sleepi2-monitor
-Version: 1.0.3
+Version: 1.1.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 26
@@ -44,11 +44,11 @@ Depends: init-system-helpers (>= 1.18~), sleepi2-utils, python3-sleepi, python3,
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/contrib/s/sleepi2-monitor/sleepi2-monitor_1.0.3_all.deb
-Size: 4360
-SHA256: 07d3d7d90f19964ff1b4352fc7c5aefd032146e834601db7c1daa3b2b82f4cdd
-SHA1: 7099384aa36a8197247480dc082b166beace99a2
-MD5sum: 3f8ae8751cdc6d0bcb2865f73f1822d0
+Filename: pool/contrib/s/sleepi2-monitor/sleepi2-monitor_1.1.0_all.deb
+Size: 4566
+SHA256: ce00d9bdc251740c64e942e1ec9e1bfcacf20ed19158063e1e757052715af329
+SHA1: d18deba3743e6608db26f8760b4775d9fe279114
+MD5sum: 6bb622676e95829da080408bc110c011
 Description: Monitoring daemon for slee-Pi 2
  This package contains the daemon to monitor slee-Pi 2.
 
