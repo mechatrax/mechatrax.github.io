@@ -214,15 +214,15 @@ Description: Raspberry Pi bootloader
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.3.4-1
+Version: 0.3.5-1
 Architecture: armhf
 Priority: optional
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.3.4-1_armhf.deb
-Size: 3644980
-SHA256: 91a6f5b5ea4c2fa9e2d27c7220b97c601717d49db3cef7cbaf9ca81011db0263
-SHA1: e07738ad61d87507f072212d5adcb9698e767a08
-MD5sum: e210232cd362bec3022d78482351604a
+Filename: pool/main/s/soracom-cli/soracom-cli_0.3.5-1_armhf.deb
+Size: 3645616
+SHA256: ba2ba6cdb4bf3a3e6074275fd38cbcc412174d9ef17138dbc25171023ae4fe02
+SHA1: 5345b260a41f5cc69df3c94cc8f0a14c858a4dd8
+MD5sum: 34f6a8e9a48634c044c93bd72e8b1d56
 Description: A command line tool soracom to invoke SORACOM API
-Installed-Size: 10998
+Installed-Size: 1
 
