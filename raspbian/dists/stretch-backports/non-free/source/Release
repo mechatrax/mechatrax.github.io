@@ -1,0 +1,5 @@
+Component: non-free
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax-Raspbian-Stretch-Backports
+Architecture: source
+Description: Mechatrax backports archive for Raspbian Stretch

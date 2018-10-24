@@ -1,0 +1,78 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax-Raspbian-Stretch-Backports
+Codename: stretch-backports
+Date: Wed, 24 Oct 2018 09:00:46 UTC
+Architectures: armhf
+Components: main contrib non-free
+Description: Mechatrax backports archive for Raspbian Stretch
+MD5Sum:
+ 017822802f80e2a0eede150f2467eee2 6265 main/binary-armhf/Packages
+ 1743de9ab6a817ad3f6fec23941cade0 1922 main/binary-armhf/Packages.gz
+ 08d508112ad36fae3cf23b7494b405f3 172 main/binary-armhf/Release
+ 3d99fc8029ff9dbde2eae22304456384 1738 main/source/Sources
+ e526d4c38f27bd4553068c2c37ca04ae 829 main/source/Sources.gz
+ 5ed38e750399af98cd21d5b9eb9550e0 173 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armhf/Packages.gz
+ 639abbea92226cf7a721b9ae8f1e7f10 175 contrib/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
+ 25fa3ace4098aa787694899240da6e1b 176 contrib/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-armhf/Packages.gz
+ 7c5a0cec0451f90636020a0dbe4d3f51 176 non-free/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
+ 0fabb21464021562d3ecd8584662ba62 177 non-free/source/Release
+SHA1:
+ fdc68389219555054f68a40baa276790e70a94b9 6265 main/binary-armhf/Packages
+ 1f08c2d15949a0444806f840294cbb880ebd3a72 1922 main/binary-armhf/Packages.gz
+ 8978815ef94e4c2c762d125bdcaa0e028808bf1a 172 main/binary-armhf/Release
+ 8cb0813291f04dd6add081c58904e6330316e85e 1738 main/source/Sources
+ b9971d65e1049626601d747c07fa6c42111219f5 829 main/source/Sources.gz
+ d227a8d8e1519af3910493619784e36eeaee28b9 173 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armhf/Packages.gz
+ eab7257f3fa4cb31b4e5359e2a5cf4800123e39b 175 contrib/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
+ ab493812e2148dd6769deb470fceef982fafedb2 176 contrib/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-armhf/Packages.gz
+ df44601a91aa955cdf4318a3607726b5480e9b29 176 non-free/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
+ 13b260ba489434f7471ab3680ba899817e9ed725 177 non-free/source/Release
+SHA256:
+ d7414f042e4486fd5fa7f24f1e55dc34365dc87ebce11127c4724b53c9dffeeb 6265 main/binary-armhf/Packages
+ 25771f74a8b567b6fb3eec44a76cab82dbfb8a02d05f2258d74b0a96a6efa0a4 1922 main/binary-armhf/Packages.gz
+ bda04ae5b8c776b9285bd9668670911f4a4a470c98620245c9fc715adecee180 172 main/binary-armhf/Release
+ ee516cf3af35cee1bbdae905da1b3d8abdcfca785298f086ba50fee2fc1d1fb5 1738 main/source/Sources
+ 1332ac56f8d186022a3d5a227de0b8086677e25c06d61759cb3f67f79e65a2fd 829 main/source/Sources.gz
+ 355d98bfc4d374acb2bddc53fcc017235857b346ad67882fac2ad1f1650a6ddf 173 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-armhf/Packages.gz
+ a5196a683d4c8422bbfde1781d01442002f41e7fabce916f939b9683c7be859c 175 contrib/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
+ ad10f1a4d77f55df4ce80aa426b784bce92105aba35fc76ae15e8f434b7d6368 176 contrib/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-armhf/Packages.gz
+ 7326cd1a14d6444ad4a3c1cf85c469ab5d35e51e4f473ebfd34616d16ac04594 176 non-free/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
+ a483ba5351b036c42483d431ed3c2b6d6bb7dae7882e0bea4091470f6af5ebc6 177 non-free/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEszPH+GwgndYPuqRUl1l5EMfcmcgFAlvQNMMACgkQl1l5EMfc
+mch3aggAkVlYEqomjw7BdEAdgF7wqGwxlTGeNM7XdUDAiTYFOxdPpwKYH7nFo1lY
++ZfU5v9Lqk+9jpoeabPCwzf/1VBXU6GBcafUY9KodLIzlrz4+hTbExaEfWNwTcog
+bDXURXY1imRYkaC8FjVUlbVGDsNwXLFdkUibQJ2HGQy/7feSgho67jmwVonk6r74
+MuzW5lrklwww0EXJU0CXIJC3zntWbjdtX5h6/juEmd2vUuNpU9M37j7F+9/By3lj
+U7JVhD6fIuMD5OL/B8dEyEFt+tH7UaroMcBJw3rovZnrciMZuu3fMCzssRkIxDJn
+HWXJd+pnG+/EglC9+G6SKFuZrXAwhA==
+=4tAB
+-----END PGP SIGNATURE-----
