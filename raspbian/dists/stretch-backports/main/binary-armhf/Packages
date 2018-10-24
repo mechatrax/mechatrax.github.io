@@ -1,0 +1,162 @@
+Package: libqmi-glib-dev
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 5303
+Depends: libglib2.0-dev, libqmi-glib5 (= 1.20.0-1.1~bpo9+1)
+Suggests: libqmi-glib-doc
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: optional
+Section: libdevel
+Filename: pool/main/libq/libqmi/libqmi-glib-dev_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 536862
+SHA256: 147fe81349c7515ca8b5966dcfc6c6890043ac40fa217cba6b7e1fa70abc9e73
+SHA1: e8286b3bfb868246615c56e689e508a5b1ed1026
+MD5sum: 8426a8ce99321b0ea75f7f21c5a84052
+Description: Header files for adding QMI support to applications that use glib
+ This package contains the header and pkg-config files for development
+ applications using QMI functionality from applications that use glib.
+
+Package: libqmi-glib-doc
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Architecture: all
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 15202
+Suggests: devhelp
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: optional
+Section: doc
+Filename: pool/main/libq/libqmi/libqmi-glib-doc_1.20.0-1.1~bpo9+1_all.deb
+Size: 430442
+SHA256: 58b9844cebf7edbe3f1917e8f34c9c3e43dbdd5b5bec46291caf135a938160bf
+SHA1: 9e9014be5ff64b1f759d0cbf09028fbbfd9849e2
+MD5sum: f028dd396381d6e2a9f8a7999e1147a7
+Description: API documentation for libqmi-glib
+ This package provides the API documentation for libqmi-glib for adding
+ QMI support to applications that use glib.
+
+Package: libqmi-glib5
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 2130
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libmbim-glib4 (>= 1.14.0), libmbim-proxy
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: optional
+Section: libs
+Filename: pool/main/libq/libqmi/libqmi-glib5_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 396326
+SHA256: a013839e711fc9a187cf4b7f06798a36796047ae7a0c705a4ed7550376a2cd11
+SHA1: 0ea64f0887efbb1f1e92dcf47c7be4e2f22a63bc
+MD5sum: 05c9135280b69d04339303d346936297
+Description: Support library to use the Qualcomm MSM Interface (QMI) protocol
+ Libraries for adding QMI support to applications that use glib.
+
+Package: libqmi-glib5-dbgsym
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 1949
+Depends: libqmi-glib5 (= 1.20.0-1.1~bpo9+1)
+Breaks: libqmi-glib5-dbg (<< 1.14.0-1~)
+Replaces: libqmi-glib5-dbg (<< 1.14.0-1~)
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: extra
+Section: debug
+Filename: pool/main/libq/libqmi/libqmi-glib5-dbgsym_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 1506286
+SHA256: d0fd0da70438070920f69685f9deec7cc0fd977f15ce344bc7c8ba9132f343af
+SHA1: c593d835bb943c082a181a0df37763b7fd5611bc
+MD5sum: da7f1ded557f77a55401cfe26ef97b38
+Description: Debug symbols for libqmi-glib5
+Build-Ids: c13741000d40c1e7470ebe3d30243897c43e97dd
+
+Package: libqmi-proxy
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 26
+Depends: libqmi-glib5 (= 1.20.0-1.1~bpo9+1), libc6 (>= 2.4), libglib2.0-0 (>= 2.36)
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: optional
+Section: net
+Filename: pool/main/libq/libqmi/libqmi-proxy_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 8930
+SHA256: d6707d4d1396702351dcbc7b44d2553d771a46ab03548251a74bc504bb66750e
+SHA1: a0ff54046fbf6ae49ba0711330dc152596841ffe
+MD5sum: 5b8699d52fe4f5dffaddd5a63855dafb
+Description: Proxy to communicate with QMI ports
+ This package contains the binary qmi-proxy used by libqmi to allow multiple
+ clients to use the same QMI port simultaneously.
+
+Package: libqmi-proxy-dbgsym
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 24
+Depends: libqmi-proxy (= 1.20.0-1.1~bpo9+1)
+Breaks: libqmi-glib5-dbg (<< 1.14.0-1~)
+Replaces: libqmi-glib5-dbg (<< 1.14.0-1~)
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: extra
+Section: debug
+Filename: pool/main/libq/libqmi/libqmi-proxy-dbgsym_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 9918
+SHA256: 37ec76d3ab10533da940bdd228e601f6ae5438c5453250b5f656f01c5cb6ef51
+SHA1: 4f3d1ca35d3a6e7637e77f9f36b8bf2834640693
+MD5sum: 1fcff8cc85d8acb89844fa783f7c7ec2
+Description: Debug symbols for libqmi-proxy
+Build-Ids: 3a6ecf65c3caf7e2ba28aceade4bb5983849f4c0
+
+Package: libqmi-utils
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 434
+Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.37.3), libgudev-1.0-0 (>= 146), libmbim-glib4 (>= 1.10.0), libmbim-proxy, libqmi-glib5 (>= 1.20.0), libqmi-proxy
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: optional
+Section: net
+Filename: pool/main/libq/libqmi/libqmi-utils_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 119962
+SHA256: 423bd4c295903e3de1da28de1593698a56ba39657e3dd61dfd8f3706edb27245
+SHA1: b20956ac928ac5be0ea61063bbd975bedcb92076
+MD5sum: ecb8a435787b0d6eaf66c7ede7896cee
+Description: Utilities to use the QMI protocol from the command line
+ This package contains the utilities that make it easier to use QMI
+ functionality from the command line.
+
+Package: libqmi-utils-dbgsym
+Source: libqmi
+Version: 1.20.0-1.1~bpo9+1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Installed-Size: 458
+Depends: libqmi-utils (= 1.20.0-1.1~bpo9+1)
+Breaks: libqmi-glib5-dbg (<< 1.14.0-1~)
+Replaces: libqmi-glib5-dbg (<< 1.14.0-1~)
+Homepage: https://www.freedesktop.org/wiki/Software/libqmi
+Priority: extra
+Section: debug
+Filename: pool/main/libq/libqmi/libqmi-utils-dbgsym_1.20.0-1.1~bpo9+1_armhf.deb
+Size: 336004
+SHA256: e92771de1f9fff2e814e6acdd1c7c202e2c712a6c84a76d3ec2168a555058234
+SHA1: c56eadfa55086a24b7e6fef6a946d2fcc9c8c38f
+MD5sum: 48f1e66e8b8a1fc48de65e60478fc7a6
+Description: Debug symbols for libqmi-utils
+Build-Ids: 49cbbc16114d094fe84b0f0b7fc96068c40b62bc a4f3fe4d7ccc36c3bef63a5dfc6bd052e1d5d2ed
+

@@ -54,6 +54,60 @@ MD5sum: 37aeef2a569f532760e33f4d59465aaa
 Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
+Package: 4gpi-net-mods
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 17
+Depends: raspi-config (>= 20160527)
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.0.0_all.deb
+Size: 2264
+SHA256: 6225158fba4ef957fd9b29f8b2b31ce532b0ebd17c8f1c1ae5e1e929c61ad6ac
+SHA1: 25d361a81f2aaf140d2f4df877a276e7cc68401c
+MD5sum: f7108fd1e6a136ecd1c7b35cb7837656
+Description: Network configuration for 4GPi
+ This package contains network configuration files for 4GPi
+
+Package: 4gpi-networkmanager
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 27
+Depends: python3, python3-gi, python3-pydbus, network-manager (>= 1.6.2), modemmanager (>= 1.6.4), libqmi-glib5 (>= 1.20), raspberrypi-kernel (>= 1.20180910-1) | raspberrypi-kernel-mtx (>= 1.20180910-1), 4gpi-utils
+Conflicts: 4gpi-networkmanager
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_1.0.0_all.deb
+Size: 4814
+SHA256: f189d14b35262bbead525e0c13ad65ee7e51eb2d500e8e89b849bedf1d48d186
+SHA1: 2bfd64bd7f559f238b9f7d23cba12c310044d2eb
+MD5sum: cad77d09f4ff97e891d71cc637507bed
+Description: NetworkManager settings for 4GPi
+ This package contains udev rules and APN settings for using 4GPi with
+ NetworkManager.
+
+Package: 4gpi-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 39
+Depends: ppp
+Suggests: 4gpi-net-mods
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-utils/4gpi-utils_1.0.0_all.deb
+Size: 5716
+SHA256: 43ad75065ac4242b3872f7ed9b5e304e31836486be06aa339bacf2df603ff536
+SHA1: 23ae382df0a9ae7e0124ffa8c24a455bd6e7e0c5
+MD5sum: 5f90aff5a210b03a736b4366f9f8ca1f
+Description: Utilities for 4GPi family
+ This package contains command line utilities to control 4GPi family.
+
 Package: adpi-utils-backend-spidev
 Version: 1.0.0
 Architecture: all
