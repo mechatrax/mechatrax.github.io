@@ -72,7 +72,7 @@ Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
 Package: 4gpi-networkmanager
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 27
@@ -81,11 +81,11 @@ Conflicts: 4gpi-networkmanager
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_1.0.0_all.deb
-Size: 4814
-SHA256: f189d14b35262bbead525e0c13ad65ee7e51eb2d500e8e89b849bedf1d48d186
-SHA1: 2bfd64bd7f559f238b9f7d23cba12c310044d2eb
-MD5sum: cad77d09f4ff97e891d71cc637507bed
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_1.0.1_all.deb
+Size: 4936
+SHA256: ab76e53b2921008eb05c0fc2eb3b17ba06a30dafd91176446e8bd0ad068cb61f
+SHA1: ef6b531d575d985e62b020bc7b6ab4da60a9b502
+MD5sum: a849dc03b377b880158915d094ffbcd0
 Description: NetworkManager settings for 4GPi
  This package contains udev rules and APN settings for using 4GPi with
  NetworkManager.
