@@ -1,17 +1,27 @@
-Raspbian のパッケージを提供しています。  
+Raspbian Stretch では次のいずれかの方法でリポジトリの追加が可能です。
+<br />
 
-Raspbian Stretch でリポジトリを利用するには次の apt-line を追加してください。
+**スクリプトをダウンロードして実行する場合**  
+次のコマンドを実行してください。
+```
+curl https://mechatrax.github.io/setup-stretch.sh | sudo bash
+```
+
+**個別に設定を行う場合**  
+次の手順に従って設定を行ってください。  
+
+1: 次の apt-line を追加してください。
 ```
 deb http://mechatrax.github.io/raspbian/ stretch main contrib non-free
 deb http://mechatrax.github.io/raspbian/ stretch-backports main contrib non-free
 ```
 
-署名鍵のパッケージは次の URL からダウンロードできます。
+2: 署名鍵のパッケージを次の URL からダウンロードしてインストールしてください。
 ```
 http://mechatrax.github.io/raspbian/pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2016.12.19.1_all.deb
 ```
 
-mechatrax-archive-keyring_2016.12.19_all.deb のハッシュは次のとおりです。
+mechatrax-archive-keyring_2016.12.19_all.deb のハッシュは次のとおりです。  
 
 | アルゴリズム | ハッシュ値 |  
 |:--|:--|  
