@@ -356,7 +356,7 @@ Description: Monitoring daemon for slee-Pi 2
  This package contains the daemon to monitor slee-Pi 2.
 
 Package: sleepi2-utils
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 58
@@ -365,11 +365,11 @@ Conflicts: fake-hwclock, sleepi-utils
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi2-utils/sleepi2-utils_1.1.1_all.deb
-Size: 7984
-SHA256: 1c39c4c8b244574753240c81209bd57c3f81eff6da826b32309d7834b2f4d111
-SHA1: 020c9420a307e6c575b620c6882c799a09d7c04e
-MD5sum: a83c8b8f7f77e858993901320e949977
+Filename: pool/main/s/sleepi2-utils/sleepi2-utils_1.1.2_all.deb
+Size: 8072
+SHA256: 6600b4617fb7236120b4f6a76f1d9e0b425b3ed8f12c9a15434056cffd2167ea
+SHA1: 5cd1c325668024779e34741fe3b118bd52f94471
+MD5sum: 4a763c26acc6a14d365681c430caa61c
 Description: Utilities for slee-Pi 2
  This package contains command utilities to control slee-Pi 2.
 
