@@ -280,21 +280,21 @@ Description: Python 3 module for slee-Pi family.
 
 Package: raspberrypi-kernel-headers-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20190709-1~mtx1
+Version: 1.20190718-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 159082
+Installed-Size: 159084
 Breaks: raspberrypi-kernel-headers
 Replaces: raspberrypi-kernel-headers
 Provides: linux-headers, raspberrypi-kernel-headers
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20190709-1~mtx1_armhf.deb
-Size: 8588260
-SHA256: 435b46bc018af093b2ce1a379ff667b1c1196b1fda006703cd0a7e492e5f97de
-SHA1: 3afec04baccb39c19acb3053c646b017cc6c00d8
-MD5sum: 277749a1436dd3e6f526559bee2bc55e
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20190718-1~mtx1_armhf.deb
+Size: 8623640
+SHA256: e10d81e9ef8cc28940c7a29146506cfc962f0decf8f4ed1f72f2e8b347a10fc8
+SHA1: 905e70b8ee5e5e13fcb2fcc417375a4bb95a8116
+MD5sum: 94c8771330c9a98e30ab9794f85bb8a9
 Description: Header files for the Raspberry Pi Linux kernel
  This package provides the architecture-specific kernel header files for
  the Raspberry Pi Linux kernel, generally used for building out-of-tree
@@ -302,21 +302,21 @@ Description: Header files for the Raspberry Pi Linux kernel
 
 Package: raspberrypi-kernel-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20190709-1~mtx1
+Version: 1.20190718-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 184413
+Installed-Size: 184158
 Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Provides: linux-image, raspberrypi-kernel
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20190709-1~mtx1_armhf.deb
-Size: 37648328
-SHA256: 99397975be03df2bf41296602f179641f0d1bd7be3e6275322d58eaffb43b338
-SHA1: dcd37805ac7f67e85967f2e4017dc9336cd20a16
-MD5sum: d563230bd72e1263fde526db62644a47
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20190718-1~mtx1_armhf.deb
+Size: 37653168
+SHA256: 47b5ecf1aaf902cbba1e8c0197ff4c1cf36e889e73c7789bc4f1fa83dde5120f
+SHA1: d793618a14f422ca9dcea8386a99ef36ff5dd524
+MD5sum: adaaa72de428b171893832bc0afbea21
 Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
@@ -356,7 +356,7 @@ Description: Monitoring daemon for slee-Pi 2
  This package contains the daemon to monitor slee-Pi 2.
 
 Package: sleepi2-utils
-Version: 1.1.1
+Version: 1.1.2
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 58
@@ -365,11 +365,11 @@ Conflicts: fake-hwclock, sleepi-utils
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi2-utils/sleepi2-utils_1.1.1_all.deb
-Size: 7984
-SHA256: 1c39c4c8b244574753240c81209bd57c3f81eff6da826b32309d7834b2f4d111
-SHA1: 020c9420a307e6c575b620c6882c799a09d7c04e
-MD5sum: a83c8b8f7f77e858993901320e949977
+Filename: pool/main/s/sleepi2-utils/sleepi2-utils_1.1.2_all.deb
+Size: 8072
+SHA256: 6600b4617fb7236120b4f6a76f1d9e0b425b3ed8f12c9a15434056cffd2167ea
+SHA1: 5cd1c325668024779e34741fe3b118bd52f94471
+MD5sum: 4a763c26acc6a14d365681c430caa61c
 Description: Utilities for slee-Pi 2
  This package contains command utilities to control slee-Pi 2.
 
