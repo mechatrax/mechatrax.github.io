@@ -55,19 +55,19 @@ Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
 Package: 4gpi-net-mods
-Version: 1.0.1
+Version: 1.1.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 17
+Installed-Size: 19
 Depends: raspi-config (>= 20160527)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.0.1_all.deb
-Size: 2460
-SHA256: 2bca7d727d5e9f6121fa3129682a5cc64348cc2eb9aac19a8694aa4a8984de87
-SHA1: 1e576a6f645f4a3058c4640554989aff8ee80b61
-MD5sum: 0bf8c8b7c60ba8ea10d51fe0843e28ad
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.1.0_all.deb
+Size: 2608
+SHA256: 866a5faf7cd6890bae9b4b4c1284e842711accc57a9caceb5792c49f356cba87
+SHA1: e7ea544ac5d354fb84c9c856ba7daf925fc9e60f
+MD5sum: 92ce04fe400ebdd78f69f4909dc759f8
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
@@ -375,15 +375,15 @@ Description: Utilities for slee-Pi 2
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.4.5-1
+Version: 0.4.6-1
 Architecture: armhf
 Priority: optional
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.4.5-1_armhf.deb
-Size: 5146856
-SHA256: 9f5eb925e00886f140cfcd2cc462b72b048b4de8ab9c1b07ae1885830f05d5b7
-SHA1: 45c005ce6350165d6d2e696546660b42cb40a112
-MD5sum: 8d800769d7a4ebfc2d522064c82be572
+Filename: pool/main/s/soracom-cli/soracom-cli_0.4.6-1_armhf.deb
+Size: 5147422
+SHA256: 8973fbfc8d2cfbc3a4e867ef41fdd13699e398b1599b62bfc845d84e5d4c6fed
+SHA1: 7fcc7b2d15b514a4f95b1247b15526c791d41e71
+MD5sum: b2e2fdeeb0071351820154a62b7114a7
 Description: A command line tool soracom to invoke SORACOM API
 Installed-Size: 1
 
