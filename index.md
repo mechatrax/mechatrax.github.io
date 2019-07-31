@@ -22,7 +22,7 @@ deb http://mechatrax.github.io/raspbian/ stretch-backports main contrib non-free
 deb http://mechatrax.github.io/raspbian/ buster main contrib non-free
 ```
 
-2: 署名鍵を追加してください。  
+2: 署名の公開鍵を追加してください。  
 ```
 curl https://mechatrax.github.io/raspbian/mechatrax.gpg.key | sudo apt-key add -
 ```
