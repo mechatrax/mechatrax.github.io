@@ -280,21 +280,21 @@ Description: Python 3 module for slee-Pi family.
 
 Package: raspberrypi-kernel-headers-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20190819-1~mtx1
+Version: 1.20190925-2~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 159115
+Installed-Size: 208681
 Breaks: raspberrypi-kernel-headers
 Replaces: raspberrypi-kernel-headers
 Provides: linux-headers, raspberrypi-kernel-headers
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20190819-1~mtx1_armhf.deb
-Size: 8621812
-SHA256: 77ef5aefaa5070a8fb843eb68a5caed85b9a1ae29650906823877eb2242d4f2e
-SHA1: 4cc937c7d23f5f7b034391101158bcf4800ac54a
-MD5sum: c1a730b9f9a24187ccb2e3b66ae66ef4
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20190925-2~mtx1_armhf.deb
+Size: 32820860
+SHA256: 9ca7d9e6cc09cc074e1389b7649e4a15f6b67dcea7867b5e7c62f86ba7e93d53
+SHA1: 74fbdce40f855ff730580604bc760072e5379619
+MD5sum: a137c2d5b000cd24486d5ea825e62fa2
 Description: Header files for the Raspberry Pi Linux kernel
  This package provides the architecture-specific kernel header files for
  the Raspberry Pi Linux kernel, generally used for building out-of-tree
@@ -302,21 +302,21 @@ Description: Header files for the Raspberry Pi Linux kernel
 
 Package: raspberrypi-kernel-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20190819-1~mtx1
+Version: 1.20190925-2~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 184525
+Installed-Size: 275380
 Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Provides: linux-image, raspberrypi-kernel
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20190819-1~mtx1_armhf.deb
-Size: 37749288
-SHA256: 1a75abea4e4f655c21b422bac1dbd7f2b5ae7426993138fdf244e51bb58414c3
-SHA1: 434855b2ccc0ef4d4cdb079cb4bf8ee45ad3a6fe
-MD5sum: d2727528b321db334c1a7a2907bfda3c
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20190925-2~mtx1_armhf.deb
+Size: 71107780
+SHA256: d074f24d4477360275bf0a53f0e1a2887144a6d2673e467bb28dff842a12656a
+SHA1: ae3785d40f9d4872deca3daf44fd934d59c1b750
+MD5sum: 3c236ca84cdc4027e8d0bcebb6738915
 Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
@@ -375,15 +375,15 @@ Description: Utilities for slee-Pi 2
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.4.7-1
+Version: 0.5.0-1
 Architecture: armhf
 Priority: optional
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.4.7-1_armhf.deb
-Size: 5146886
-SHA256: 1b08164201097e44ef667dd2164561ef74da85edb5fdeaaefcea87027fe36867
-SHA1: 7ef5763fa6d65e122f068f24d349505cce1dfd31
-MD5sum: a632e39cb55e910f6a330f725c90584b
+Filename: pool/main/s/soracom-cli/soracom-cli_0.5.0-1_armhf.deb
+Size: 5163452
+SHA256: a1fd5b52a551e5e62bdad5fb3b6748f8dcdfccbacf33ce1fe0c7bb15d677f1da
+SHA1: 38441665711d45aded36963fa499e5b2aee96b65
+MD5sum: 2de191c0291bd821d955a88d456f605e
 Description: A command line tool soracom to invoke SORACOM API
 Installed-Size: 1
 
