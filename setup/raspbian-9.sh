@@ -2,11 +2,11 @@
 
 set -eu
 
-TMPDIR=$(mktemp -d /tmp/io.github.mechatrax.raspbian.stretch.setup.XXXXXXX)
 REPO=http://mechatrax.github.io/raspbian/
 DIST=stretch
 DEB=mechatrax-archive-keyring_2016.12.19.1_all.deb
 SHA256=2a7039dc91e0c6f768ccc3fc1b1cdfd9af04cf9eb45b77a065e457cec8570e83
+TMPDIR=$(mktemp -d /tmp/io.github.mechatrax.raspbian.${DIST}.setup.XXXXXXX)
 
 pushd $TMPDIR
 echo "$SHA256 $DEB" > sha256.txt
