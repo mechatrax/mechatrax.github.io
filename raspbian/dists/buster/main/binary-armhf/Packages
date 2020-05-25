@@ -55,7 +55,7 @@ Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
 Package: 4gpi-net-mods
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 19
@@ -63,16 +63,16 @@ Depends: raspi-config (>= 20160527)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.2.0_all.deb
-Size: 2684
-SHA256: 599481ec821a90a14175c35c6a297b295cd76fce4d1766e688a43ea45fcca416
-SHA1: f078cc5fbdce32aae567cc3461b094e10fc85515
-MD5sum: ae5a96b220de6ca927f3a14644c5c9eb
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.3.0_all.deb
+Size: 2740
+SHA256: 57987deeec6828499ffbe423bb5703f0d4adaaa23c83218003209a5330cb0c6d
+SHA1: 01d15e55e4ba505a87e8104e1a0604c8fa6fe2b1
+MD5sum: e99032a98d9cdf2a2a3dcd10f327c280
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
 Package: 4gpi-networkmanager
-Version: 2.1.0
+Version: 2.2.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 34
@@ -81,17 +81,17 @@ Conflicts: 4gpi-networkmanager
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.1.0_all.deb
-Size: 6184
-SHA256: 480e3e8959811f758794a32762f8d30f8cf2ea836861be38bb453cb62daf0872
-SHA1: f97d4ed2fa0a0f8f69b95af49aadeb981eb48101
-MD5sum: 0d54dfc4605f8e4b033104cfaa66662c
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.2.0_all.deb
+Size: 6272
+SHA256: ce6f082b4355cf26296388d25e13626ae6b8c7ff0dc872e2c8e4c3daa1962b15
+SHA1: 6159a77ccb1db5faba8123f243b2567e4174edbc
+MD5sum: dd3046688b9a95200d9197bb2541af6b
 Description: NetworkManager settings and helper tools for 4GPi
  This package contains udev rules and helper tools for using 4GPi with
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 43
@@ -100,11 +100,11 @@ Suggests: 4gpi-net-mods
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_1.1.0_all.deb
-Size: 6448
-SHA256: 25ad8ce979afb519e44a43822bfdee3afbf1e022cc8714d17ad40ee806b0126e
-SHA1: 8918d93d130e574c49cd00fae09c744d7defad00
-MD5sum: 663227469894003f3d98b6be6a309df2
+Filename: pool/main/4/4gpi-utils/4gpi-utils_1.2.0_all.deb
+Size: 6508
+SHA256: eef642ba2393b996f1584a6daf3f45f829e5c25ec347e65ef50d59799c83fec7
+SHA1: 977e9f1ef77947a13f5bdf466f836d6ac87fafc7
+MD5sum: 2ff8025b144ae97218dcec9ff7b76412
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
