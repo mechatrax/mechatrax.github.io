@@ -55,7 +55,7 @@ Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
 Package: 4gpi-net-mods
-Version: 1.2.0
+Version: 1.3.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 19
@@ -63,16 +63,16 @@ Depends: raspi-config (>= 20160527)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.2.0_all.deb
-Size: 2684
-SHA256: 599481ec821a90a14175c35c6a297b295cd76fce4d1766e688a43ea45fcca416
-SHA1: f078cc5fbdce32aae567cc3461b094e10fc85515
-MD5sum: ae5a96b220de6ca927f3a14644c5c9eb
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.3.0_all.deb
+Size: 2740
+SHA256: 57987deeec6828499ffbe423bb5703f0d4adaaa23c83218003209a5330cb0c6d
+SHA1: 01d15e55e4ba505a87e8104e1a0604c8fa6fe2b1
+MD5sum: e99032a98d9cdf2a2a3dcd10f327c280
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
 Package: 4gpi-networkmanager
-Version: 2.1.0
+Version: 2.2.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 34
@@ -81,17 +81,17 @@ Conflicts: 4gpi-networkmanager
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.1.0_all.deb
-Size: 6184
-SHA256: 480e3e8959811f758794a32762f8d30f8cf2ea836861be38bb453cb62daf0872
-SHA1: f97d4ed2fa0a0f8f69b95af49aadeb981eb48101
-MD5sum: 0d54dfc4605f8e4b033104cfaa66662c
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.2.0_all.deb
+Size: 6272
+SHA256: ce6f082b4355cf26296388d25e13626ae6b8c7ff0dc872e2c8e4c3daa1962b15
+SHA1: 6159a77ccb1db5faba8123f243b2567e4174edbc
+MD5sum: dd3046688b9a95200d9197bb2541af6b
 Description: NetworkManager settings and helper tools for 4GPi
  This package contains udev rules and helper tools for using 4GPi with
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 43
@@ -100,11 +100,11 @@ Suggests: 4gpi-net-mods
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_1.1.0_all.deb
-Size: 6448
-SHA256: 25ad8ce979afb519e44a43822bfdee3afbf1e022cc8714d17ad40ee806b0126e
-SHA1: 8918d93d130e574c49cd00fae09c744d7defad00
-MD5sum: 663227469894003f3d98b6be6a309df2
+Filename: pool/main/4/4gpi-utils/4gpi-utils_1.2.0_all.deb
+Size: 6508
+SHA256: eef642ba2393b996f1584a6daf3f45f829e5c25ec347e65ef50d59799c83fec7
+SHA1: 977e9f1ef77947a13f5bdf466f836d6ac87fafc7
+MD5sum: 2ff8025b144ae97218dcec9ff7b76412
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
@@ -280,21 +280,21 @@ Description: Python 3 module for slee-Pi family.
 
 Package: raspberrypi-kernel-headers-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20200212-1~mtx1
+Version: 1.20200512-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 208830
+Installed-Size: 208913
 Breaks: raspberrypi-kernel-headers
 Replaces: raspberrypi-kernel-headers
 Provides: linux-headers, raspberrypi-kernel-headers
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20200212-1~mtx1_armhf.deb
-Size: 32832604
-SHA256: 4d9b658495d24defe55b78539265bcdd94f031068567529b7c00ce09f0406dc6
-SHA1: ed3c00373c1bf1c72f46777a5bdbcfaa9fa20054
-MD5sum: 653f4bd37418d2f02575b8b72dc65541
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20200512-1~mtx1_armhf.deb
+Size: 32858492
+SHA256: 08bf0bd947f5df69f3bc03e8d1642a21dfc748e50b5c3fb24054bd3906c9b3af
+SHA1: b4428dffadc582fc6bb7f3290f298985125d5a92
+MD5sum: ae69ee12b6e3af86d18c7da778effc06
 Description: Header files for the Raspberry Pi Linux kernel
  This package provides the architecture-specific kernel header files for
  the Raspberry Pi Linux kernel, generally used for building out-of-tree
@@ -302,21 +302,21 @@ Description: Header files for the Raspberry Pi Linux kernel
 
 Package: raspberrypi-kernel-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20200212-1~mtx1
+Version: 1.20200512-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 278177
+Installed-Size: 278746
 Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Provides: linux-image, raspberrypi-kernel
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20200212-1~mtx1_armhf.deb
-Size: 71896436
-SHA256: 71470d34aaa3e0ffd9d499c71e1855ce66118ba609f98dda81f5ddfc157a0591
-SHA1: 58d622eb66cef942490c48e790f4c6f82cab9feb
-MD5sum: 2902f8d292fb94ba27ee31142d5cba61
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20200512-1~mtx1_armhf.deb
+Size: 72172832
+SHA256: c7fba2113efa691a72c2712074b3e01e3d51f1375b55b70838414e7e9d4dd0f4
+SHA1: 6aa047fd79e2f193ebc53901ca2e6808fe70b6f3
+MD5sum: f99dd84516ae42152dc7569d55233e31
 Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
@@ -375,15 +375,15 @@ Description: Utilities for slee-Pi 2
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.5.3-1
+Version: 0.5.4-1
 Architecture: armhf
 Priority: optional
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.5.3-1_armhf.deb
-Size: 5172098
-SHA256: f0bf5e090103b645feecf7efc8f3a9a51b2f052391115d00ce130f6a0ad16fa8
-SHA1: 6eed9f621f809e1e2045ad48e8f4448613cab32f
-MD5sum: c40eba0bf732332171216bb0f339309c
+Filename: pool/main/s/soracom-cli/soracom-cli_0.5.4-1_armhf.deb
+Size: 5234042
+SHA256: 6b0a790dc1677e8c93ebec70c6ca295b1ce0760f2493e9fcdb25245e8beb23fd
+SHA1: 918ef6d7f7b1553f5d57d66706cde8af05b4853c
+MD5sum: 3cadf71636d7e4fbc05ebeb4db59fd24
 Description: A command line tool soracom to invoke SORACOM API
 Installed-Size: 1
 
