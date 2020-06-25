@@ -72,20 +72,20 @@ Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
 Package: 4gpi-networkmanager
-Version: 2.3.0
+Version: 2.3.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 38
+Installed-Size: 37
 Depends: python3, python3-gi, python3-dbus, network-manager (>= 1.14), modemmanager (>= 1.10), raspberrypi-kernel (>= 1.20180910-1) | raspberrypi-kernel-mtx (>= 1.20180910-1), 4gpi-utils
 Conflicts: 4gpi-networkmanager
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.3.0_all.deb
-Size: 6432
-SHA256: 773066895b42ec3c6cd448ba6299e0fa59852df930ebee540a860924bb138eb8
-SHA1: d03d700e3dd5c5da0aa1fae232261cf9985ffa4d
-MD5sum: e6209a97db08193674c0398b814ef1c3
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_2.3.1_all.deb
+Size: 6476
+SHA256: 3541202c3179b784f87cd28b07a6e8b28387edcfb25d4c909eacd4ed61ebc4f7
+SHA1: 76375ec1e7a4bcf71e5d9341b1aedd99d9230b3f
+MD5sum: 14fd71706684f9d9d8cd4d9a0b83e478
 Description: NetworkManager settings and helper tools for 4GPi
  This package contains udev rules and helper tools for using 4GPi with
  NetworkManager.
