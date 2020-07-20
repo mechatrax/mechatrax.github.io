@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: python-sleepi
 Binary: python-sleepi, python3-sleepi
 Architecture: all
-Version: 1.0.3
+Version: 1.1.0.1
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://www.mechatrax.com/
 Standards-Version: 4.3.0
@@ -16,20 +16,20 @@ Package-List:
  python-sleepi deb python optional arch=all
  python3-sleepi deb python optional arch=all
 Checksums-Sha1:
- 195f28d705ae2c7573fadc48c4dc23fdadd6b35a 3792 python-sleepi_1.0.3.tar.xz
+ 34524a5fea835bf3964a51b071745bf04350b0da 3956 python-sleepi_1.1.0.1.tar.xz
 Checksums-Sha256:
- bb1fabeef00bae6979496fef89bace9baf306d930ba36a3937101bc0fb25e58d 3792 python-sleepi_1.0.3.tar.xz
+ 8b4a06f1bc34e031632fe205b98d4e9dbc33059a6d9d3896c7ef441a5c434814 3956 python-sleepi_1.1.0.1.tar.xz
 Files:
- 385e4f004246b61c882d13b34a0b9f9f 3792 python-sleepi_1.0.3.tar.xz
+ 2ca5d5a399b96adaac68a2ed0e33fd8b 3956 python-sleepi_1.1.0.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAEBCgAyFiEE81j0+exzGNM8AStlzt4RkpzTZaIFAl0lTQUUHGhvbmRhQG1l
-Y2hhdHJheC5jb20ACgkQzt4RkpzTZaJF+Qf/XtEf4wQKgRTDLDurLffnOZUJDVww
-BR7F7/P+l/Ovx7/90Q9yMu9v09csQfRubsLwWuQeiMQ6udla82syEf0APJIdwACN
-xEqQUJ6vLeNl88jldBGuIktzRx2tEUejgZPUjjIwMc+ClxYlWolDNY6q03TJ/ALR
-MkrWnFtKONNCEaFOTBWV0ImpJQK1atf6mW9Z0dKipSpxjEiTM+yyxwuPEj/IByyb
-3bf2U5MwxpPIfE3Yn2kziy0BmApyPwOM94LLFIE1PnbfQcSgUPYLu+vi9PgifK7q
-+WKh+gmJ0HHcVwrXSxCoTflHoD5iy8j6vQt58DN6O6KrJhFC+bs+jbIKHw==
-=oVkY
+iQFIBAEBCgAyFiEE81j0+exzGNM8AStlzt4RkpzTZaIFAl8VdCMUHGhvbmRhQG1l
+Y2hhdHJheC5jb20ACgkQzt4RkpzTZaLMkwf+LWQtDEDyhOIMukNpxq07R24ROBeh
+KXKc+caCGdTdUUIGwD1aRXJgiy5RXdpbQE/+4DgVYd1XcBDFD/Oxi79Ja+JeM05j
+nfLHxC5Tj3AknCDoA3RjsJtgYlxAoq/anxU71n/mzFGlv8b2hQIW7+VjHALmetbx
+vv3L6MptfpFoiTGOJSE2LwDPRSOGU75P+wxt9N6S4ZWbclBTwWfXH6pswbnetuYh
+UAVh5v0fUvwB9ppYvaVCz6OXK/OFQwcR77HHKNHUs5MC7BIqIa0l76IywLxT0iv1
+jh1bHtlWFXb77g+jc48DjRoLADvFIbMkmffe+nlQInJvSmskyNybweA/9w==
+=6Dvx
 -----END PGP SIGNATURE-----

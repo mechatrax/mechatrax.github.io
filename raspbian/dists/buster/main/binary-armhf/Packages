@@ -220,19 +220,19 @@ Description: Python module for ADPi family.
  This package installs the library for Python 2.
 
 Package: python-sleepi
-Version: 1.0.3
+Version: 1.1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 27
+Installed-Size: 29
 Depends: python:any (<< 2.8), python:any (>= 2.7~), python-smbus
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-sleepi/python-sleepi_1.0.3_all.deb
-Size: 4192
-SHA256: bbddb0b684fc101dbc90fd45a30aeac90f13771823abdeb7276002909bd6447e
-SHA1: 4fef3d3864770d1c6c50b47eda58ec2f71687cc1
-MD5sum: 2e4d522c10869875a2f13566dfbc3331
+Filename: pool/main/p/python-sleepi/python-sleepi_1.1.0.1_all.deb
+Size: 4372
+SHA256: 03bfa1dae7cf1550dc4554165cb414ba5dc7b15a4dcfbba721f3d12abff939eb
+SHA1: 905e2a1a6fde8d0dd932ebd1dd3e73f8009aaa51
+MD5sum: 6fc0e0d9edd2670de0712f09ee54d753
 Description: Python module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
@@ -260,19 +260,19 @@ Description: Python 3 module for ADPi family.
 
 Package: python3-sleepi
 Source: python-sleepi
-Version: 1.0.3
+Version: 1.1.0.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 27
+Installed-Size: 29
 Depends: python3:any, python3-smbus
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-sleepi/python3-sleepi_1.0.3_all.deb
-Size: 4280
-SHA256: fb1af21bb8566f6ea10651e08ce7c0d382298c1a9e28feb9c30019f29a80a89c
-SHA1: 48ac36535d24e3e5d5b9432e9dafaa3e8fafd7c3
-MD5sum: 2b0a09ed13bdbcb2bcabf7b7452aec1c
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.1.0.1_all.deb
+Size: 4464
+SHA256: e5f4f948744e0681bb47955b41f7c80df52e227aa54f69d2bd54137d3fed852f
+SHA1: 417d000df9febd47e1da5631159a67a3f2bd556e
+MD5sum: b6e44b4b47cf24a68c6ddedd2999b6a8
 Description: Python 3 module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
@@ -372,6 +372,59 @@ SHA1: 5cd1c325668024779e34741fe3b118bd52f94471
 MD5sum: 4a763c26acc6a14d365681c430caa61c
 Description: Utilities for slee-Pi 2
  This package contains command utilities to control slee-Pi 2.
+
+Package: sleepi3-firmware
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 17
+Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20150506-1), raspi-config (>= 20150506)
+Conflicts: sleepi-firmware, sleepi2-firmware
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.0_armhf.deb
+Size: 3384
+SHA256: 50cfbd1f66b0d8a9836282de5b66f783132c6c4c3e34746ed3f5d260622bc7e5
+SHA1: 0be40cfa42c150247f747411ad4cc8b573d33a4c
+MD5sum: 49d7afed96f63ef59db8f6338a7f79d3
+Description: Device tree overlay binary for slee-Pi 3
+ This package contains the device tree overlay binary for slee-Pi 3.
+
+Package: sleepi3-monitor
+Version: 1.0.1
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 41
+Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_1.0.1_all.deb
+Size: 5384
+SHA256: 1ca5061f3acc8858bd052c19d56103c66990b43006ee62d14e75545916664361
+SHA1: a162ea5b64c2632c75be3a3285c793f4179a0e0a
+MD5sum: 24cc3d42f8d6c3e24d5679f51f4c38d4
+Description: Monitoring daemon for slee-Pi 3
+ This package contains the daemon to monitor slee-Pi 3.
+
+Package: sleepi3-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 60
+Depends: sleepi3-firmware, python3-sleepi (>= 1.1.0), python3
+Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
+Homepage: https://www.mechatrax.com/
+Priority: optional
+Section: admin
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.0_all.deb
+Size: 8008
+SHA256: 57745e36475616ac7ed17105d18a4a78273fe15b8ab7963005facbea94cd5df5
+SHA1: 1ab70170a53214dce063ab56b47426981716d7c1
+MD5sum: ff77308ffb255de4c3a0571456a7dcc4
+Description: Utilities for slee-Pi 3
+ This package contains command utilities to control slee-Pi 3.
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
