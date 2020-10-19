@@ -91,20 +91,20 @@ Description: NetworkManager settings and helper tools for 4GPi
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 1.2.0
+Version: 2.0.0
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 43
-Depends: ppp
+Installed-Size: 41
+Depends: ppp, gpiod
 Suggests: 4gpi-net-mods
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_1.2.0_all.deb
-Size: 6508
-SHA256: eef642ba2393b996f1584a6daf3f45f829e5c25ec347e65ef50d59799c83fec7
-SHA1: 977e9f1ef77947a13f5bdf466f836d6ac87fafc7
-MD5sum: 2ff8025b144ae97218dcec9ff7b76412
+Filename: pool/main/4/4gpi-utils/4gpi-utils_2.0.0_all.deb
+Size: 6228
+SHA256: 8634de88ea050153ce21a27ce880b1db1641a03125c630cf3e751592c9d74a4b
+SHA1: d5385e69f109042184f0451ee38fff7e85f9de0a
+MD5sum: 519a30f26c04e7a210c52afc623e8518
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
