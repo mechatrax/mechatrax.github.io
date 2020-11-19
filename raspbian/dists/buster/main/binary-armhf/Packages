@@ -392,7 +392,7 @@ Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
 Package: sleepi3-monitor
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 45
@@ -400,11 +400,11 @@ Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_1.3.0_all.deb
-Size: 5860
-SHA256: 3d2cc0eff61d982bf09723c3152bbd17a80f8eaa898b8acafd84d09d90d5d8cd
-SHA1: c1d4cb394aec812cb424865fbcde5e506d6d8a92
-MD5sum: 522c189823ca36ca695002e3d3480f50
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_1.3.1_all.deb
+Size: 5892
+SHA256: 817fa3d700182a06cc8d489d21054cee49ffae86a120b0a0c781e8652912f163
+SHA1: d3ada61321e8516773ef01889186f2c0a36738c5
+MD5sum: c121eb3d87718c8f5274a6543158bbe4
 Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
