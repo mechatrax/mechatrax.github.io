@@ -280,21 +280,21 @@ Description: Python 3 module for slee-Pi family.
 
 Package: raspberrypi-kernel-headers-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20201022-1~mtx1
+Version: 1.20201126-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 219449
+Installed-Size: 219511
 Breaks: raspberrypi-kernel-headers
 Replaces: raspberrypi-kernel-headers
 Provides: linux-headers, raspberrypi-kernel-headers
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20201022-1~mtx1_armhf.deb
-Size: 34742396
-SHA256: 2ab9d7b6e0c26c8db8b3407a8996dada6448493e368eec6cbe5743c2233a2c46
-SHA1: 781178f0a9ac5298ed3527708f0c25205d846403
-MD5sum: b7ac2bda1a35fc5425c6a6c2f56991f8
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20201126-1~mtx1_armhf.deb
+Size: 34757016
+SHA256: 870bdc8ef451612a96a09129c9eeb888f0b38c2c5992bb49abc960c2e4439b97
+SHA1: e3585deceab540d932913275b686c46a643899f5
+MD5sum: 3bf6b71864a597ab9ca209cbdb4a6831
 Description: Header files for the Raspberry Pi Linux kernel
  This package provides the architecture-specific kernel header files for
  the Raspberry Pi Linux kernel, generally used for building out-of-tree
@@ -302,21 +302,21 @@ Description: Header files for the Raspberry Pi Linux kernel
 
 Package: raspberrypi-kernel-mtx
 Source: raspberrypi-firmware-mtx
-Version: 1.20201022-1~mtx1
+Version: 1.20201126-1~mtx1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 282137
+Installed-Size: 282730
 Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
 Provides: linux-image, raspberrypi-kernel
 Homepage: https://github.com/raspberrypi/firmware
 Priority: extra
 Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20201022-1~mtx1_armhf.deb
-Size: 74623664
-SHA256: a85d61fcb4e4cde6d658d639fb2f052601d964e0315685ddf23d9b7ffe0cbdc9
-SHA1: 6a6b4bd971644757bd7f9b4e8535c68253c2dae0
-MD5sum: 9a102c65f34fa56fb9be2d7fe0ebacb0
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20201126-1~mtx1_armhf.deb
+Size: 74719972
+SHA256: ef82e5d1ffa9e055394b96899319d243ef46839ff4ea769d97c1dee66f826e33
+SHA1: 6414c6fb753aa509947b19525e1a53b9b905ddfb
+MD5sum: 3e1eaa28fdf7fa269ce0e3b6d0ac1525
 Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
