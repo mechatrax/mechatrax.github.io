@@ -428,15 +428,15 @@ Description: Utilities for slee-Pi 3
 
 Package: soracom-cli
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.6.1-1
+Version: 0.6.2-1
 Architecture: armhf
 Priority: optional
 Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.6.1-1_armhf.deb
-Size: 5343444
-SHA256: 5d68af43fd93464532798921c0839d6f51d6f02ec1732f18cbfa50d2a5ff69af
-SHA1: e5a5e7bc7f025216f2447e83764734cf54bc5708
-MD5sum: 090f4bf3dfb5d3dcd4b461e42c1b6a53
+Filename: pool/main/s/soracom-cli/soracom-cli_0.6.2-1_armhf.deb
+Size: 5379558
+SHA256: 94af1efd44583f9bbee53a3982dd7b18209a89334dc98805a3daaa32c8151bd2
+SHA1: d327bd9fed5fa97b76de4ab5b7678b025aa6e210
+MD5sum: 78406e68273aaf18541cc2f37c420f6d
 Description: A command line tool soracom to invoke SORACOM API
-Installed-Size: 1
+Installed-Size: 11826
 
