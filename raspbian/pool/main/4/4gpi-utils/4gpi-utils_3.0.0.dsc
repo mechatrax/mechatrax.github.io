@@ -15,20 +15,20 @@ Build-Depends: debhelper (>= 12), bash-completion
 Package-List:
  4gpi-utils deb net optional arch=all
 Checksums-Sha1:
- 362f49bc3719f57077c951f80f54c4ccd01ff6ce 6596 4gpi-utils_3.0.0.tar.xz
+ 9cc9569da00f1947f9b37420bb89d9af53d185c4 6596 4gpi-utils_3.0.0.tar.xz
 Checksums-Sha256:
- 5a97cd7c16b292ac81971bf6b64f1a5533d6e9332506694f84d66cf675d02289 6596 4gpi-utils_3.0.0.tar.xz
+ 3b10433d8defbf49345e43b4ae87b85937e51a3fafbabfb9a210c1812dcb6733 6596 4gpi-utils_3.0.0.tar.xz
 Files:
- b6a4bf0a81ef3068b2d82f850a013fdf 6596 4gpi-utils_3.0.0.tar.xz
+ b3fe4b1b3eb60816a5cc98b30190152e 6596 4gpi-utils_3.0.0.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAEBCgAyFiEE81j0+exzGNM8AStlzt4RkpzTZaIFAmBQXz4UHGhvbmRhQG1l
-Y2hhdHJheC5jb20ACgkQzt4RkpzTZaI3nAf/UZkm8w8YGItd/GCv8TBnYxBi10U+
-1/rLm6QiEDMDa2I+WrYuqz90MXPshSwShuQZZERd6hWbQ6Bq6Gkrnspux3vJ6cpU
-VmqpV5I5QbnvuzZyNon/9dv47C6DL0K46376WWackHJ05mJZq83KfBJAXwEL9rJY
-5gpQ2bjCEcFOx0cr1dpjllq6z61BFLtPTaBhD62rq6GY4D/oJcuX6alCJzu9er42
-VBZPGJym7+IC9w2v1fialUbY41L4GyJVFDKFta6GNN06BuPSjjdUVLqUKa/VQI6D
-aWIdFMKGe4fmaaHvIb5BN6NY/n5KR3q5OlSGoZ5di2KbGdyzTFCj3Otz2g==
-=xMVJ
+iQFHBAEBCgAyFiEE81j0+exzGNM8AStlzt4RkpzTZaIFAmBQaLIUHGhvbmRhQG1l
+Y2hhdHJheC5jb20ACgkQzt4RkpzTZaIQSgfzBI+kk5jT4d2zBwQqiaV2VzXJEnD8
+7WjjBEYFLnJn4U0zhQWrIWUzXcz3zBvYayEWDjff0mSoJ2Qvq6Q3BSRnOEwLnfMx
+g4hw2MfTQ/yjljRx+PYxUT/OWBNEDSv065Jf84BUraQbiknlu0QDQYGwHEEzla7k
+OyldQzNz5WWWLdaih6TIU++ETDhecm2M3I2o9buwPKozigX6+SfneW40o58XHmYZ
+1PULApzYOG+yAe8yivsjTNyy6lutIwFJnj1KSm5zfAPjBiyTGkhDT++nUopduYeE
+WE7PQlXolQwwmvDXpZkQfxZkxd3JQeWCEb0pmQ1nslkFsPvBMofib7UE
+=q4H9
 -----END PGP SIGNATURE-----

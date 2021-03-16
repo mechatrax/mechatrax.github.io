@@ -101,10 +101,10 @@ Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
 Filename: pool/main/4/4gpi-utils/4gpi-utils_3.0.0_all.deb
-Size: 6564
-SHA256: 4a738c403ff7aaeb3573a616572fbcfd90a5339edcdb76a239b30fa73d15550c
-SHA1: 113d41d718a3a79a1c1e60dc6487c1b72f07b154
-MD5sum: 959a9a8cd152338f966f0e77b0ad9f96
+Size: 6572
+SHA256: a2d5488bccb8396b9541efb11d958c75a131247f81e7372979d22a7a660ec98d
+SHA1: 45a89521d4e548e4807899ba691c2ae156341169
+MD5sum: 0ac54e4002746461430697e43c64c59c
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
