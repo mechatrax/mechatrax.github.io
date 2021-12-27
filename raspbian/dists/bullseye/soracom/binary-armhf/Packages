@@ -1,0 +1,14 @@
+Package: soracom
+Installed-Size: 11501
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Architecture: armhf
+Version: 0.10.4-1
+Priority: optional
+Section: net
+Filename: pool/soracom/s/soracom/soracom_0.10.4-1_armhf.deb
+Size: 4414876
+SHA256: 7b9699ee95369be2ead053af22872acf3fac324d60a73c9148f91cff3b2dfa77
+SHA1: 867c7c31ed1d79c2153d9a959bfc9a7d44f1ab3d
+MD5sum: 8d6fa04cbd1383c496359deb58b01d5c
+Description: A command line tool soracom to invoke SORACOM API
+
