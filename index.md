@@ -1,4 +1,4 @@
-Raspbian Stretch または Buster では次のいずれかの方法でリポジトリの追加が可能です。
+Raspberry Pi OS (Raspbian) Buster または Bullseye では次のいずれかの方法でリポジトリの追加が可能です。
 <br />
 
 **スクリプトをダウンロードして実行する場合**  
