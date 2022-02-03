@@ -245,7 +245,7 @@ Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
 Package: sleepi3-monitor
-Version: 2.0.0
+Version: 2.1.0
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 43
@@ -253,16 +253,16 @@ Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.0.0_all.deb
-Size: 5960
-SHA256: 869c024de1867b09df5d3525434281e651a721deefd6867a1637129efed8e874
-SHA1: 8ce1a8e038d9a0933505360c7495ad421ddf9f91
-MD5sum: 6740e0a3dc7e15a7efc20de30e8b2725
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.1.0_all.deb
+Size: 5996
+SHA256: 559c5fcbebd98de3383ae81bf0b127c6d9fcf2dbe289824d41896b4b618cf79b
+SHA1: 2aca203d1bd516424628483196514a6b1ff26887
+MD5sum: 3c763c47be04a36498158041a07066e0
 Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.3
+Version: 1.0.4
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 60
@@ -271,11 +271,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.3_all.deb
-Size: 8160
-SHA256: 981ca55edf06803c857815b6d1f14a069fc5797e5a1ad369d115ecd3871a8990
-SHA1: 681c740138e8e6af3165fccd43811bdbad3ad2e4
-MD5sum: 1ccb2e340be3149d528d1359cc382b65
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.4_all.deb
+Size: 8228
+SHA256: 42c8eb1ca0c99bfb9ca6ff55ce4b2d3b3f12b8d9ac3771da2279599844896dfb
+SHA1: 6c3f7ba7a1ec83c4a4ce1a480306bb61010fe6d7
+MD5sum: 91e52c4ca280a2e56f050d32819a27c8
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
