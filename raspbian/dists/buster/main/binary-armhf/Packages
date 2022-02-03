@@ -278,48 +278,6 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
-Package: raspberrypi-kernel-headers-mtx
-Source: raspberrypi-firmware-mtx
-Version: 1.20211029-1~mtx1
-Architecture: armhf
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 232174
-Breaks: raspberrypi-kernel-headers
-Replaces: raspberrypi-kernel-headers
-Provides: linux-headers, raspberrypi-kernel-headers
-Homepage: https://github.com/raspberrypi/firmware
-Priority: optional
-Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20211029-1~mtx1_armhf.deb
-Size: 36610488
-SHA256: c00295c5d40c86bb2753c432570b592b5898990b0dfa168ddf908b63b4e63ebc
-SHA1: 4d03b16d2f3995147fc4348a12f0e391a9a7b806
-MD5sum: 782b3b40418ebb40c16733979292bf63
-Description: Header files for the Raspberry Pi Linux kernel
- This package provides the architecture-specific kernel header files for
- the Raspberry Pi Linux kernel, generally used for building out-of-tree
- kernel modules.
-
-Package: raspberrypi-kernel-mtx
-Source: raspberrypi-firmware-mtx
-Version: 1.20211029-1~mtx1
-Architecture: armhf
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 296748
-Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
-Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
-Provides: linux-image, raspberrypi-kernel, wireguard-modules (= 1.0.0)
-Homepage: https://github.com/raspberrypi/firmware
-Priority: optional
-Section: kernel
-Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20211029-1~mtx1_armhf.deb
-Size: 78228816
-SHA256: a1e58b16ba2c3a40024310800c08a01581faabb466a08209c64340d6744467bf
-SHA1: 116011a09ac1ac8ef67993e82aa63e8811b20f8c
-MD5sum: 5eceec4ed8656f71245b4ac15ba46781
-Description: Raspberry Pi bootloader
- This package contains the Raspberry Pi Linux kernel.
-
 Package: sleepi2-firmware
 Version: 1.1.4
 Architecture: armhf
@@ -392,24 +350,24 @@ Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
 Package: sleepi3-monitor
-Version: 1.3.1
+Version: 2.1.0~buster1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 45
+Installed-Size: 43
 Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_1.3.1_all.deb
-Size: 5892
-SHA256: 817fa3d700182a06cc8d489d21054cee49ffae86a120b0a0c781e8652912f163
-SHA1: d3ada61321e8516773ef01889186f2c0a36738c5
-MD5sum: c121eb3d87718c8f5274a6543158bbe4
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.1.0~buster1_all.deb
+Size: 5800
+SHA256: 568c74af9642bdd74fb3eab87a0f9d269446eb8e5225e3e1450edabfeb786fcf
+SHA1: 8f8932f8c176bacfb8107d9420fcd18b2eb9bafa
+MD5sum: d27b77e2a025f9bf37357e78721274b2
 Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.2
+Version: 1.0.2+git20220201.efb4eea
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 60
@@ -418,25 +376,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.2_all.deb
-Size: 8100
-SHA256: 9d062fdc52d7b5e90a4de9b8c71271781e5ef0b2cc20bf01d7f33f5a8fa35d5a
-SHA1: 1348dbb6d5fcea1fcab98c2171fdf6817474844e
-MD5sum: abf16390a3626eb0555ead534e92eaa1
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.2+git20220201.efb4eea_all.deb
+Size: 8140
+SHA256: 32acbb01fdde15c6b3261de19581f8bcad2b54167701c8b8c5f1e8627e051354
+SHA1: b052ffdcee0b7d0923d742cb979be374beaa83a2
+MD5sum: a4233405fa36e276ad8ec577b5e24fbc
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
-
-Package: soracom-cli
-Maintainer: Masahiro Honda <honda@mechatrax.com>
-Version: 0.10.3-1
-Architecture: armhf
-Priority: optional
-Section: net
-Filename: pool/main/s/soracom-cli/soracom-cli_0.10.3-1_armhf.deb
-Size: 5417562
-SHA256: 027308c2d665332bd8c7c0d79dd525b660de66530e219673032bfc5d7bd16b32
-SHA1: 7169302b4f74eb69d796c7c107a69535f47c697d
-MD5sum: 476cbec726807e9e1fca339c94eb730a
-Description: A command line tool soracom to invoke SORACOM API
-Installed-Size: 2
 
