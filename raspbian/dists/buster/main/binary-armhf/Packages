@@ -278,6 +278,48 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
+Package: raspberrypi-kernel-headers-mtx
+Source: raspberrypi-firmware-mtx
+Version: 1.20211201~buster-1~mtx1
+Architecture: armhf
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 232181
+Breaks: raspberrypi-kernel-headers
+Replaces: raspberrypi-kernel-headers
+Provides: linux-headers, raspberrypi-kernel-headers
+Homepage: https://github.com/raspberrypi/firmware
+Priority: optional
+Section: kernel
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20211201~buster-1~mtx1_armhf.deb
+Size: 36580356
+SHA256: 03222c1c348ee7c79998c02d688e1cd8b7637fdff572ecfd9deb5c4571f07142
+SHA1: 13aaabb6d46e8b214afd83c09289420699166b37
+MD5sum: 3f58dc5a8b4290a62e5cc3ee39b2468b
+Description: Header files for the Raspberry Pi Linux kernel
+ This package provides the architecture-specific kernel header files for
+ the Raspberry Pi Linux kernel, generally used for building out-of-tree
+ kernel modules.
+
+Package: raspberrypi-kernel-mtx
+Source: raspberrypi-firmware-mtx
+Version: 1.20211201~buster-1~mtx1
+Architecture: armhf
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 296923
+Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
+Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
+Provides: linux-image, raspberrypi-kernel, wireguard-modules (= 1.0.0)
+Homepage: https://github.com/raspberrypi/firmware
+Priority: optional
+Section: kernel
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20211201~buster-1~mtx1_armhf.deb
+Size: 78249812
+SHA256: b743523b44b16e0034065abb8dc3a1236ade610dfdfc9a59e36d3eca25708a99
+SHA1: 68c0873f1d71cdcc4f43b0460595742122779aa4
+MD5sum: 568fa3ee1f90afcfd72991f9fb617a6c
+Description: Raspberry Pi bootloader
+ This package contains the Raspberry Pi Linux kernel.
+
 Package: sleepi2-firmware
 Version: 1.1.4
 Architecture: armhf
@@ -383,4 +425,18 @@ SHA1: b052ffdcee0b7d0923d742cb979be374beaa83a2
 MD5sum: a4233405fa36e276ad8ec577b5e24fbc
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
+
+Package: soracom-cli
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Version: 0.10.4-1
+Architecture: armhf
+Priority: optional
+Section: net
+Filename: pool/main/s/soracom-cli/soracom-cli_0.10.4-1_armhf.deb
+Size: 5417156
+SHA256: ede6c81a63f6578a545f4485b44040d9224dd993e9142736bbda0df37e883009
+SHA1: a74f8de29a4ef3ee8670de7527c0c09b3728ac07
+MD5sum: 0f1006e69299e0eff7beb2f40e041e5b
+Description: A command line tool soracom to invoke SORACOM API
+Installed-Size: 1
 
