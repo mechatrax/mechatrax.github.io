@@ -1,0 +1,35 @@
+Package: adpi-firmware
+Version: 1.3.0.1
+Architecture: arm64
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 20
+Depends: raspberrypi-kernel-mtx (>= 1.20180327-1~mtx1)
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/a/adpi-firmware/adpi-firmware_1.3.0.1_arm64.deb
+Size: 3940
+SHA256: 0053dabf248db301c38f1c1895397a3ae11f4a9e5e8f17df230d7988aed7e256
+SHA1: 31bea498d96a080294b25c047fc86c6e71b72fdf
+MD5sum: 213e15bd57faeed699908841e51a0680
+Description: Device tree overlay binary for ADPi
+ This package contains the device tree overlay binary for ADPi.
+
+Package: sleepi3-firmware
+Version: 1.0.1.1
+Architecture: arm64
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 17
+Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20160506-1), raspi-config (>= 20160506)
+Conflicts: sleepi-firmware, sleepi2-firmware
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1.1_arm64.deb
+Size: 3568
+SHA256: 73521c84d74b017ab10bfc998badac8ca0e1df269ab3c3a9ee3929dfce0beb24
+SHA1: 45fe5270f9a33aa8270fe5afc489cdc8563697ce
+MD5sum: c611d5a81ae899c396ac3f7b19305fcc
+Description: Device tree overlay binary for slee-Pi 3
+ This package contains the device tree overlay binary for slee-Pi 3.
+

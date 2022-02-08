@@ -53,7 +53,7 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-firmware
-Version: 1.3.0
+Version: 1.3.0.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 20
@@ -61,11 +61,11 @@ Depends: raspberrypi-kernel-mtx (>= 1.20180327-1~mtx1)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_1.3.0_armhf.deb
-Size: 3948
-SHA256: b4d422d8b428c573670d6673579c545c044f62b252f94fd04eed9e7a9f78ea00
-SHA1: 2f0d857071b7128c7d2a1fc32762c79d78dd4886
-MD5sum: ddf8816ad128a96bab69373c9cbd194c
+Filename: pool/main/a/adpi-firmware/adpi-firmware_1.3.0.1_armhf.deb
+Size: 3936
+SHA256: 91262312998907312d26774b72603c82d4cdeab3af5250a7b0373a46fe2aece7
+SHA1: 31c4197e0f5c2341545fa6e1b3968fa856d7cacf
+MD5sum: 92e736c1870520ea4f333f64b98cde31
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
@@ -228,7 +228,7 @@ Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
 Package: sleepi3-firmware
-Version: 1.0.1
+Version: 1.0.1.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 17
@@ -237,11 +237,11 @@ Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1_armhf.deb
-Size: 3520
-SHA256: 4f57f89366821a74321152c2b64bd1b9ef3c67c0caecbfb1f4114062f61d5a61
-SHA1: 67ec204c825033fe6ff7d3114dde9e2b35b8f767
-MD5sum: 5e13a13e6417cd2bd0f0aaffb0dd19a3
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1.1_armhf.deb
+Size: 3568
+SHA256: a3c1f2ae443e311923c0d44cad66d80ad8157dd5f2aed4eea3c779502f0daa37
+SHA1: 7847ae0312a815aa752af555a68628c70736ad54
+MD5sum: f9a8bcd00b28a4888e32f9f328ee4b06
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
