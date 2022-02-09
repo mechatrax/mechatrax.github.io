@@ -184,6 +184,49 @@ Description: Python 3 module for slee-Pi family.
  .
  This package installs the library for Python 3.
 
+Package: raspberrypi-kernel-headers-mtx
+Source: raspberrypi-firmware-mtx
+Version: 1:1.20220120-1~mtx2
+Architecture: arm64
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 57835
+Breaks: raspberrypi-kernel-headers
+Replaces: raspberrypi-kernel-headers
+Provides: linux-headers, raspberrypi-kernel-headers
+Homepage: https://github.com/raspberrypi/firmware
+Priority: optional
+Section: kernel
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-headers-mtx_1.20220120-1~mtx2_arm64.deb
+Size: 9281516
+SHA256: 5ebfd1c064a8e8abb2628b9d041170be80dcd39ddbe8b832ec4e705f1cee529f
+SHA1: 34928d334e4178663a5bde5dd6a0568536f78bb2
+MD5sum: 5ab1c64fd9af47438bb14cf8b6b97840
+Description: Header files for the Raspberry Pi Linux kernel
+ This package provides the architecture-specific kernel header files for
+ the Raspberry Pi Linux kernel, generally used for building out-of-tree
+ kernel modules.
+
+Package: raspberrypi-kernel-mtx
+Source: raspberrypi-firmware-mtx
+Version: 1:1.20220120-1~mtx2
+Architecture: arm64
+Maintainer: Masahiro Honda <honda@mechatrax.com>
+Installed-Size: 102728
+Breaks: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
+Replaces: raspberrypi-bootloader (<< 1.20160324-1), raspberrypi-kernel
+Provides: linux-image, raspberrypi-kernel (= 1:1.20220120~), wireguard-modules (= 1.0.0)
+Multi-Arch: foreign
+Homepage: https://github.com/raspberrypi/firmware
+Priority: optional
+Section: kernel
+Filename: pool/main/r/raspberrypi-firmware-mtx/raspberrypi-kernel-mtx_1.20220120-1~mtx2_arm64.deb
+Size: 19886076
+SHA256: 3dc9a446c6d45939d689ca64aea3a2a70335881c7e64b089542782f55999436e
+SHA1: ed52f746b67ffd2954e030efe3035974a1044fd5
+MD5sum: d9a913c962a21c7bbd46e19cf73ed74a
+Description: Raspberry Pi bootloader
+ This package contains the Raspberry Pi Linux kernel.
+
 Package: sleepi3-firmware
 Version: 1.0.1.1
 Architecture: arm64
