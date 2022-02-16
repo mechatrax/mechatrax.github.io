@@ -55,19 +55,19 @@ Description: Utilities for 3GPi family
  Dummy package for upgrade.
 
 Package: 4gpi-net-mods
-Version: 1.3.0
+Version: 1.4.0~buster1
 Architecture: all
 Maintainer: Masahiro Honda <honda@mechatrax.com>
-Installed-Size: 19
+Installed-Size: 24
 Depends: raspi-config (>= 20160527)
 Homepage: https://www.mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.3.0_all.deb
-Size: 2740
-SHA256: 57987deeec6828499ffbe423bb5703f0d4adaaa23c83218003209a5330cb0c6d
-SHA1: 01d15e55e4ba505a87e8104e1a0604c8fa6fe2b1
-MD5sum: e99032a98d9cdf2a2a3dcd10f327c280
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.4.0~buster1_all.deb
+Size: 2976
+SHA256: 3b005b85eae1b867fbdb9bce8e855363423f54efdb522d48142b63799a846b6c
+SHA1: 802726716bdb326c0584c6c30994b1cbafd33a3d
+MD5sum: 2f835ae0b975e8da1638b34e5c400622
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
