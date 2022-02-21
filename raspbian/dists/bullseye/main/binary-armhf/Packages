@@ -1,5 +1,5 @@
 Package: 4gpi-net-mods
-Version: 1.4.0
+Version: 1.5.0
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 24
@@ -7,16 +7,16 @@ Depends: raspi-config (>= 20160527)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.4.0_all.deb
-Size: 3088
-SHA256: 14ae6cd721aae53a39856a86447b03273b94f8c80ab83ec5e67bec5d6a6efe80
-SHA1: c77de3073d17b14e57acf765712007083caa0880
-MD5sum: 832512fba3173a9e595423a53bb9bdbb
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.0_all.deb
+Size: 3080
+SHA256: 91dfb59507c2a970fdfa07b8fd81c650c9b1b078e838d2d69c256a7f2607248a
+SHA1: 6ca3b1831fd050c3d12f8dbfb9db99e689315258
+MD5sum: 28aeeaba2d9fb5f86e613a2bd56d203d
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
 Package: 4gpi-networkmanager
-Version: 3.0.1
+Version: 3.0.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 39
@@ -25,17 +25,17 @@ Conflicts: 4gpi-networkmanager
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_3.0.1_all.deb
-Size: 7204
-SHA256: 9b8a284bd673104ff9d037cbbf7266405b3c1d19046dacf66f02b9568ef6fa26
-SHA1: c9cba6a51e9e3f96a19dfd4529d548523fd8cc43
-MD5sum: 508386c25538579130637c792c60829e
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_3.0.2_all.deb
+Size: 7208
+SHA256: b5376dd7dc6ce9eb72c8f03584ab044bba47cbd82d63e0842d4728706863711c
+SHA1: 944314491a3de7ff493004cc3008168ab1b10c08
+MD5sum: 7e1234ab650233ef4c67a423344d1ae3
 Description: NetworkManager settings and helper tools for 4GPi
  This package contains udev rules and helper tools for using 4GPi with
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 3.1.1
+Version: 3.1.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 41
@@ -44,11 +44,11 @@ Suggests: 4gpi-net-mods
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_3.1.1_all.deb
-Size: 6660
-SHA256: 8d3277752df6df38660cb374ebd22bdb2e5a92044f91548589f29b543f53a97c
-SHA1: e7ac7bd78f4148bae852e95bbb2a6de3d56aad1b
-MD5sum: f7f3f63ef50c6c6e28eda377a1ee591a
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.1.2_all.deb
+Size: 6708
+SHA256: 2849e4a81961c44e519f196601441ef76363df804a1ce9a10c97508ed8ae2c28
+SHA1: 6123508be0a56b1f800d0f687e1e6342a9ee340d
+MD5sum: 84d63f119a8e94c67b9cea3efef71526
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
