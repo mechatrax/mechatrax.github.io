@@ -109,7 +109,7 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-firmware
-Version: 1.2.1
+Version: 1.4.0~buster1
 Architecture: armhf
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Installed-Size: 22
@@ -117,11 +117,11 @@ Depends: raspberrypi-kernel-mtx (>= 1.20180327-1~mtx1)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_1.2.1_armhf.deb
-Size: 3896
-SHA256: a2f77007fc76e7e992144781ab9120e33dc733c0b8f412f46c40c427fa57e095
-SHA1: 20ea2509c724e5094b0879c2ddf8c6998d842033
-MD5sum: e2124d2e53560da4f7a9b911ecc24765
+Filename: pool/main/a/adpi-firmware/adpi-firmware_1.4.0~buster1_armhf.deb
+Size: 3912
+SHA256: c731fc032e8fb7314c007c4a697297ee3af9b2f977e1cc9dad2a723aff54873f
+SHA1: 02c5329ccf702b4d673660afa81dd3d45216b7ec
+MD5sum: 49bc2672754d8a10a31b729af31de836
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
