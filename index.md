@@ -11,9 +11,9 @@ curl https://mechatrax.github.io/setup.sh | sudo bash
 次の手順に従って設定を行ってください。  
 
 a: Buster の場合  
-a-1: apt-lineを追加してください。  
+a-1: apt リポジトリを追加してください。  
 ```
-deb http://mechatrax.github.io/raspbian/ buster main contrib non-free
+echo "deb http://mechatrax.github.io/raspbian/ buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/mechatrax.list
 ```
 a-2: 署名の公開鍵を追加してください。  
 ```
@@ -21,9 +21,9 @@ curl https://mechatrax.github.io/raspbian/mechatrax.gpg.key | sudo apt-key add -
 ```
 
 b: Bullseye の場合  
-b-1: apt-lineを追加してください。  
+b-1: apt リポジトリを追加してください。  
 ```
-deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian bullseye main contrib non-free soracom
+echo "deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian bullseye main contrib non-free soracom" | sudo tee /etc/apt/sources.list.d/mechatrax.list
 ```
 b-2: 署名の公開鍵を追加してください。  
 ```
