@@ -4,19 +4,19 @@ Hash: SHA512
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bullseye
-Date: Fri, 11 Mar 2022 01:39:19 UTC
+Date: Thu, 15 Sep 2022 10:45:11 UTC
 Architectures: armhf arm64
 Components: main contrib non-free soracom
 Description: Mechatrax archive for Raspbian Bullseye
 MD5Sum:
- e451edb56fcec3d55247f996db42bcd2 10283 main/binary-armhf/Packages
- ffe5dbd07310c494c35a01377a55658f 3073 main/binary-armhf/Packages.gz
+ 6ae25b0a90de1409fda6ab3e78998e25 10283 main/binary-armhf/Packages
+ cf40757f01785f767223294f20d82f75 3079 main/binary-armhf/Packages.gz
  5a6a84619c7130bb2b5d199da489bef0 136 main/binary-armhf/Release
- 8a3cab7f109e35162568a21162921290 10282 main/binary-arm64/Packages
- 85c8c77a9c6591a53e8e369ab0e3b1b7 3079 main/binary-arm64/Packages.gz
+ 7fd18d58e8d871aa1e06cc705422e8ce 10282 main/binary-arm64/Packages
+ a72b6dbeefd281b80c3b0d8e1960c605 3082 main/binary-arm64/Packages.gz
  d4380cc8863cdafff2aaace888e42636 136 main/binary-arm64/Release
- 87867695343a679b11d3bf67cf61447d 13615 main/source/Sources
- caa8e8c3d33e53ee21a0a817cc5ddfe4 3582 main/source/Sources.gz
+ e9c32b54e9cd85b45171cf0650674a96 13615 main/source/Sources
+ 170c6f51bf673f84f6003756274cf9fd 3580 main/source/Sources.gz
  512147a52c787eb7ea2264cadd9df66d 137 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armhf/Packages.gz
@@ -46,14 +46,14 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
  980ca637559b62a45e4ad2165092e6a3 140 soracom/source/Release
 SHA1:
- a0c62b233413b950d20f1f059aab37089732c4f4 10283 main/binary-armhf/Packages
- d3e9e702bdc8127a58abfa22cff663f31ad08939 3073 main/binary-armhf/Packages.gz
+ ef2b858e012d8a6b22446fc94d669d5f48d579fc 10283 main/binary-armhf/Packages
+ 9b72c93ea1a8d005de5b107c8194e959e648664e 3079 main/binary-armhf/Packages.gz
  4291e5b74793739b24ecbe7dd7c636afac900dfe 136 main/binary-armhf/Release
- def2eda6fef301093542248b92e11d0ee522ff0c 10282 main/binary-arm64/Packages
- 616f5203fb049eb93df669dc1f585d48546caa64 3079 main/binary-arm64/Packages.gz
+ 57cf68f5843c817323f6996804c20de93fb563ce 10282 main/binary-arm64/Packages
+ a49222dfbe5155138cef2e8fc9d80e7b239187e9 3082 main/binary-arm64/Packages.gz
  b2feff0c03bd99dedccfa204189ea11864591eb9 136 main/binary-arm64/Release
- a566abbf28e48cd78d66d209cdead6f92afefd11 13615 main/source/Sources
- d4d9bfab2d96b3e56e2a70261ee5e76d427e539a 3582 main/source/Sources.gz
+ 3171f4c4de602b737860960fae578d1a5fdc8092 13615 main/source/Sources
+ 1c4f7e250e1f0022015edd3a505b2e655ac79d52 3580 main/source/Sources.gz
  050fd001a388c99e5618e6ed09ff7cf92468fed1 137 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armhf/Packages.gz
@@ -83,14 +83,14 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
  6241f1053acbf3e4813dc71ddba38e9a9a53c71a 140 soracom/source/Release
 SHA256:
- 610a8698606815df1147d9517b4f22f5f08183c066a4c77e1b6c635a244ca46a 10283 main/binary-armhf/Packages
- d4a83f6240a113a2fd6a65beb0289806727305d93631fadc525bc60a4114a5ac 3073 main/binary-armhf/Packages.gz
+ 21ff849efdd8280faca8d40ff36f200882248ec258f4e0957813fade061b59fb 10283 main/binary-armhf/Packages
+ d5e05434c294e5810590a83a5898bef1a9719464f1819f7d31b87a2ea6b02e26 3079 main/binary-armhf/Packages.gz
  7f1e64982963f6d564af47964625145af932b71409466c3ed7fbb0d4848f50f4 136 main/binary-armhf/Release
- 07879bbc1dc018ea05408cca387932088d4f34f5bab87c71f911e89a8958814e 10282 main/binary-arm64/Packages
- 37ba2993d6237e65bf42e8118ec62a3b23e421855216db19228e60b1d4bf99d7 3079 main/binary-arm64/Packages.gz
+ 6b0157b1a934e8d82179be41705c15a8d2199d0b91f18806798cf1a01d806ac8 10282 main/binary-arm64/Packages
+ 256b447901161607456a67b8e11f6c96afa61c254fccfef9086961ae3f4d598a 3082 main/binary-arm64/Packages.gz
  0f1dd38ddf2d1be5d8a7d640abbb6cc9ee8902b01a49077f44b6bd78c6505a09 136 main/binary-arm64/Release
- 96291e3fbc876e242d119856f7445a21284c29fef84bc2f8e852c7ab697ac406 13615 main/source/Sources
- 4e180b2f437de7c29bce1f7ebea22293b2a0215749189dbc6cf5a1955dd9517d 3582 main/source/Sources.gz
+ dc058b3460b0008d226ca200fc079b158ec982cfd59bba9a99e2b20fbc986e52 13615 main/source/Sources
+ cb50f486e6ea9a3fd9492c1567fefdea97d3a14ae704ff02bc7887d025ce9cd0 3580 main/source/Sources.gz
  4d1fa6be1e57b37b4af9cb771423a23a85339e6c8f50d9572560df32a72dcd76 137 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-armhf/Packages.gz
@@ -121,12 +121,12 @@ SHA256:
  cc32f6b2b1f63e5bbe3856d77e14b08c5886875a3690db6afdc8ac68785d9d47 140 soracom/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEszPH+GwgndYPuqRUl1l5EMfcmcgFAmIqqEsACgkQl1l5EMfc
-mcg0fQf/ajEUsq7hpBw2xkTw0KeV3q3gji/8YVbwa/c97gT7RYaiZEyWggX9pVYN
-qMoE2HVNah/me/GADS+M79dsZJv+LqrpduZ2LSMUqpHvLRQs48Bjab8dPIZrd81c
-t/kYN1eRmQcsYQ8EMzolK0qdkXtrW0JPI+ljyUytLNEF57/8UY7EmnJUIi8GDkYM
-eWyCbV+y7dUThSITh1LhlAngGd37j4FGy1tsmaCM9fgYcdoR0PA0m0kEbE+EmyJC
-aW5/kwrxYjoidnxFAyXUaMgfFT41yTMDD7mscIHf5SCsvQXeHIO9xEro2tqGeG1D
-U0tFfw9jpx56gL07nlrl+qPN7/kccA==
-=hOny
+iQEzBAEBCgAdFiEEszPH+GwgndYPuqRUl1l5EMfcmcgFAmMjAjwACgkQl1l5EMfc
+mcgpkQgAx0aWO1mYPqR6XjIoPpGClKTsiszMWGXsxMV++OZVskBWCzI7p3wjFXvW
+XXcpyYr/OhnyEYe4dX5iRSyhyqKbLY7YCGoA3moYMg/Ftkg9jFQerZMbiNtU7vqo
+LtU/NiKiCuv66xGA9GHPsKpILcsdv+8HDjiNKjrwremUK2Nibv7yRna1BXZqpeBN
+FB0jBeaW6il581CpXC8gMWnMhPe8uiMQQRS8eYcRmS3zZKcOQpt+OgiZVi8wvR4Q
+fMkIwvQWcJo2FSqR+IlgmhJP/Vhff8UVFknbKRJZXf9N5diBzduvEwDeBmU8eiNC
+xX7lOIEfxDMspz0yMaNod4+FDWcimA==
+=vdcU
 -----END PGP SIGNATURE-----
