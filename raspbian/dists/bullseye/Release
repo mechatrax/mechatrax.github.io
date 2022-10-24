@@ -1,7 +1,7 @@
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bullseye
-Date: Mon, 24 Oct 2022 06:49:24 UTC
+Date: Mon, 24 Oct 2022 08:49:56 UTC
 Architectures: armhf arm64
 Components: main contrib non-free soracom
 Description: Mechatrax archive for Raspbian Bullseye
@@ -9,8 +9,8 @@ MD5Sum:
  b07f60ed23c40d9c06cfee2f791b0fbc 10740 main/binary-armhf/Packages
  201286ba8ae6bb91f976c3380e379050 3253 main/binary-armhf/Packages.gz
  5a6a84619c7130bb2b5d199da489bef0 136 main/binary-armhf/Release
- 7fd18d58e8d871aa1e06cc705422e8ce 10282 main/binary-arm64/Packages
- a72b6dbeefd281b80c3b0d8e1960c605 3082 main/binary-arm64/Packages.gz
+ 13fb9af0fc2694aca7c60a22c06207bd 10739 main/binary-arm64/Packages
+ 95d8d5ea6296d65abfaa57a7d48f9e68 3257 main/binary-arm64/Packages.gz
  d4380cc8863cdafff2aaace888e42636 136 main/binary-arm64/Release
  e9c32b54e9cd85b45171cf0650674a96 13615 main/source/Sources
  170c6f51bf673f84f6003756274cf9fd 3580 main/source/Sources.gz
@@ -46,8 +46,8 @@ SHA1:
  ae14a53b4be4249591828f887cf59fb9537d6f43 10740 main/binary-armhf/Packages
  fc52f5b068f0251a6820e85a04f1c292487acf00 3253 main/binary-armhf/Packages.gz
  4291e5b74793739b24ecbe7dd7c636afac900dfe 136 main/binary-armhf/Release
- 57cf68f5843c817323f6996804c20de93fb563ce 10282 main/binary-arm64/Packages
- a49222dfbe5155138cef2e8fc9d80e7b239187e9 3082 main/binary-arm64/Packages.gz
+ 314d528a24798f2b0afe0d3f4dd0ada86bb5ebf1 10739 main/binary-arm64/Packages
+ a1b42c841d080029f7192d7b53f04415708c1f7f 3257 main/binary-arm64/Packages.gz
  b2feff0c03bd99dedccfa204189ea11864591eb9 136 main/binary-arm64/Release
  3171f4c4de602b737860960fae578d1a5fdc8092 13615 main/source/Sources
  1c4f7e250e1f0022015edd3a505b2e655ac79d52 3580 main/source/Sources.gz
@@ -83,8 +83,8 @@ SHA256:
  094c9602a7af3bb51152e277175268dd35ba7b52af0874ff13f440276c83523b 10740 main/binary-armhf/Packages
  f7b3591218aae84b594c476d6cd1e43af1b9b14b701316fdb4a70e362bf5ca6c 3253 main/binary-armhf/Packages.gz
  7f1e64982963f6d564af47964625145af932b71409466c3ed7fbb0d4848f50f4 136 main/binary-armhf/Release
- 6b0157b1a934e8d82179be41705c15a8d2199d0b91f18806798cf1a01d806ac8 10282 main/binary-arm64/Packages
- 256b447901161607456a67b8e11f6c96afa61c254fccfef9086961ae3f4d598a 3082 main/binary-arm64/Packages.gz
+ f642011ee7a7ee8df036d3b46872f5678e36bb76fbf25ac338c3f723f527f93a 10739 main/binary-arm64/Packages
+ 3ea4013bb141bc09d60538cf5f3a6758a3c0730b10b998d26340dfd58a16c699 3257 main/binary-arm64/Packages.gz
  0f1dd38ddf2d1be5d8a7d640abbb6cc9ee8902b01a49077f44b6bd78c6505a09 136 main/binary-arm64/Release
  dc058b3460b0008d226ca200fc079b158ec982cfd59bba9a99e2b20fbc986e52 13615 main/source/Sources
  cb50f486e6ea9a3fd9492c1567fefdea97d3a14ae704ff02bc7887d025ce9cd0 3580 main/source/Sources.gz
