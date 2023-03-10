@@ -1,14 +1,14 @@
 Package: soracom
 Maintainer: soracom-cli@soracom.jp
-Version: 0.15.0
+Version: 0.15.1
 Architecture: armhf
 Priority: extra
 Section: devel
-Filename: pool/soracom/s/soracom/soracom_0.15.0_armhf.deb
-Size: 5308924
-SHA256: 98727b2ce3fbe3aa63afefebc7f7d5dba31c026805ec18394cec1876fc680558
-SHA1: d34b349e8dca6f0a54d0eaef3a53b4bdb37860e1
-MD5sum: 1519e2e9493f72c30522ab6184eb608d
+Filename: pool/soracom/s/soracom/soracom_0.15.1_armhf.deb
+Size: 5325408
+SHA256: 494c0b727b9953dc02d85afd3d8dc71b03cb605c9cd9fc51ccc3fed8249974fe
+SHA1: 3d79ab6f5b6b34779878465e014005fd83620202
+MD5sum: 4c909e74859d0688cf14f2a08b3bda4d
 Description: A command line tool `soracom\' to invoke SORACOM API.
-Installed-Size: 13771
+Installed-Size: 13781
 
