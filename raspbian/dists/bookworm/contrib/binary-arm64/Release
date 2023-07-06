@@ -1,0 +1,5 @@
+Component: contrib
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax
+Architecture: arm64
+Description: Mechatrax archive for Raspbian Bookworm

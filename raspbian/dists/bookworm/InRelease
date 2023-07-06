@@ -1,0 +1,155 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: MechaTracks Co., Ltd.
+Label: Mechatrax
+Codename: bookworm
+Date: Fri, 16 Jun 2023 02:48:48 UTC
+Architectures: armhf arm64
+Components: main contrib non-free non-free-firmware soracom
+Description: Mechatrax archive for Raspbian Bookworm
+MD5Sum:
+ 5db7b9f3c5971ee807a4eb6652f44005 1804 main/binary-armhf/Packages
+ 4f2c04cb5cc586d9378aa97f1e32192b 805 main/binary-armhf/Packages.gz
+ b353fbc7d99d2490f788c496b56220c7 136 main/binary-armhf/Release
+ 5db7b9f3c5971ee807a4eb6652f44005 1804 main/binary-arm64/Packages
+ 4f2c04cb5cc586d9378aa97f1e32192b 805 main/binary-arm64/Packages.gz
+ 1032e418f8758fce26e159c932edfbf1 136 main/binary-arm64/Release
+ a607256f81dcdc40efb2aa136c38a256 3186 main/source/Sources
+ 7542260e439bc5f5c7833f6b0714eae3 1097 main/source/Sources.gz
+ 2333c937373b58242425ef10e0212b8c 137 main/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armhf/Packages.gz
+ ec080d6ff0d9a64921cc15b512269f32 139 contrib/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-arm64/Packages.gz
+ 1322e51115ca0667716584a66c60ae89 139 contrib/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 contrib/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 contrib/source/Sources.gz
+ 6fbd9af75cf919401e2e7e10a1c045fd 140 contrib/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-armhf/Packages.gz
+ c4ff2c7e61449a74e7949b1d6cda3af3 140 non-free/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-arm64/Packages.gz
+ 8f60eb782e155b15e4a4b31e712193b1 140 non-free/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
+ 63f90e36a294633d9ca2e946eb6f2f19 141 non-free/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free-firmware/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free-firmware/binary-armhf/Packages.gz
+ 61cfd5c75978de51ecdf290991a54cc3 149 non-free-firmware/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free-firmware/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free-firmware/binary-arm64/Packages.gz
+ 570dbeb1a410520da9905c8d34f9e942 149 non-free-firmware/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 non-free-firmware/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 non-free-firmware/source/Sources.gz
+ 758efebdf2ada8cf9d5b2da68137a359 150 non-free-firmware/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 soracom/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 soracom/binary-armhf/Packages.gz
+ 5649997a0d07653cf6ef215b53acaa0c 139 soracom/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 soracom/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 soracom/binary-arm64/Packages.gz
+ 9be85b64349c42791de9d9732b940031 139 soracom/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 soracom/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
+ 49323265f83d0887148040c2c76467b7 140 soracom/source/Release
+SHA1:
+ 137edeb55db21fef837a11def69923a821d3dfc5 1804 main/binary-armhf/Packages
+ fd87040a6c488c64b9e0c9445b3541dd8924f9ef 805 main/binary-armhf/Packages.gz
+ bb4bd2ea42888a883bde2ed990a37cd07a192ca7 136 main/binary-armhf/Release
+ 137edeb55db21fef837a11def69923a821d3dfc5 1804 main/binary-arm64/Packages
+ fd87040a6c488c64b9e0c9445b3541dd8924f9ef 805 main/binary-arm64/Packages.gz
+ e61b2630f37a8ff2610cfd0f249389f7b4e496bb 136 main/binary-arm64/Release
+ 4f5872ab3f61741df9988de10f326b38bf620200 3186 main/source/Sources
+ e36a9c5128ff9eebd5190ce28a87a915f86e09bc 1097 main/source/Sources.gz
+ f30faf9a717185ef2409ab9977485156bd7112b0 137 main/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armhf/Packages.gz
+ 87ab2dd5de0572f985f725dec539c8eaeb22692c 139 contrib/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-arm64/Packages.gz
+ 6d41297faf3f845a3a82b0e3c1baea278f5e5b68 139 contrib/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/source/Sources.gz
+ 4c4654cbd372737a568cd592c6e8d633faea863b 140 contrib/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-armhf/Packages.gz
+ 2c56ec4d975a2c01b9ce3673db85b45952f03772 140 non-free/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-arm64/Packages.gz
+ 2c21d9485b490044a4e02ed7c8702090723e0b22 140 non-free/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
+ 46e78c98392ab53158f243923f099b24252e048d 141 non-free/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free-firmware/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free-firmware/binary-armhf/Packages.gz
+ 6d7c7ad6760164182c2f1e985fe9ac4577ba89f5 149 non-free-firmware/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free-firmware/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free-firmware/binary-arm64/Packages.gz
+ 17409758256f0a098eec5a1bbc392ef439e6c2b5 149 non-free-firmware/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free-firmware/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free-firmware/source/Sources.gz
+ ac1155e6c5826a549d20a7f1a7f5e58d84eb5176 150 non-free-firmware/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/binary-armhf/Packages.gz
+ 01abbccdfd4b8948d705c40ee578480a95617681 139 soracom/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/binary-arm64/Packages.gz
+ 2bc36899bc079da7a4cc1a6c4accc79256a9e0d2 139 soracom/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
+ 312def84e2d279395a28ed458fecf931bece5e6b 140 soracom/source/Release
+SHA256:
+ 9eff8e46d54276e7c8e475f766016def71769248741bbb881154786a6d9118f5 1804 main/binary-armhf/Packages
+ 7da0dbdb426cb3ef1b3427f156a40ca826745a1ba2d1937673eddf64f5e6b85b 805 main/binary-armhf/Packages.gz
+ d3e7bb7659172a959d3253fc7f07ecf3671b1e82ad390955301771514c9b893d 136 main/binary-armhf/Release
+ 9eff8e46d54276e7c8e475f766016def71769248741bbb881154786a6d9118f5 1804 main/binary-arm64/Packages
+ 7da0dbdb426cb3ef1b3427f156a40ca826745a1ba2d1937673eddf64f5e6b85b 805 main/binary-arm64/Packages.gz
+ 916731ccb2cbb0388aa064385203ba608cb534a713dc3c8bc921d6c9b39aa39c 136 main/binary-arm64/Release
+ b35578d3f77501d16aa9a8829f4c462235379ad681b90937ede220933900dee5 3186 main/source/Sources
+ 8b87f98c3df634015ddf583fdc8c38f16c53ea00a2f0dec33a5806dd709a2dee 1097 main/source/Sources.gz
+ 82b89ee92a1937218eedf1308fde1700bd080612723de62f5f611e7d33edd2be 137 main/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-armhf/Packages.gz
+ 7520f3bfe5b03a6ca3482e782778f2eebaea362ab71855832178aa486feacd41 139 contrib/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-arm64/Packages.gz
+ 9ec8e86776b2aa4cf70d98f4384606575b80a6c6ec07c7295a057d92a6d61276 139 contrib/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/source/Sources.gz
+ 00d04d206d18e3468d55a4181cd6971f8fa50936be0a0826f35f5c6178cf05bd 140 contrib/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-armhf/Packages.gz
+ 178f8e80e14bc4407e3c694be9a62d77f6e891a7fea0229367f42fd051367591 140 non-free/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-arm64/Packages.gz
+ 3e3f9ea70ac83858d3574b9a0f3a34e67b40c3a8206951c6630b761d630dbf7b 140 non-free/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
+ ed2d2cb563a1160f47f8435b422ee9c731a7beb386f4e29e55fcfae280460b42 141 non-free/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free-firmware/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free-firmware/binary-armhf/Packages.gz
+ 044bc848589f3782fad331643dcb636aad6a2d7b59975958d109c1332c49a58d 149 non-free-firmware/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free-firmware/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free-firmware/binary-arm64/Packages.gz
+ 33cf056b46857234c240565f512c1e6ac2151e6ca5d7ed6a595a4ccfe917cf5b 149 non-free-firmware/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free-firmware/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free-firmware/source/Sources.gz
+ 803824336d2ede907d854869db721172e46e404d88b431e34ac40858ad30b454 150 non-free-firmware/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/binary-armhf/Packages.gz
+ 20f6aadf7dac17259d355129a5afc7d00f601e490392c908c485eea81e1bdfe1 139 soracom/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/binary-arm64/Packages.gz
+ b8e162c24694e4196c09d219241f476a486933c9ecc92efb01aa069283d2bcf5 139 soracom/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/source/Sources.gz
+ 77cf7f6f391acb093b49509f37ddd2f277a0becd24c346032a9ba17fdda7583e 140 soracom/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQS3SfsIgf5OQUB4t27Vk0v6ESUIOQUCZIvNmAAKCRDVk0v6ESUI
+OXI4AP4ydr8++uIhsLq4xW6XSseypWUdjqJ2BZlV0f5C9BywFwEA1BOD5pCAxg6W
+cpNy9j0xC+W+FANuE+LGPTPXiqghPwA=
+=XAhV
+-----END PGP SIGNATURE-----

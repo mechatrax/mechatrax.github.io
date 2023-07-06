@@ -1,0 +1,53 @@
+Package: 4gpi-net-mods
+Version: 1.5.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 17
+Depends: raspi-config (>= 20160527)
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.2_all.deb
+Size: 3008
+SHA256: d67f318ac50f7239022bc2a6168c798da525fd131b20ebedd40194990ec4da09
+SHA1: ca73d295dac4378971ca3b52a8cc97e41edbf121
+MD5sum: 9da0802e63479f8adcc07c05e144dfaf
+Description: Network configuration for 4GPi
+ This package contains network configuration files for 4GPi
+
+Package: 4gpi-utils
+Version: 3.1.2.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 41
+Depends: ppp, gpiod
+Suggests: 4gpi-net-mods
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.1.2.1_all.deb
+Size: 6800
+SHA256: 9eb83251560e9225a4f79c0cc0dba41bd622ceba6b48def2ea762fbca19a2345
+SHA1: 64456cc1c2ba68018c326168e0bb8c8d5d080149
+MD5sum: c63ba6bbf3daeb5882f9a195db9b04f3
+Description: Utilities for 4GPi family
+ This package contains command line utilities to control 4GPi family.
+
+Package: mechatrax-archive-keyring
+Version: 2023.06.01
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 13
+Depends: gnupg
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2023.06.01_all.deb
+Size: 5340
+SHA256: d0cd8a41ce928b7cffbaf24c63772ccb18cb5e320e13bd7e42ca0a43f37c9c17
+SHA1: 5a469a06b1aac312015508ec126f989a52b03c5a
+MD5sum: dc8cc01ed9a521b391742d15053c076c
+Description: GnuPG archive keys of the mechatrax archive
+ The mechatrax archive digitally signs its Release files.
+ This package contains the archive keys used for that.
+
