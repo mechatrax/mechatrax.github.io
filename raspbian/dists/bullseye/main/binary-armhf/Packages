@@ -70,7 +70,7 @@ Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
 Package: adpi-utils
-Version: 2.0.2
+Version: 2.0.3
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 25
@@ -78,16 +78,16 @@ Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils/adpi-utils_2.0.2_all.deb
-Size: 4728
-SHA256: f897540146430ff65b0fa36fc2b0427d456bc68677ea86a1b3a51667869c9334
-SHA1: c0780fe9695974532aa7b3a919ac157050f9ad18
-MD5sum: 8e733d139e201d9deab3fb92e19939d4
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.3_all.deb
+Size: 4804
+SHA256: 04b03ffcc27a5b85cc8695af4c4dfd7a1580d38adb6792b4b40e3231dccba1e2
+SHA1: f342002a466bf725a36b1d2249dcc2f0f2d20b96
+MD5sum: e45133b99f03b59d6bc3e04a692775e5
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
 Package: adpi-utils-backend-iio
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 28
@@ -98,11 +98,11 @@ Provides: adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.2_all.deb
-Size: 4720
-SHA256: 6ed201d05a8690ef52f9e8b277bafc1aa5ce36161eb358715d666d63e4c320f7
-SHA1: 4572f04e0de3146e2827a8b11ed14aecd41cc89c
-MD5sum: 7c1f0851b54f6aa4e910e89ecbca45e8
+Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.3_all.deb
+Size: 4792
+SHA256: c52897f1840747a1306346365acfd4d43b6484b686073619f0391ecf740de450
+SHA1: ea4195d78b2f24f4ba7b13467d0d96651719e33c
+MD5sum: d4965807fc56ffdda35a4ead373d12d3
 Description: Backend of adpi-utils to control ADPi with IIO
  This package contains backend files of adpi-utils to control ADPi with IIO.
 
