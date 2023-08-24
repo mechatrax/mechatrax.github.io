@@ -264,7 +264,7 @@ Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 60
@@ -273,11 +273,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.4_all.deb
-Size: 8228
-SHA256: 42c8eb1ca0c99bfb9ca6ff55ce4b2d3b3f12b8d9ac3771da2279599844896dfb
-SHA1: 6c3f7ba7a1ec83c4a4ce1a480306bb61010fe6d7
-MD5sum: 91e52c4ca280a2e56f050d32819a27c8
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.5_all.deb
+Size: 8268
+SHA256: 4e896664c74e99c6e01935600df37617124b7e36a6c1f6711e3688a627d16924
+SHA1: eddb75c3538bcf9f0438c3cfaf18379fee29c6b3
+MD5sum: 8224446f9a936630c27132799128bfb3
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
