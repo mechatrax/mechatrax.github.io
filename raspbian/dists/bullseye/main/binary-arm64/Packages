@@ -35,7 +35,7 @@ Description: NetworkManager settings and helper tools for 4GPi
  NetworkManager.
 
 Package: 4gpi-utils
-Version: 3.1.2
+Version: 3.2.0
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 41
@@ -44,11 +44,11 @@ Suggests: 4gpi-net-mods
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-utils/4gpi-utils_3.1.2_all.deb
-Size: 6708
-SHA256: 2849e4a81961c44e519f196601441ef76363df804a1ce9a10c97508ed8ae2c28
-SHA1: 6123508be0a56b1f800d0f687e1e6342a9ee340d
-MD5sum: 84d63f119a8e94c67b9cea3efef71526
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.2.0_all.deb
+Size: 6788
+SHA256: 0a0e3794e337e97ff6c32272a66c9bb624677e59456230317a9dfe2f6242e847
+SHA1: 12ea350901193d6a6aa1dc0c3cf65ede1c929e4f
+MD5sum: da1ca1c7cae33458a3f3311bd69faad2
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
@@ -70,7 +70,7 @@ Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
 Package: adpi-utils
-Version: 2.0.2
+Version: 2.0.3
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 25
@@ -78,16 +78,16 @@ Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils/adpi-utils_2.0.2_all.deb
-Size: 4728
-SHA256: f897540146430ff65b0fa36fc2b0427d456bc68677ea86a1b3a51667869c9334
-SHA1: c0780fe9695974532aa7b3a919ac157050f9ad18
-MD5sum: 8e733d139e201d9deab3fb92e19939d4
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.3_all.deb
+Size: 4804
+SHA256: 04b03ffcc27a5b85cc8695af4c4dfd7a1580d38adb6792b4b40e3231dccba1e2
+SHA1: f342002a466bf725a36b1d2249dcc2f0f2d20b96
+MD5sum: e45133b99f03b59d6bc3e04a692775e5
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
 Package: adpi-utils-backend-iio
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 28
@@ -98,11 +98,11 @@ Provides: adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.2_all.deb
-Size: 4720
-SHA256: 6ed201d05a8690ef52f9e8b277bafc1aa5ce36161eb358715d666d63e4c320f7
-SHA1: 4572f04e0de3146e2827a8b11ed14aecd41cc89c
-MD5sum: 7c1f0851b54f6aa4e910e89ecbca45e8
+Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.3_all.deb
+Size: 4792
+SHA256: c52897f1840747a1306346365acfd4d43b6484b686073619f0391ecf740de450
+SHA1: ea4195d78b2f24f4ba7b13467d0d96651719e33c
+MD5sum: d4965807fc56ffdda35a4ead373d12d3
 Description: Backend of adpi-utils to control ADPi with IIO
  This package contains backend files of adpi-utils to control ADPi with IIO.
 
@@ -264,7 +264,7 @@ Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 60
@@ -273,11 +273,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.4_all.deb
-Size: 8228
-SHA256: 42c8eb1ca0c99bfb9ca6ff55ce4b2d3b3f12b8d9ac3771da2279599844896dfb
-SHA1: 6c3f7ba7a1ec83c4a4ce1a480306bb61010fe6d7
-MD5sum: 91e52c4ca280a2e56f050d32819a27c8
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.5_all.deb
+Size: 8268
+SHA256: 4e896664c74e99c6e01935600df37617124b7e36a6c1f6711e3688a627d16924
+SHA1: eddb75c3538bcf9f0438c3cfaf18379fee29c6b3
+MD5sum: 8224446f9a936630c27132799128bfb3
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
