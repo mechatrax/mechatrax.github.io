@@ -127,7 +127,7 @@ Description: Backend of adpi-utils to control ADPi with SPI
  This package contains backend files of adpi-utils to control ADPi with SPI.
 
 Package: mechatrax-archive-keyring
-Version: 2016.12.19.4
+Version: 2016.12.19.4+deb11u1
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 13
@@ -135,11 +135,11 @@ Depends: gnupg
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2016.12.19.4_all.deb
-Size: 5120
-SHA256: 3f4cc6ac5cb3e69c7599cb51b9519bb013fda261b5de4f0278e100dbc4586955
-SHA1: 8ea72391b3438ccaf18257c6810069bb9346070b
-MD5sum: 4b63e21cbf075bc756c15557f5309cec
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2016.12.19.4+deb11u1_all.deb
+Size: 5352
+SHA256: d77958d3e1b4af502264a8ca70966aea271450b1b9cf18883c667fc2d6db2f11
+SHA1: d6439b2943f9d4f50c26f5df0851371819ad3224
+MD5sum: 87d5bddd2dea532e3e30717aed7ece73
 Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.

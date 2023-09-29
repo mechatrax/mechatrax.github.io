@@ -1,19 +1,19 @@
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bullseye
-Date: Tue, 19 Sep 2023 08:12:29 UTC
+Date: Wed, 27 Sep 2023 09:47:33 UTC
 Architectures: armhf arm64
 Components: main contrib non-free soracom
 Description: Mechatrax archive for Raspbian Bullseye
 MD5Sum:
- 58f2aa8b02a2ab092ab59367ba3ad7c0 10266 main/binary-armhf/Packages
- 6532124e5398e17b1358f42d1bc354e2 3051 main/binary-armhf/Packages.gz
+ e2f699bd447238916fa8741d76bcb6a5 10282 main/binary-armhf/Packages
+ 9b327260d5a7a71f75063e0c6ba330d9 3056 main/binary-armhf/Packages.gz
  5a6a84619c7130bb2b5d199da489bef0 136 main/binary-armhf/Release
- 7c3c110d40ac4c9f5c734c3084c44ad8 10264 main/binary-arm64/Packages
- 42776baed14604a8863432b9e81b28f8 3055 main/binary-arm64/Packages.gz
+ 204daeb34c3051651cbc144caf49d222 10280 main/binary-arm64/Packages
+ 956fbfbf5120f56de50bdaa4ee89ba64 3061 main/binary-arm64/Packages.gz
  d4380cc8863cdafff2aaace888e42636 136 main/binary-arm64/Release
- dd248b9770c135a3be25553f50136076 13833 main/source/Sources
- 28bc44dce8e81d2dd39a2a7b9160e9f9 3616 main/source/Sources.gz
+ b5191740721e571e7a3eeff54e3f55fb 13889 main/source/Sources
+ 1c8fca6dcb09e115523dbd20bcaaed4c 3629 main/source/Sources.gz
  512147a52c787eb7ea2264cadd9df66d 137 main/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 contrib/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armhf/Packages.gz
@@ -43,14 +43,14 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
  980ca637559b62a45e4ad2165092e6a3 140 soracom/source/Release
 SHA1:
- 28148746a6b461d14a85ef87d04fc62a7db7c983 10266 main/binary-armhf/Packages
- 2f914535f15c7f659a2909286400c2fa504294c1 3051 main/binary-armhf/Packages.gz
+ 8c9329dfff671ad3b7ba27cb4c3b6f183f519ed0 10282 main/binary-armhf/Packages
+ 4b185c7dcc941a2baf68d00fd5cb3d118b4b7d46 3056 main/binary-armhf/Packages.gz
  4291e5b74793739b24ecbe7dd7c636afac900dfe 136 main/binary-armhf/Release
- 20d8a04bb9e9bb8dccbbdec08c3b80f1e0130a79 10264 main/binary-arm64/Packages
- c5e8c1fc0523e7a31a5ce032aeae6be0341b518e 3055 main/binary-arm64/Packages.gz
+ d0ecc1493472f3ffde5ff4eda2871f42b6e63409 10280 main/binary-arm64/Packages
+ 287b013262ed67e79b1d9e5e465ae5b6989926ee 3061 main/binary-arm64/Packages.gz
  b2feff0c03bd99dedccfa204189ea11864591eb9 136 main/binary-arm64/Release
- 1cc8659bbae7b1a0443442dc0ba060631f511af6 13833 main/source/Sources
- 6d5b6f031a3bd944b6749d45786a396a82d03956 3616 main/source/Sources.gz
+ 965b5e654ec4e0f4dde3fce057f62e88bc87a133 13889 main/source/Sources
+ bdc1d423cb591126240514dc81d10f4222485d2e 3629 main/source/Sources.gz
  050fd001a388c99e5618e6ed09ff7cf92468fed1 137 main/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 contrib/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armhf/Packages.gz
@@ -80,14 +80,14 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
  6241f1053acbf3e4813dc71ddba38e9a9a53c71a 140 soracom/source/Release
 SHA256:
- 69d3015f20e701fe6a35caf7f16f618cf69aa18c99f1dad25eef3cab2cdac47f 10266 main/binary-armhf/Packages
- 02b836986b18471c41ef45dc3a8a6ccc1a950acf8fa401774f865851137b60b0 3051 main/binary-armhf/Packages.gz
+ 925046ce4fcc729708128cfb901bad8fea5cd00fcda3d7d74c0a5b86c0b9932c 10282 main/binary-armhf/Packages
+ d4f8e8786fef59cb37fb59106e731d2bb4ce96d99f85548daae72323faf81785 3056 main/binary-armhf/Packages.gz
  7f1e64982963f6d564af47964625145af932b71409466c3ed7fbb0d4848f50f4 136 main/binary-armhf/Release
- 09fada5a7b058bdba14cb7c03c6c5b1dde17bd5725e1df77d88d2c9b13f90a2a 10264 main/binary-arm64/Packages
- 851220d1397020caee5c5ba3f5fa582872f402cd6f774daa2847870b90bb09d2 3055 main/binary-arm64/Packages.gz
+ dcf288f98ea242fcb5e7d458b5f11889f2d8df953e6dd6f96f0691f6aa5728b3 10280 main/binary-arm64/Packages
+ 197ed8626efa255907d31198313af9dc40fa89a5b6e65f7cdcd8d6d4a1483f5e 3061 main/binary-arm64/Packages.gz
  0f1dd38ddf2d1be5d8a7d640abbb6cc9ee8902b01a49077f44b6bd78c6505a09 136 main/binary-arm64/Release
- a0c24618ed394f1779509921e8ea81213a439f414290714f9b5ca765faedb9bd 13833 main/source/Sources
- 69bdf42cccdc3d467eb40757cdae0192c372252623b3d46ad43b7dfa67f11863 3616 main/source/Sources.gz
+ 79221c8fb334779f26816d15514a9692a0152a82724f2c0eb7b38647d4b7c2ef 13889 main/source/Sources
+ ac891a28a9bc354fb03212c8a86e31b520cfb39c71fc25298b4e2c2755ad5d11 3629 main/source/Sources.gz
  4d1fa6be1e57b37b4af9cb771423a23a85339e6c8f50d9572560df32a72dcd76 137 main/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 contrib/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 contrib/binary-armhf/Packages.gz
