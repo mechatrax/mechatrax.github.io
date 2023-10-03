@@ -18,9 +18,9 @@ popd
 rm -rf $TMPDIR
 
 cat << EOF > /etc/apt/sources.list.d/mechatrax.list
-deb [signed-by=$SIGNKEY] $REPO $DIST main contrib non-free soracom
+deb [signed-by=$SIGNKEY] $REPO $DIST main soracom
 # Uncomment line below then 'apt-get update' to enable 'apt-get source'
-#deb-src [signed-by=$SIGNKEY] $REPO $DIST main contrib non-free
+#deb-src [signed-by=$SIGNKEY] $REPO $DIST main
 EOF
 
 apt update
