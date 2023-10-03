@@ -11,14 +11,10 @@ curl https://mechatrax.github.io/setup.sh | sudo bash
 次の手順に従って設定を行ってください。  
 
 1: apt リポジトリを追加してください。  
-a: Bullseye の場合  
 ```
-echo "deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian bullseye main contrib non-free soracom" | sudo tee /etc/apt/sources.list.d/mechatrax.list
+bash -c 'source /etc/os-release && echo "deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian $VERSION_CODENAME main soracom" | sudo tee /etc/apt/sources.list.d/mechatrax.list'
 ```
-b: Bookworm の場合  
-```
-echo "deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian bookworm main soracom" | sudo tee /etc/apt/sources.list.d/mechatrax.list
-```
+
 2: 署名の公開鍵を追加してください。  
 ```
 curl https://mechatrax.github.io/raspbian/mechatrax.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/mechatrax-archive-keyring.gpg
