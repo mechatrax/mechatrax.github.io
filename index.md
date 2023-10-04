@@ -1,4 +1,4 @@
-Raspberry Pi OS (Raspbian) Bullseye または Bookworm では次のいずれかの方法でリポジトリの追加が可能です。
+Raspberry Pi OS Bullseye または Bookworm では次のいずれかの方法でリポジトリの追加が可能です。
 <br />
 
 **スクリプトをダウンロードして実行する場合**  
