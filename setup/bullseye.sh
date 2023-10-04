@@ -4,8 +4,8 @@ set -eu
 
 REPO=http://mechatrax.github.io/raspbian/
 DIST=bullseye
-DEB=mechatrax-archive-keyring_2016.12.19.4_all.deb
-SHA256=3f4cc6ac5cb3e69c7599cb51b9519bb013fda261b5de4f0278e100dbc4586955
+DEB=mechatrax-archive-keyring_2016.12.19.4+deb11u1_all.deb
+SHA256=d77958d3e1b4af502264a8ca70966aea271450b1b9cf18883c667fc2d6db2f11
 TMPDIR=$(mktemp -d /tmp/io.github.mechatrax.raspbian.${DIST}.setup.XXXXXXX)
 SIGNKEY=/usr/share/keyrings/mechatrax-archive-keyring.gpg
 
