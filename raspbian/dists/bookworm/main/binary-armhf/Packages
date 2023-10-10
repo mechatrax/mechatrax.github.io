@@ -52,6 +52,80 @@ MD5sum: 8291b3d629efc95e8303e46559b3e840
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
+Package: adpi-firmware
+Version: 2.0.0.1
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 22
+Depends: raspberrypi-kernel-mtx (>= 1.20230405-1~mtx1)
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/a/adpi-firmware/adpi-firmware_2.0.0.1_armhf.deb
+Size: 4092
+SHA256: dae165b82d4e4bf356e67cff04ebb7bf69e59886304b8a3cda0277c4bad65dd9
+SHA1: 1906b5f90e411dbe3ed1a1420e92e9d625f047ef
+MD5sum: 9c9c203c6c277ea5f16585fdebc208c1
+Description: Device tree overlay binary for ADPi
+ This package contains the device tree overlay binary for ADPi.
+
+Package: adpi-utils
+Version: 2.0.3.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 25
+Depends: adpi-utils-backend-spidev | adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.3.1_all.deb
+Size: 4760
+SHA256: 6b88427001d1f692eab20669ba038bfa2a8cb09391fe44317075a014bc8d9bc1
+SHA1: 930a421564c4b16cb033de111c7b1d73962a4dc9
+MD5sum: 009ec44063afa2d3a9ac26c133906493
+Description: Utilities for ADPi
+ This package contains command utilities to control ADPi.
+
+Package: adpi-utils-backend-iio
+Version: 1.0.4
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 30
+Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
+Conflicts: adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.4_all.deb
+Size: 5080
+SHA256: 83ccfe5d744aff3a28bf2b4f2435015fa384f2ed82ea92987eaec76d84bb5a59
+SHA1: 02996ce65e55569e9134b6c85f7fb980702011f4
+MD5sum: dcf21a8b28503b218de033643eb29dd9
+Description: Backend of adpi-utils to control ADPi with IIO
+ This package contains backend files of adpi-utils to control ADPi with IIO.
+
+Package: adpi-utils-backend-spidev
+Version: 1.0.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 26
+Depends: python3, python3-adpi
+Conflicts: adpi-firmware, adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.3_all.deb
+Size: 4936
+SHA256: 9d443bdb10108bd0ebf09e2069c188b54944f6ebd67cb0625084922471fa21cc
+SHA1: 0d529cf756dd64b50b7e7a9c3ffa774f9b2954bd
+MD5sum: d320645c3a86b18d549e5e7e4fc0260b
+Description: Backend of adpi-utils to control ADPi with SPI
+ This package contains backend files of adpi-utils to control ADPi with SPI.
+
 Package: mechatrax-archive-keyring
 Version: 2023.06.01
 Architecture: all
@@ -69,6 +143,26 @@ MD5sum: 2b9347ddc74b2e99d03da3326ddca210
 Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
+
+Package: python3-adpi
+Source: python-adpi
+Version: 1.0.2.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 33
+Depends: python3-spidev, python3:any, python3-smbus
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-adpi/python3-adpi_1.0.2.1_all.deb
+Size: 5144
+SHA256: 9db14abda5861c09438dd2f6f1b4fe9abb277bff42d13a63a842a907edca0fce
+SHA1: 18690b4619739b15ea2447518f3d329ee8086e02
+MD5sum: 29e8dbfdbeb83f10b506cfeed861d8c1
+Description: Python 3 module for ADPi family.
+ This package contains python module to control ADPi family.
+ .
+ This package installs the library for Python 3.
 
 Package: python3-sleepi
 Source: python-sleepi
