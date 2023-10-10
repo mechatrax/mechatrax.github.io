@@ -237,3 +237,17 @@ MD5sum: 84fb8812d8ab82affed66c3e510cb06b
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 
+Package: soracom
+Maintainer: soracom-cli@soracom.jp
+Version: 1.1.1
+Architecture: arm64
+Priority: extra
+Section: devel
+Filename: pool/main/s/soracom/soracom_1.1.1_arm64.deb
+Size: 5392320
+SHA256: ba6969899d473031dc1e0db0cd0d47179750cf0e7685bc66cb11e70e27d76973
+SHA1: 73b2e6b03e49a498f2ea89c5b63752d5f12ffff7
+MD5sum: f1c83061ce3ae169f2748fc4098b9408
+Description: A command line tool `soracom\' to invoke SORACOM API.
+Installed-Size: 13892
+
