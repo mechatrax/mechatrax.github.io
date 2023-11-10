@@ -229,7 +229,7 @@ Description: Raspberry Pi bootloader
  This package contains the Raspberry Pi Linux kernel.
 
 Package: sleepi3-firmware
-Version: 1.0.1.1
+Version: 1.0.1.1+deb11u1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 17
@@ -238,11 +238,11 @@ Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1.1_armhf.deb
-Size: 3568
-SHA256: a3c1f2ae443e311923c0d44cad66d80ad8157dd5f2aed4eea3c779502f0daa37
-SHA1: 7847ae0312a815aa752af555a68628c70736ad54
-MD5sum: f9a8bcd00b28a4888e32f9f328ee4b06
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1.1+deb11u1_armhf.deb
+Size: 3620
+SHA256: d2dbf6a29d27996c102e57b7e825bd57df99e05764d0ce2b311595e1890f935f
+SHA1: 8c48d5e8db38816503d104cab071b88b1950249e
+MD5sum: 2f6bc2b47c39b5b34f25d82afd4692ff
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
