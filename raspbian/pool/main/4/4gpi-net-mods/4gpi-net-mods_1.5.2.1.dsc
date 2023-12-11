@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: 4gpi-net-mods
 Binary: 4gpi-net-mods
 Architecture: all
-Version: 1.5.2
+Version: 1.5.2.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), bash-completion
 Package-List:
  4gpi-net-mods deb net optional arch=all
 Checksums-Sha1:
- f44501aaf254dd60f10f093e9a4dd6fa7996f46d 2732 4gpi-net-mods_1.5.2.tar.xz
+ 996fb0f101a2716b60cd4b907a00e311a0e234cd 2784 4gpi-net-mods_1.5.2.1.tar.xz
 Checksums-Sha256:
- a280a05341b3d3cbd19fa88f96749eb3e89c288cb19874325be212019c6ef5c7 2732 4gpi-net-mods_1.5.2.tar.xz
+ 36df56dc187b9534ee3c0a37d1fee4bb0c68fe660394219c696ec0f84ac8eeb4 2784 4gpi-net-mods_1.5.2.1.tar.xz
 Files:
- d379ac92b2664f040d25fddb9bd441ca 2732 4gpi-net-mods_1.5.2.tar.xz
+ 5a0e8f4113940b5000705665188d798d 2784 4gpi-net-mods_1.5.2.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRP+Xxcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGRswAPsGP5Pg2h+NwksTQEPDRXUJoxLp
-cTfPIBiwc/Av4T8S8gEA4UWsvTWtojwv5uDobTms199i62KML+CFwtXoQmZDxQc=
-=rtzv
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXajqxcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGSGYAQDn1J8DFcg2nugpeclnh0Qar6+k
+bAM5AUA5pwvc3cddnQD/YSC7+M5QIHv6PLabZ+5Q0tY8OlC4wCnbKyNkrwZSYwc=
+=i7Xb
 -----END PGP SIGNATURE-----

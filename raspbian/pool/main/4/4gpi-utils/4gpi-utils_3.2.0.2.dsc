@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: 4gpi-utils
 Binary: 4gpi-utils
 Architecture: all
-Version: 3.2.0.1
+Version: 3.2.0.2
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), bash-completion
 Package-List:
  4gpi-utils deb net optional arch=all
 Checksums-Sha1:
- 58de9f08dcde8ee89384c0acaa7385e7c41ce443 6860 4gpi-utils_3.2.0.1.tar.xz
+ 591788b4b362c96231b65094b3ca2cf68ae7815d 6904 4gpi-utils_3.2.0.2.tar.xz
 Checksums-Sha256:
- 91e29dc82011705d15bf8fcf9ca79be4cac10a50f54712a602a645d59a04586e 6860 4gpi-utils_3.2.0.1.tar.xz
+ 7824c8f982deefd8bfd313199fee01484ff8404a5021cc1cf834735463580565 6904 4gpi-utils_3.2.0.2.tar.xz
 Files:
- d4cad10baf4805400244d3908d8f794a 6860 4gpi-utils_3.2.0.1.tar.xz
+ 1a1a7438bd6cecb9df19bd72a162d2f5 6904 4gpi-utils_3.2.0.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRP+Ehcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGQURAP0a/PtRmRhHaSv73cVoaM8TBaEz
-bH6qrDTz7RdFY7wJCAEA+ehuFyfej20+dyOBmwZMwh0phnfmznjt/d0rKBwoxgs=
-=1cK9
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXahmBcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGecqAPwLnpAMH0MtaRkzqfSOZovA5gdR
+qYSbJCt5kB8CAj2JPQEAuMAhalCoIIRtiYrDkijxek0mw9vCX7+CUSLKXRNxpQ0=
+=muji
 -----END PGP SIGNATURE-----
