@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: python-sleepi
 Binary: python3-sleepi
 Architecture: all
-Version: 1.1.1.1
+Version: 1.1.1.2
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: python3 (>= 3.7), python3-smbus, python3-setuptools, dh-python, d
 Package-List:
  python3-sleepi deb python optional arch=all
 Checksums-Sha1:
- 1b7ec989ff79602f9a115b44ed798685951d65af 4020 python-sleepi_1.1.1.1.tar.xz
+ 6e1dd332f9fc97d15dac08c03d9f5e803e4cfca7 4064 python-sleepi_1.1.1.2.tar.xz
 Checksums-Sha256:
- b49eebb2fe7894c5be3b68bddf55629ddcd947321e79922a86056a22c03ec318 4020 python-sleepi_1.1.1.1.tar.xz
+ 350af6650dbb382b1a00dad8179a62dbc10006089a7050a1d412fe7fbf3e7d55 4064 python-sleepi_1.1.1.2.tar.xz
 Files:
- a258086c7dff63298b0a4f674bdaf62f 4020 python-sleepi_1.1.1.1.tar.xz
+ f086bcf48acb7934756c9483781ec4cf 4064 python-sleepi_1.1.1.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRtvjhcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGV1PAP0QkR1dUeLjyiERQreEV3agRzO0
-Vv34qU5XfVMDT/xtpgEAseFVfFENhIprKvxv0dhEQiRwN4GQwXEmIa9n5ndDKw0=
-=3tpZ
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXasVBcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGcTjAP43oD3R5HtmY7sRfE5oCNXe+dNv
+NJfOQNSAsgTs0VnlOwEAlIOaVBloLwyG+0XBYxww20AIzHH/6unAYugVrYv1mwo=
+=PpSB
 -----END PGP SIGNATURE-----

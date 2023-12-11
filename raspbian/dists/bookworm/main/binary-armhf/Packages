@@ -281,7 +281,7 @@ Description: Python 3 module for ADPi family.
 
 Package: python3-sleepi
 Source: python-sleepi
-Version: 1.1.1.1
+Version: 1.1.1.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 29
@@ -289,36 +289,38 @@ Depends: python3:any, python3-smbus
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-sleepi/python3-sleepi_1.1.1.1_all.deb
-Size: 4548
-SHA256: ce1ea1a5534811ee686b80157b071239de7867dde2730f199fb59873b1c619b4
-SHA1: 50464d63ddf7de18abf9447b3eb708e629a6f9b0
-MD5sum: edefd3d44ed5765b1022f5b614911d15
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.1.1.2_all.deb
+Size: 4600
+SHA256: 073f905f15de460688d10046011635d8625de5c09adef30231e6ba3bda0fe38d
+SHA1: a5a5515c4b46932d7bded337def187f6c777f860
+MD5sum: 2880f272e0227d9e20843bb0743aaabc
 Description: Python 3 module for slee-Pi family.
  This package contains python module to control slee-Pi family.
  .
  This package installs the library for Python 3.
 
 Package: sleepi3-firmware
-Version: 1.0.1.2
+Version: 2.0.0
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 17
-Depends: libraspberrypi-bin (>= 1.20160506-1), raspberrypi-bootloader (>= 1.20160506-1), raspi-config (>= 20160506)
+Installed-Size: 19
+Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
+Depends: raspi-config (>= 20160506)
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-rpi-v7 | linux-image-rpi-v7l | linux-image-rpi-v8 | linux-image-rpi-2712
 Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_1.0.1.2_armhf.deb
-Size: 3624
-SHA256: c3ef20e57efc259a939416bced0c43139b68bf1c91fa3378e0242ec3f09c9d66
-SHA1: bdf6538ed23d386eb93dad4c4aeb40639f483885
-MD5sum: cbc7906e63734e48bc2c8010f937161f
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.0_armhf.deb
+Size: 3844
+SHA256: 97cf4509c5b55997dc146c24bbfa74808ec8b7a02d97f8ffed975c40e339af7c
+SHA1: 3890594b5ff7c2eae7ddc6a7efc2f932b8910581
+MD5sum: 8b860c38bc9ad8dc8f782d676aa4cf03
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
 Package: sleepi3-monitor
-Version: 2.1.0.1
+Version: 2.1.0.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 44
@@ -326,16 +328,16 @@ Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.1.0.1_all.deb
-Size: 6084
-SHA256: 66e9400cc1cd78a81f46ea2be8b97a7d3a7c4e380cdae61311236dfb105607e8
-SHA1: 89062ef2310962e721d8d41edbf06562192de640
-MD5sum: 47cf91817caca4295f4b2a49385c7785
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.1.0.2_all.deb
+Size: 6152
+SHA256: 1e1ba957f7b0cba57b34ade3a64ffc72dcd0b033ef4e52157ecca6d67b3d1b09
+SHA1: 0c0e027fed3abcdce651f89a93e4c7923ceac4b3
+MD5sum: 3b82b3110a34e2164f95cee372823ec2
 Description: Monitoring daemon for slee-Pi 3
  This package contains the daemon to monitor slee-Pi 3.
 
 Package: sleepi3-utils
-Version: 1.0.6
+Version: 1.0.6.1
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 62
@@ -344,11 +346,11 @@ Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: admin
-Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.6_all.deb
-Size: 8820
-SHA256: ce0d7688f0b7fef7afb4610132433af24dfc2e709e2ccdf1599c617e3b77fe7c
-SHA1: ee3572ec8cc17c6b1562dad075184057cdac99b4
-MD5sum: 84fb8812d8ab82affed66c3e510cb06b
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.6.1_all.deb
+Size: 8968
+SHA256: 654c85b2ff1d53c6e068f9ea336b94f15dd3cb6d9690ca2a88ae33538a76a337
+SHA1: bebad76650540812bd27ea34eaad16a47b35b758
+MD5sum: 7b826ef64715ec235f8839fdb025b879
 Description: Utilities for slee-Pi 3
  This package contains command utilities to control slee-Pi 3.
 

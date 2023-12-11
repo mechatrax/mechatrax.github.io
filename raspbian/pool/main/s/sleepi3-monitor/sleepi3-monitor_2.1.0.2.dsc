@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: sleepi3-monitor
 Binary: sleepi3-monitor
 Architecture: all
-Version: 2.1.0.1
+Version: 2.1.0.2
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12)
 Package-List:
  sleepi3-monitor deb misc optional arch=all
 Checksums-Sha1:
- 8ec4d1974738cebc52526bded35529455116be55 5856 sleepi3-monitor_2.1.0.1.tar.xz
+ 867dc79cb54272cb96347ca0dd3c5463a708ef34 6288 sleepi3-monitor_2.1.0.2.tar.xz
 Checksums-Sha256:
- 39a640e258bed3142da1dc5b76fc9db037ad01ca4dbdf2bdead754cd33e6e761 5856 sleepi3-monitor_2.1.0.1.tar.xz
+ bdc1efbfbd02d58ec973ae2182a18c25eea94c0b03b5dd8e5d92d09f2e6bff69 6288 sleepi3-monitor_2.1.0.2.tar.xz
 Files:
- f3b0d0896dfa51e8c04d0fd0413f3965 5856 sleepi3-monitor_2.1.0.1.tar.xz
+ a3149b9edf45218963095cfc7b620d65 6288 sleepi3-monitor_2.1.0.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRuNvhcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGQPYAP445+nBjVMBJwQu4RTWdax7WVW6
-KYtLDRwdAD06RsPWwgEAyTsh6MdwnS+28SihYHPCCNeVnz152zjkXK8PdQDypgw=
-=xlBx
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXarkRcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGS9lAQCMby+aSCHnyyxk/bPSEvvnI7CH
+SLmHZu4v7Zhui97/fQD/f2ybN4RiZDle2imLCPRFJEV0Gp0uFktoQaP2FXzE2wc=
+=QB7H
 -----END PGP SIGNATURE-----

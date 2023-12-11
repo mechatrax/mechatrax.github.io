@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: sleepi3-utils
 Binary: sleepi3-utils
 Architecture: all
-Version: 1.0.6
+Version: 1.0.6.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), bash-completion
 Package-List:
  sleepi3-utils deb admin optional arch=all
 Checksums-Sha1:
- bd42e1611c3e2929dfa7b7ac369ff80a7c393d39 9604 sleepi3-utils_1.0.6.tar.xz
+ abf16bc7ccaf7365f5fc776684deecfdd22bc62e 9796 sleepi3-utils_1.0.6.1.tar.xz
 Checksums-Sha256:
- 49800197fdb2a8b3059bf3582917b5987b5f1665389a1dd324b3adcef638ddb6 9604 sleepi3-utils_1.0.6.tar.xz
+ 28bd74ca248d9501eb08d5cea689c593a777adaef40e35e7bb76413735c3e263 9796 sleepi3-utils_1.0.6.1.tar.xz
 Files:
- d2bcf3c24f51e2f1f69fe00233e840de 9604 sleepi3-utils_1.0.6.tar.xz
+ 829e1606d223252a9aa109cba5837da3 9796 sleepi3-utils_1.0.6.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZSSssxcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGQLuAP0TxeuW2p/i6fWLZ6/IGs+1D+Gs
-5gvnnNoeNVP5dClHJAEA2ackq+WUMDcDWw7JFR4+AZ1qx+AZ8NgE2dCNoE4kgQU=
-=duQa
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXaq5Rcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGQx4AP0ZZ4PybCdPXbkrPo/ITWN6jLU/
+fmMCRUTZzINxp4Gq5QEAwFjC5ruFCB0BMJTsmiUY7CWbyVfX55NOcPym41fPrQU=
+=5Xny
 -----END PGP SIGNATURE-----
