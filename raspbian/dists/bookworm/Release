@@ -1,16 +1,16 @@
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: bookworm
-Date: Mon, 04 Dec 2023 11:34:23 UTC
+Date: Mon, 11 Dec 2023 05:50:39 UTC
 Architectures: armhf arm64
 Components: main soracom
 Description: Mechatrax archive for Raspbian Bookworm
 MD5Sum:
- e103bee0b11f678f4782602c4e3cc602 8955 main/binary-armhf/Packages
- 741ba4f5059f30f1fea2dc8da73f360e 2785 main/binary-armhf/Packages.gz
+ 768af6552b9a9fa220c8a6ec3d67be10 11812 main/binary-armhf/Packages
+ 036c7ef9b8d5585e37ea96078c991e2b 3469 main/binary-armhf/Packages.gz
  b353fbc7d99d2490f788c496b56220c7 136 main/binary-armhf/Release
- ce2a5df814937f4d5413b75b0989423d 8955 main/binary-arm64/Packages
- edda7fcceb51ddbb395d323b2e640183 2790 main/binary-arm64/Packages.gz
+ 91d23b07a015fd68ae6a5c11e6bc4a80 11772 main/binary-arm64/Packages
+ 9ad58883e0a72db348b64d48fe5c53f6 3473 main/binary-arm64/Packages.gz
  1032e418f8758fce26e159c932edfbf1 136 main/binary-arm64/Release
  ffe6d94df02aed453b5eadb0f7ae1074 14332 main/source/Sources
  4666c25b2388e34ff168a3d527be5390 3633 main/source/Sources.gz
@@ -25,11 +25,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
  49323265f83d0887148040c2c76467b7 140 soracom/source/Release
 SHA1:
- eb3e3426d819677726e03c0ba13f9b71c71ca2a0 8955 main/binary-armhf/Packages
- ba2f2b638d904e9a26e9e1f3b335af119930e495 2785 main/binary-armhf/Packages.gz
+ 0385c321953528f0411e91fdcf9045e27b36f4ae 11812 main/binary-armhf/Packages
+ 883b282e68830b7f29dc829a1abf3e89125a31ad 3469 main/binary-armhf/Packages.gz
  bb4bd2ea42888a883bde2ed990a37cd07a192ca7 136 main/binary-armhf/Release
- a802687135d2bb86d85290e601e866d6c05842e9 8955 main/binary-arm64/Packages
- 5c07f8d6165c63b97efabc1ce72c021147472b56 2790 main/binary-arm64/Packages.gz
+ bb4ca8135c78e4e9279dccc6ce0e430e652449b0 11772 main/binary-arm64/Packages
+ a890d4dbaf5bdb86a0b26130eb7fb1173756777e 3473 main/binary-arm64/Packages.gz
  e61b2630f37a8ff2610cfd0f249389f7b4e496bb 136 main/binary-arm64/Release
  6826351eef06d63e26449e2032bad1c2af692edf 14332 main/source/Sources
  1bfa8554c21ea5147c402839624a4fd2d1d5eef8 3633 main/source/Sources.gz
@@ -44,11 +44,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
  312def84e2d279395a28ed458fecf931bece5e6b 140 soracom/source/Release
 SHA256:
- 462fd06c1dcd5a2c1c2ea6455cb1e407a5015078e14ed249f4c50f3d4e266e23 8955 main/binary-armhf/Packages
- d35e794fa251b113577882464d4f26817e13ef9e5b383e5f3e15b332abce9993 2785 main/binary-armhf/Packages.gz
+ 7291d225c1d6f07053d7914e7d0746139a340abab172500d0c62a3147ec9cf23 11812 main/binary-armhf/Packages
+ 6a4798e7b72a61b44375efd4daad279ed8cb6df531ae0a09025fe24666bc51d0 3469 main/binary-armhf/Packages.gz
  d3e7bb7659172a959d3253fc7f07ecf3671b1e82ad390955301771514c9b893d 136 main/binary-armhf/Release
- 5d9614c6dbcc8b0ff0a2c834dd5d216c549ae56a501db83ececa08d73a61b12d 8955 main/binary-arm64/Packages
- c74987c00c2ffae27582f35a1fa9710fa7941f0dd2eb2a2b859d5d61457aa55f 2790 main/binary-arm64/Packages.gz
+ 23556fb6dbbcee17a01e20154da2387062e7d977287249548e9b1a9989105e32 11772 main/binary-arm64/Packages
+ f6188b99d0121d71ef559a85ba405659e886b7d75c5dc9ca4f6624c2c6430c90 3473 main/binary-arm64/Packages.gz
  916731ccb2cbb0388aa064385203ba608cb534a713dc3c8bc921d6c9b39aa39c 136 main/binary-arm64/Release
  d303bde00bc6b4f3aad60794b0710aaebe93cf39cd92eac2fea682f7e24d22eb 14332 main/source/Sources
  dacec7e926db2d64939eef1e4a14d0c939fdfba78215fa164a2c99b57ee45cae 3633 main/source/Sources.gz
