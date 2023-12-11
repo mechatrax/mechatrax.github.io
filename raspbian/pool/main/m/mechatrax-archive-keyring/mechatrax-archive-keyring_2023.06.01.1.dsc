@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: mechatrax-archive-keyring
 Binary: mechatrax-archive-keyring
 Architecture: all
-Version: 2023.06.01
+Version: 2023.06.01.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -14,16 +14,16 @@ Build-Depends: debhelper-compat (= 12)
 Package-List:
  mechatrax-archive-keyring deb misc optional arch=all
 Checksums-Sha1:
- feafc7d3bb50aa0f7da7bb0947bf78e0efff2c92 4912 mechatrax-archive-keyring_2023.06.01.tar.xz
+ efc7e59ebdc4752684643b85c7c2593daab51392 5020 mechatrax-archive-keyring_2023.06.01.1.tar.xz
 Checksums-Sha256:
- 2d100da5409ad1118ff4cc014d029d4ac63e6ff4e7892aa01dbf704b4533ef48 4912 mechatrax-archive-keyring_2023.06.01.tar.xz
+ 12c43df756d892cae1223d3bc2e099836a8fad20929b315c1b9e5c39f3bd833a 5020 mechatrax-archive-keyring_2023.06.01.1.tar.xz
 Files:
- e9820d247477e85d704f7988dc9c7033 4912 mechatrax-archive-keyring_2023.06.01.tar.xz
+ 2b3d4329b71b79653f62c5757ec9b6fa 5020 mechatrax-archive-keyring_2023.06.01.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZQQpugAKCRA3xGIJUv9H
-GfSbAP9sVCXgj1SVOpHXD7KuufbX7pPcLkNUlIFqd8qQWV0aFAEA37yfMIB5i4wl
-BHxgQXybBr9Punl0BfvppTzeML0bBAo=
-=Nsl+
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXatkxcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGcxSAQCFR9hSi5qxsfBSpbRRz+Ksha06
+3Ru0HqJq2ke5/rhF4QEAuiO4Y94i2wUMjXnNnOyUARDvDKnRhYVrxJoKQxPG+Qg=
+=ggsz
 -----END PGP SIGNATURE-----

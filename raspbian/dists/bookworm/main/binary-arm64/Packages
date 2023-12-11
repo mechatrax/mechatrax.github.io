@@ -185,19 +185,19 @@ Description: transitional dummy package
  This is a transitional dummy package for Raspberry Pi kernel.
 
 Package: mechatrax-archive-keyring
-Version: 2023.06.01
+Version: 2023.06.01.1
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 13
+Installed-Size: 14
 Depends: gnupg
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2023.06.01_all.deb
-Size: 5328
-SHA256: 97672fa7d6e9708c65e4b55c246deae68582979a3b77e0393afa460193acf75d
-SHA1: 5a00f439a55757e0da9c3e42dc3b5e0c835bee52
-MD5sum: 2b9347ddc74b2e99d03da3326ddca210
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2023.06.01.1_all.deb
+Size: 5452
+SHA256: b989055e08f5b0e350945cac8426a31a33fa1a77b1351ce783c6f3e04a34c4e1
+SHA1: bf32616d43669edb395289d2bc3645ad3f7466b7
+MD5sum: e2dd7e10aae473676d4efbbf7c917142
 Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
