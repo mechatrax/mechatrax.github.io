@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: adpi-utils
 Binary: adpi-utils
 Architecture: all
-Version: 2.0.3.1
+Version: 2.0.4
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), bash-completion
 Package-List:
  adpi-utils deb misc optional arch=all
 Checksums-Sha1:
- d68951f7f685b3dd07ebcba2a58851135b128df6 5236 adpi-utils_2.0.3.1.tar.xz
+ e9ace38a992fa8d78542cf75106cbd412c5b2c93 5276 adpi-utils_2.0.4.tar.xz
 Checksums-Sha256:
- cd30e568334edb17f44d4dde59984b4d1be701c1dbdb34ed9398ab0132cf893f 5236 adpi-utils_2.0.3.1.tar.xz
+ 8cabe59305dca510006d0cb9417ef586fccedf6848e34ba5033954882e158e5b 5276 adpi-utils_2.0.4.tar.xz
 Files:
- 70a72d1d2312d134bef780a76456e022 5236 adpi-utils_2.0.3.1.tar.xz
+ 9012d9173743952443656c3ed1bf2b5d 5276 adpi-utils_2.0.4.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRu9Ihcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGf3kAQDmu4W10b3tBhYDNMxUv9TtjKWJ
-BGlaWjtH0Ixp98aTFAD9GbIOFwkBI1iFuY+bxGPSVpM3s3kWcKURHmQQJq2yKg4=
-=s9VF
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXalYBcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGZsCAP997s50dIIKOm0n1POTR6Csb/KK
+D0FeVou86/aYagHD8AD/ZsW7tNVGA0X0KtPH0cv3GKejHnYY9f2/wJjmpEDxXgg=
+=p6FE
 -----END PGP SIGNATURE-----

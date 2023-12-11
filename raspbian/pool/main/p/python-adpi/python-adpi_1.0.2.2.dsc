@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: python-adpi
 Binary: python3-adpi
 Architecture: all
-Version: 1.0.2.1
+Version: 1.0.2.2
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: python3 (>= 3.7), python3-smbus, python3-spidev, python3-setuptoo
 Package-List:
  python3-adpi deb python optional arch=all
 Checksums-Sha1:
- 5470e1f4982914d4b8ca869b2c554638e6072e22 4316 python-adpi_1.0.2.1.tar.xz
+ c3ffb066bf18d8f3461c2a26d4d8b53536f6ea45 4372 python-adpi_1.0.2.2.tar.xz
 Checksums-Sha256:
- 7a4957a418a705f725c940bbb80ecd1c9095b3aadaa3917888ef6b52edd37687 4316 python-adpi_1.0.2.1.tar.xz
+ 71f1f042c447c5e774530080b03c62da23537fcaa26677555d6fccd157917b9a 4372 python-adpi_1.0.2.2.tar.xz
 Files:
- ec332348941d6b5930132e5780a67002 4316 python-adpi_1.0.2.1.tar.xz
+ f61dc2bb31494771b18ca3b7182740da 4372 python-adpi_1.0.2.2.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRu71xcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGR1rAP9vHQYfSh1ZaTqQFQ6VDwul3sLu
-Al14Ue7biK88XWLWcAD7BcdIJXUIflcFDMRrSqXseu6Dw0J5uGtHlAjDJL2HIwg=
-=fx4r
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXamzxcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGRl7AP42KhmTT9BznqeFbDPh9yUMjkhF
+fOFWpr1SsEkjPqqrUwEA+Rr2za3k86heJvydoQOZrAmhNqIWYxoZ4lMdpN2D3gU=
+=PRtz
 -----END PGP SIGNATURE-----

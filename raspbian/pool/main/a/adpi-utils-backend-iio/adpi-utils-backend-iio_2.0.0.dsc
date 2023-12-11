@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: adpi-utils-backend-iio
 Binary: adpi-utils-backend-iio
 Architecture: all
-Version: 1.0.4
+Version: 2.0.0
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12)
 Package-List:
  adpi-utils-backend-iio deb misc optional arch=all
 Checksums-Sha1:
- 239bae36e43914825f820fc3bb890fe6ec548999 4680 adpi-utils-backend-iio_1.0.4.tar.xz
+ 07fd47195e57060c4a4e5ddfd10cf85867ca7966 4452 adpi-utils-backend-iio_2.0.0.tar.xz
 Checksums-Sha256:
- 18b2125b4ffccd1b063da86598149989211c8d70e9f8af6aa54b63573a49ec6d 4680 adpi-utils-backend-iio_1.0.4.tar.xz
+ 0389a91b72ffd746c689775bfe71d39944a60625a26854f1f174fb01a489afff 4452 adpi-utils-backend-iio_2.0.0.tar.xz
 Files:
- 7efe7e4c5c73b19961dbefac12ae836f 4680 adpi-utils-backend-iio_1.0.4.tar.xz
+ a5981e317a3003ff4210db28452f9038 4452 adpi-utils-backend-iio_2.0.0.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZRu96Bcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGeoJAQC+D+AwNQ5ZEr3/BJOmUGEjABQx
-inxz4NrMCShLpM/MsgD/W4eKANXfN44PEcv5Ye0ruyuUKydJryyXSrZF6flAiw4=
-=jRM0
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXal5Bcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGdh9AQCr/WDLC6xE4MXyikhWfdmQJDI1
+IJYJ6AStYFyxz0i7qAD9FnDGabRzFltSFQFUC58Jf6w09VsPquJ7RMhoYozDzAY=
+=LMFT
 -----END PGP SIGNATURE-----

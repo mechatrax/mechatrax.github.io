@@ -52,25 +52,64 @@ MD5sum: aa33c691333d4965774a26d657cc72db
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
-Package: adpi-firmware
-Version: 2.0.0.1
+Package: adpi-dkms
+Version: 1.0.0
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 22
-Depends: raspberrypi-kernel-mtx (>= 1.20230405-1~mtx1)
+Installed-Size: 37
+Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 | linux-headers-rpi-v7 | linux-headers-rpi-v7l, adpi-dkms-sys-mods
+Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.0_armhf.deb
+Size: 6348
+SHA256: 4ac56a32a18abfa29f52aba8b40ae7da6f61910c0db81f3b1e7d8ecba4a96e58
+SHA1: 7b9bff7cf12856edbd47807629c5329c1fbfe79e
+MD5sum: 248220425c6d1512ec377f8241f4df90
+Description: Patches for Linux kernel module to use ADPi (DKMS)
+ This package contains the patches for adc kernel modules. The iio and adc
+ kernel modules for using ADPi to be built with dkms.
+
+Package: adpi-dkms-sys-mods
+Source: adpi-dkms
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 11
+Depends: raspi-config (>= 20160506)
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/a/adpi-dkms/adpi-dkms-sys-mods_1.0.0_armhf.deb
+Size: 2100
+SHA256: 06974e3ce5a83b0e113d05074d8a771f930c8221247314fe1a7e861d2e5b0c9d
+SHA1: 3d5984f76f032f002ebe49739d056242ded4efda
+MD5sum: cb10f1a53bbe93a0d100f7ce75eeee61
+Description: System boot configuration for ADPi
+ This package provides system boot configuration for ADPi
+
+Package: adpi-firmware
+Version: 3.0.0
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 24
+Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
+Depends: raspi-config (>= 20160506)
+Recommends: adpi-dkms, linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-rpi-v7 | linux-image-rpi-v7l | linux-image-rpi-v8 | linux-image-rpi-2712
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_2.0.0.1_armhf.deb
-Size: 4092
-SHA256: dae165b82d4e4bf356e67cff04ebb7bf69e59886304b8a3cda0277c4bad65dd9
-SHA1: 1906b5f90e411dbe3ed1a1420e92e9d625f047ef
-MD5sum: 9c9c203c6c277ea5f16585fdebc208c1
+Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.0_armhf.deb
+Size: 4352
+SHA256: 1c7e7e22f52f630d9cf81e21288ddd55f60b567bb93dfc5a8e8f320cf6a90814
+SHA1: 63dfb50b6a1aee538a7ed72afc1e0578e6609dab
+MD5sum: 371a5b172d29d649fd910ea416451869
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
 Package: adpi-utils
-Version: 2.0.3.1
+Version: 2.0.4
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 25
@@ -78,36 +117,36 @@ Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils/adpi-utils_2.0.3.1_all.deb
-Size: 4760
-SHA256: 6b88427001d1f692eab20669ba038bfa2a8cb09391fe44317075a014bc8d9bc1
-SHA1: 930a421564c4b16cb033de111c7b1d73962a4dc9
-MD5sum: 009ec44063afa2d3a9ac26c133906493
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.4_all.deb
+Size: 4792
+SHA256: abf7a831a9dd14add526273f04cbeda181b634f3478dbfc2e4851d838ccacbe9
+SHA1: 884efad2b5539afad29de8710e3a37d7a41c3496
+MD5sum: 1faa62cca813adcfcd4ccf51f11b0ded
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
 Package: adpi-utils-backend-iio
-Version: 1.0.4
+Version: 2.0.0
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 30
-Depends: bc, adpi-firmware, raspberrypi-kernel-mtx
+Installed-Size: 28
+Depends: bc, adpi-firmware (>= 3.0.0), gpiod
 Conflicts: adpi-utils-backend
 Replaces: adpi-utils-backend
 Provides: adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_1.0.4_all.deb
-Size: 5080
-SHA256: 83ccfe5d744aff3a28bf2b4f2435015fa384f2ed82ea92987eaec76d84bb5a59
-SHA1: 02996ce65e55569e9134b6c85f7fb980702011f4
-MD5sum: dcf21a8b28503b218de033643eb29dd9
+Filename: pool/main/a/adpi-utils-backend-iio/adpi-utils-backend-iio_2.0.0_all.deb
+Size: 4856
+SHA256: d1d419287c9698165dbc35994e3dc9c850ab394796da740f8a2df4ba81154b79
+SHA1: 5a03ccdda221cc57c1fc322b419c94790334737a
+MD5sum: 6e5921ce71ac6e6dde3958debc347e9f
 Description: Backend of adpi-utils to control ADPi with IIO
  This package contains backend files of adpi-utils to control ADPi with IIO.
 
 Package: adpi-utils-backend-spidev
-Version: 1.0.3
+Version: 1.0.3.1
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 26
@@ -118,11 +157,11 @@ Provides: adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.3_all.deb
-Size: 4936
-SHA256: 9d443bdb10108bd0ebf09e2069c188b54944f6ebd67cb0625084922471fa21cc
-SHA1: 0d529cf756dd64b50b7e7a9c3ffa774f9b2954bd
-MD5sum: d320645c3a86b18d549e5e7e4fc0260b
+Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.3.1_all.deb
+Size: 4940
+SHA256: 5daac818a2dd24551e11a20cae1a3b032d4b34e37b957b1be265cfbcc4dd3b6a
+SHA1: 29825e50fbe705d5f9612a5bddf5c1b79ba1e221
+MD5sum: 4c6bab01e9bd0035282372c960e6b395
 Description: Backend of adpi-utils to control ADPi with SPI
  This package contains backend files of adpi-utils to control ADPi with SPI.
 
@@ -222,7 +261,7 @@ Description: firmware migration helper package for MechaTracks products
 
 Package: python3-adpi
 Source: python-adpi
-Version: 1.0.2.1
+Version: 1.0.2.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 33
@@ -230,11 +269,11 @@ Depends: python3-spidev, python3:any, python3-smbus
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: python
-Filename: pool/main/p/python-adpi/python3-adpi_1.0.2.1_all.deb
-Size: 5144
-SHA256: 9db14abda5861c09438dd2f6f1b4fe9abb277bff42d13a63a842a907edca0fce
-SHA1: 18690b4619739b15ea2447518f3d329ee8086e02
-MD5sum: 29e8dbfdbeb83f10b506cfeed861d8c1
+Filename: pool/main/p/python-adpi/python3-adpi_1.0.2.2_all.deb
+Size: 5168
+SHA256: 2f4a4c0e65f8c0f5726bbc71ecc193b64cbe303252a1b6a63c931f84b7f4393c
+SHA1: 601c5e669836ad751ccd8d276e4beb22ce94651d
+MD5sum: 9c8c73eb8e85f111e2a1f9d9fff35781
 Description: Python 3 module for ADPi family.
  This package contains python module to control ADPi family.
  .
