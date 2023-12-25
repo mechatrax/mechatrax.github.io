@@ -1,5 +1,5 @@
 Package: 4gpi-net-mods
-Version: 1.5.2.1
+Version: 1.5.2.2
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 17
@@ -7,11 +7,11 @@ Depends: raspi-config (>= 20160527)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: net
-Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.2.1_all.deb
-Size: 3044
-SHA256: ca6f469d0d434cfe191ed02265dffa6c18a356911238b3c4f4216f4fef876896
-SHA1: 927d6236afed8b4acfa98a100bffbe334c631dbd
-MD5sum: 0484a8cdb9b2db98e171782dcd06a594
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.2.2_all.deb
+Size: 3064
+SHA256: 440cb39d59a1ce69a7e9bde7f810b49686efa36123cf4bdadc3a571e40a9b876
+SHA1: 2f374e997847c03e54d4558830c441a4552b0a9d
+MD5sum: f7b5059f188c2879eceabf019fa7cb64
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
