@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: sleepi3-firmware
 Binary: sleepi3-firmware
 Architecture: armhf arm64
-Version: 2.0.0
+Version: 2.0.0.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), device-tree-compiler
 Package-List:
  sleepi3-firmware deb kernel optional arch=armhf,arm64
 Checksums-Sha1:
- 558a4a77255b6e62f481bcbb3a2c7e60bbc83ff8 3888 sleepi3-firmware_2.0.0.tar.xz
+ 0d7bbcc400374d34ba600c44a3212f8e3162fd7e 3920 sleepi3-firmware_2.0.0.1.tar.xz
 Checksums-Sha256:
- 744138ea525fd0b2d639ab2024f9c06c141c6d05eb0d003d9264567667602c1d 3888 sleepi3-firmware_2.0.0.tar.xz
+ d68be9f83d91c88c106e56bc390d6c6ec73df6cc80f4d2c3ba30ac05b8fccc91 3920 sleepi3-firmware_2.0.0.1.tar.xz
 Files:
- 666c74be014724accd1a7eb0ef9bdfc3 3888 sleepi3-firmware_2.0.0.tar.xz
+ 2a73fc24512a6303552e6d2df6158f7b 3920 sleepi3-firmware_2.0.0.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZXasxhcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGYF9AP9EYbjyXbDSgPV68blXRHQ8Wqh9
-HpwD8VjJeFn0JzLH2gEA7TJg72/KwLVui/JfPB0j/yjO1fh9LCb61EtUsloC9gI=
-=9j2B
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZcr9hRcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGaJjAPwNTglGYgaVxL2rAjkdtTonDK/I
+Bgr/kPaTZZEc97TMTgD+JvW4R+nNXWS5HLyqiCVIEMgubMraOZk0lSmJGoHQgQU=
+=R5Qr
 -----END PGP SIGNATURE-----
