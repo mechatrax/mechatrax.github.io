@@ -90,21 +90,21 @@ Description: System boot configuration for ADPi
  This package provides system boot configuration for ADPi
 
 Package: adpi-firmware
-Version: 3.0.0
+Version: 3.0.0.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 24
+Installed-Size: 23
 Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
 Depends: raspi-config (>= 20160506)
 Recommends: adpi-dkms, linux-image-rpi-dummy | linux-image-rpi-v6 | linux-image-rpi-v7 | linux-image-rpi-v7l | linux-image-rpi-v8 | linux-image-rpi-2712
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.0_armhf.deb
-Size: 4352
-SHA256: 1c7e7e22f52f630d9cf81e21288ddd55f60b567bb93dfc5a8e8f320cf6a90814
-SHA1: 63dfb50b6a1aee538a7ed72afc1e0578e6609dab
-MD5sum: 371a5b172d29d649fd910ea416451869
+Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.0.1_armhf.deb
+Size: 4400
+SHA256: 52e518d7558c81ba1ce978226590d011fd3831437149f9fdfb3e515e417fc6c9
+SHA1: d88297acb17a15553ec9cced2890c4a17cdfb671
+MD5sum: ac2d5579b17fd542ca8f19236756c2bc
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
