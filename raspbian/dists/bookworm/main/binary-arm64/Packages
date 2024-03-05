@@ -72,7 +72,7 @@ Description: Patches for Linux kernel module to use ADPi (DKMS)
  kernel modules for using ADPi to be built with dkms.
 
 Package: adpi-firmware
-Version: 3.0.0.1
+Version: 3.0.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 23
@@ -82,11 +82,11 @@ Recommends: adpi-dkms, linux-image-rpi-dummy | linux-image-rpi-v8 | linux-image-
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.0.1_arm64.deb
-Size: 4384
-SHA256: f5313c21ea93a22f410c17c36fe42982a708900e116a424e190e8a6296eeb981
-SHA1: de788ae3d043f30338781a6f25ae6bb35153ed03
-MD5sum: b613fca202c1e121479c2e349cc131cd
+Filename: pool/main/a/adpi-firmware/adpi-firmware_3.0.1_arm64.deb
+Size: 4468
+SHA256: e11590dd30ac04057c602033a0634dcfee5af6f049b2898c768f0dbabad37fa3
+SHA1: a416cd0783eeda36876fc5e203a2749e714a63e5
+MD5sum: 733f4952e57f0a73dfb847f999614787
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
