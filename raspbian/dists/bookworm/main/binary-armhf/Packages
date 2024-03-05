@@ -109,7 +109,7 @@ Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
 Package: adpi-utils
-Version: 2.0.4
+Version: 2.0.5
 Architecture: all
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 25
@@ -117,11 +117,11 @@ Depends: adpi-utils-backend-spidev | adpi-utils-backend
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: misc
-Filename: pool/main/a/adpi-utils/adpi-utils_2.0.4_all.deb
-Size: 4792
-SHA256: abf7a831a9dd14add526273f04cbeda181b634f3478dbfc2e4851d838ccacbe9
-SHA1: 884efad2b5539afad29de8710e3a37d7a41c3496
-MD5sum: 1faa62cca813adcfcd4ccf51f11b0ded
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.5_all.deb
+Size: 4860
+SHA256: fd1af248c0161f46d70263bb217bd93a735c0b347bfed2b9b3f329df6c6e6ebb
+SHA1: a33b538144891d32614caf0b14d9ecef3848b9c0
+MD5sum: c979c441932eef721add465ef0693a9f
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
