@@ -53,27 +53,27 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-dkms
-Version: 1.0.0
+Version: 1.0.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
-Installed-Size: 37
+Installed-Size: 38
 Depends: dkms, xz-utils, linux-source, linux-headers-rpi-dummy | linux-headers-rpi-v6 | linux-headers-rpi-v7 | linux-headers-rpi-v7l, adpi-dkms-sys-mods
 Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.0_armhf.deb
-Size: 6348
-SHA256: 4ac56a32a18abfa29f52aba8b40ae7da6f61910c0db81f3b1e7d8ecba4a96e58
-SHA1: 7b9bff7cf12856edbd47807629c5329c1fbfe79e
-MD5sum: 248220425c6d1512ec377f8241f4df90
+Filename: pool/main/a/adpi-dkms/adpi-dkms_1.0.1_armhf.deb
+Size: 6572
+SHA256: 42f95d0af93068e2bb33012cc9b82e577be1e7b239a7f00028cfbe7e88aed8c2
+SHA1: fa87a6a6cf6e0bdd1531285014380daadc29f725
+MD5sum: 50dc15591641c0ea957bce22edc1ef11
 Description: Patches for Linux kernel module to use ADPi (DKMS)
  This package contains the patches for adc kernel modules. The iio and adc
  kernel modules for using ADPi to be built with dkms.
 
 Package: adpi-dkms-sys-mods
 Source: adpi-dkms
-Version: 1.0.0
+Version: 1.0.1
 Architecture: armhf
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 11
@@ -81,11 +81,11 @@ Depends: raspi-config (>= 20160506)
 Homepage: https://mechatrax.com
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-dkms/adpi-dkms-sys-mods_1.0.0_armhf.deb
-Size: 2100
-SHA256: 06974e3ce5a83b0e113d05074d8a771f930c8221247314fe1a7e861d2e5b0c9d
-SHA1: 3d5984f76f032f002ebe49739d056242ded4efda
-MD5sum: cb10f1a53bbe93a0d100f7ce75eeee61
+Filename: pool/main/a/adpi-dkms/adpi-dkms-sys-mods_1.0.1_armhf.deb
+Size: 2176
+SHA256: 1a285c364aa79279cd87c641c4d8a87be3a5184b572af432eacad5ea76b6989f
+SHA1: c81a74e3dccba288b8362e3c114491d74efa622c
+MD5sum: 5cdfa890cb698d397ce18684b921d4e6
 Description: System boot configuration for ADPi
  This package provides system boot configuration for ADPi
 
