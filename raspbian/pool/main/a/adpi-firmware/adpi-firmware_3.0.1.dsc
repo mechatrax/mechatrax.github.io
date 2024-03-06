@@ -5,7 +5,7 @@ Format: 3.0 (native)
 Source: adpi-firmware
 Binary: adpi-firmware
 Architecture: armhf arm64
-Version: 3.0.0.1
+Version: 3.0.1
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Uploaders: Masahiro Honda <honda@mechatrax.com>
 Homepage: https://mechatrax.com/
@@ -16,16 +16,16 @@ Build-Depends: debhelper-compat (= 12), device-tree-compiler
 Package-List:
  adpi-firmware deb kernel optional arch=armhf,arm64
 Checksums-Sha1:
- b46d0ed73c01b06ade45eaf01c8b19e3c38a7780 4356 adpi-firmware_3.0.0.1.tar.xz
+ 378bbb70b45f339be15cebc74cae6f3f844829aa 4440 adpi-firmware_3.0.1.tar.xz
 Checksums-Sha256:
- 54088ba3539c1d1fc6c326d005c13200f0f75ffb4fd0d8b276b7fa4e2487194d 4356 adpi-firmware_3.0.0.1.tar.xz
+ b480f9cca0f787dd1aaa02e8d58e66a786888ffe0bf60963aafdf55c5d5bdc65 4440 adpi-firmware_3.0.1.tar.xz
 Files:
- 4af98811186b5a43f34b7c20436b985c 4356 adpi-firmware_3.0.0.1.tar.xz
+ b4f91e9a2053111f89da46748df0d375 4440 adpi-firmware_3.0.1.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZcxO5Bcca2l5b25hZ2FA
-bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGdD8AP0UCgkds3Ck0wKVaZbNqMPTXfdR
-bjBa2KHMuIMx9O4iVAD/Q6DeXVz80SywVoa7VpHnJOCbPt0b+iUpmJYanwI8lg8=
-=cUA0
+iI0EARYIADUWIQSasPKjmhcVp9FY5ig3xGIJUv9HGQUCZeeo7hcca2l5b25hZ2FA
+bWVjaGF0cmF4LmNvbQAKCRA3xGIJUv9HGVvPAP9nNlnQiSy8P+p/uV7Mw2Oum9gN
+eFxmRawZD+4nFkaKegEAueuuntlv8VhkhKE6x2XJNlOAivDUKcmL79RNVOP3qgQ=
+=zw98
 -----END PGP SIGNATURE-----
