@@ -282,7 +282,7 @@ Description: Python 3 module for slee-Pi family.
  This package installs the library for Python 3.
 
 Package: sleepi3-firmware
-Version: 2.0.2
+Version: 2.0.2.1
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 18
@@ -293,11 +293,11 @@ Conflicts: sleepi-firmware, sleepi2-firmware
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.2_arm64.deb
-Size: 4028
-SHA256: 6316080d8c73bd8687090abcf02a6733ccb20cc39e8e2534444dbb4afe48aa24
-SHA1: 9569997eddb11b4fab746ccda866911bec04637d
-MD5sum: 2d4334c0af9c1668501e652354418c13
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.2.1_arm64.deb
+Size: 4048
+SHA256: 3d05d5e474f4d11acce79efa1f3437933546e5703a469c6824fa648746d6215d
+SHA1: 4d9cffd89b6d31ae4179a4727095585cb338751f
+MD5sum: d254cdb45cba73f5d578acbbd8e1cb28
 Description: Device tree overlay binary for slee-Pi 3
  This package contains the device tree overlay binary for slee-Pi 3.
 
