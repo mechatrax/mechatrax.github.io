@@ -241,6 +241,23 @@ Description: firmware migration helper package for MechaTracks products
  This package contains scripts to migrate firmware packages for MechaTracks
  products.
 
+Package: pifield-monitor
+Version: 1.0.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 40
+Depends: python3-serial, python3-yaml, python3, systemd
+Homepage: https://mechatrax.com
+Priority: optional
+Section: misc
+Filename: pool/main/p/pifield-monitor/pifield-monitor_1.0.0_all.deb
+Size: 6096
+SHA256: 2798d104ed182709a3102efed3f3fc14e76c302fa2c2c84ea0f031ffe2d9ec69
+SHA1: 4a59f0b195921f9120d370fa777d7b52fd53e463
+MD5sum: 8c6cc4a175572a63812b01c08813c5ec
+Description: Monitoring daemon for Pi-field
+ This package contains the daemon to monitoring serials connected to Pi-field.
+
 Package: python3-adpi
 Source: python-adpi
 Version: 1.0.2.2
