@@ -53,7 +53,7 @@ Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
 Package: adpi-firmware
-Version: 2.0.0+deb11u1
+Version: 2.0.0+deb11u2
 Architecture: arm64
 Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
 Installed-Size: 22
@@ -61,11 +61,11 @@ Depends: raspberrypi-kernel-mtx (>= 1.20230405-1~mtx1)
 Homepage: https://mechatrax.com/
 Priority: optional
 Section: kernel
-Filename: pool/main/a/adpi-firmware/adpi-firmware_2.0.0+deb11u1_arm64.deb
-Size: 4164
-SHA256: 07dda53ae9d67446a53811481b7eaca1f2c374677cd6a853fd34e86c40ee5edb
-SHA1: 4b4b60c48b680c28b96262406448e45071d748f8
-MD5sum: f66fb17163216b454d5ae31f19604524
+Filename: pool/main/a/adpi-firmware/adpi-firmware_2.0.0+deb11u2_arm64.deb
+Size: 4224
+SHA256: 8884d09948ba506cbac1adedeaa405c85bec2e28d71c87498629c7f6c95e1a5e
+SHA1: 9861ff9561de79db151c45cd207f32eb8cabbe5c
+MD5sum: ef8782869dc17562dad8b53c443e73c2
 Description: Device tree overlay binary for ADPi
  This package contains the device tree overlay binary for ADPi.
 
