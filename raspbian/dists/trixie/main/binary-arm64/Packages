@@ -107,6 +107,26 @@ Description: GnuPG archive keys of the mechatrax archive
  The mechatrax archive digitally signs its Release files.
  This package contains the archive keys used for that.
 
+Package: python3-adpi
+Source: python-adpi
+Version: 1.0.2.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 32
+Depends: python3-smbus, python3-spidev, python3:any
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-adpi/python3-adpi_1.0.2.3_all.deb
+Size: 5280
+SHA256: e8d4d364c518053e69f18858946a7a3a83f8d11757100e376b998aa1afb33a6f
+SHA1: 4a57b3630c4f6d191c383ef92cb40b48614a40f2
+MD5sum: 85f7c59c04b3513146386e2ae302bd53
+Description: Python 3 module for ADPi family.
+ This package contains python module to control ADPi family.
+ .
+ This package installs the library for Python 3.
+
 Package: python3-sleepi
 Source: python-sleepi
 Version: 1.1.1.3
