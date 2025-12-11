@@ -69,6 +69,26 @@ MD5sum: d4bd512a204255268df20a07cfb24c8a
 Description: Utilities for ADPi
  This package contains command utilities to control ADPi.
 
+Package: adpi-utils-backend-spidev
+Version: 1.0.3.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 25
+Depends: python3, python3-adpi
+Conflicts: adpi-firmware, adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.3.2_all.deb
+Size: 5008
+SHA256: 447e09349c82001924053d9a9acfc2d86aa1038db6c877853bae1c58920eb9e3
+SHA1: f66fd61c995eb22e8c8c09328bfdee8488b9a3a3
+MD5sum: 5ac815d750dc3abd33064acf2c8e8b74
+Description: Backend of adpi-utils to control ADPi with SPI
+ This package contains backend files of adpi-utils to control ADPi with SPI.
+
 Package: mechatrax-archive-keyring
 Version: 2023.06.01.2
 Architecture: all
