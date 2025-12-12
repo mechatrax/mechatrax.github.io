@@ -1,4 +1,6 @@
-Raspberry Pi OS Bullseye または Bookworm では次のいずれかの方法でリポジトリの追加が可能です。
+Raspberry Pi OS Bookworm または Trixie では次のいずれかの方法でリポジトリの追加が可能です。
+<br />
+Trixie では arm64 対応パッケージのみインストール可能です。  
 <br />
 
 **スクリプトをダウンロードして実行する場合**  
@@ -8,19 +10,23 @@ curl https://mechatrax.github.io/setup.sh | sudo bash
 ```
 
 **個別に設定を行う場合**  
-次の手順に従って設定を行ってください。  
-
-1: apt リポジトリを追加してください。  
+次のコマンドを実行してください。  
 ```
-bash -c 'source /etc/os-release && echo "deb [signed-by=/usr/share/keyrings/mechatrax-archive-keyring.gpg] http://mechatrax.github.io/raspbian $VERSION_CODENAME main soracom" | sudo tee /etc/apt/sources.list.d/mechatrax.list'
+bash -c 'source /etc/os-release; cat << EOF | sudo tee /etc/apt/sources.list.d/mechatrax.sources
+Types: deb
+URIs: http://mechatrax.github.io/raspbian/
+Suites: $VERSION_CODENAME
+Components: main soracom
+Signed-By:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  .
+  mDMEZHgt7hYJKwYBBAHaRw8BAQdAEUiE3FxXVU3s1lMaCkOYi5IjKYN8XUU9DQ8T
+  XtJRIbW0Sk1lY2hhVHJhY2tzIENvLiwgTHRkLiAoTWVjaGF0cmF4IEFyY2hpdmUg
+  U2lnbmluZyBLZXkpIDxpbmZvQG1lY2hhdHJheC5jb20+iJAEExYIADgWIQS3SfsI
+  gf5OQUB4t27Vk0v6ESUIOQUCZHgt7gIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIX
+  gAAKCRDVk0v6ESUIOTxJAQCA7wW3ZUuQOZIevI96buyraAIKPKpaFB/6WUxqvR6d
+  ZgEAnHsJhzu+nm1JIldPfy42TNQU7AZJHDrhD2m1mG1zRwQ=
+  =a674
+  -----END PGP PUBLIC KEY BLOCK-----
+EOF'
 ```
-
-2: 署名の公開鍵を追加してください。  
-```
-curl https://mechatrax.github.io/raspbian/mechatrax.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/mechatrax-archive-keyring.gpg
-```
-
-必要であれば、公開鍵の整合性を確認してください。  
-mechatrax.gpg.key の SHA256 ハッシュ値は下記になります。  
-
-`b44e1420e74edea071d49164206508e013e9837381d4eec6fbc27811ce7f4255`
