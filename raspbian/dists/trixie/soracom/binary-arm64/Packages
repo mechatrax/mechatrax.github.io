@@ -1,0 +1,14 @@
+Package: soracom
+Maintainer: soracom-cli@soracom.jp
+Version: 1.7.0
+Architecture: arm64
+Priority: extra
+Section: devel
+Filename: pool/soracom/s/soracom/soracom_1.7.0_arm64.deb
+Size: 2395836
+SHA256: 76c6ded402f25109fca9366f626130e968e0fc1e015f3587876d5eccdda44194
+SHA1: 42d9b3d639784ae2e3ac86950015be6cdc055d35
+MD5sum: 52af0cc75097476fb4c19d2191e60e78
+Description: A command line tool `soracom\' to invoke SORACOM API.
+Installed-Size: 10817
+

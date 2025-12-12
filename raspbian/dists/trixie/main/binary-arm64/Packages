@@ -1,0 +1,223 @@
+Package: 4gpi-net-mods
+Version: 1.5.3.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 17
+Depends: raspi-config (>= 20160527)
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-net-mods/4gpi-net-mods_1.5.3.1_all.deb
+Size: 3112
+SHA256: 5ac43bb14b4a618566a16df5ec379ade73f25ac82480dfcc60967f79d8a2aa31
+SHA1: 5cdb1108ef6c8dc472320acaf233d200e5f5a6ac
+MD5sum: 335043c034d6555f277aac565031d7e1
+Description: Network configuration for 4GPi
+ This package contains network configuration files for 4GPi
+
+Package: 4gpi-networkmanager
+Version: 4.0.0.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 50
+Depends: python3, python3-gi, python3-dbus, network-manager, modemmanager, 4gpi-utils, gir1.2-modemmanager-1.0, gir1.2-nm-1.0, gir1.2-qmi-1.0
+Conflicts: 4gpi-networkmanager
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_4.0.0.2_all.deb
+Size: 9060
+SHA256: cf11afab11920ec4ae1652c86e267df7745e11aef2702bdf707ebc49a548690a
+SHA1: 4797bf0d0ec1b71377ac14b703ed21bfb2245cb1
+MD5sum: be55a1a381afc02d8e4034608fe2d1e8
+Description: NetworkManager settings and helper tools for 4GPi
+ This package contains udev rules and helper tools for using 4GPi with
+ NetworkManager.
+
+Package: 4gpi-utils
+Version: 3.2.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 41
+Depends: ppp, gpiod (>= 2.2)
+Suggests: 4gpi-net-mods
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-utils/4gpi-utils_3.2.3_all.deb
+Size: 7100
+SHA256: f6a747bf606fe2a1c082e12c1dac9e99fedf85ca1029401c1b120e2b1daee813
+SHA1: d9fb2758ccdc6ed1490cb0aa7f78c6c5a9d4f765
+MD5sum: 5a96d775945c78990eeeb96d6df07ab3
+Description: Utilities for 4GPi family
+ This package contains command line utilities to control 4GPi family.
+
+Package: adpi-utils
+Version: 2.0.6.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 25
+Depends: adpi-utils-backend-spidev | adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.6.1_all.deb
+Size: 5036
+SHA256: 6afc28a86687617d5e3341288afeffd9c4399b09bac73388b54bdb812feacba1
+SHA1: 3a74dc72e5a66deaba6a0e0ea969900c909dd7bf
+MD5sum: d4bd512a204255268df20a07cfb24c8a
+Description: Utilities for ADPi
+ This package contains command utilities to control ADPi.
+
+Package: adpi-utils-backend-spidev
+Version: 1.0.3.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 25
+Depends: python3, python3-adpi
+Conflicts: adpi-firmware, adpi-utils-backend
+Replaces: adpi-utils-backend
+Provides: adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils-backend-spidev/adpi-utils-backend-spidev_1.0.3.2_all.deb
+Size: 5008
+SHA256: 447e09349c82001924053d9a9acfc2d86aa1038db6c877853bae1c58920eb9e3
+SHA1: f66fd61c995eb22e8c8c09328bfdee8488b9a3a3
+MD5sum: 5ac815d750dc3abd33064acf2c8e8b74
+Description: Backend of adpi-utils to control ADPi with SPI
+ This package contains backend files of adpi-utils to control ADPi with SPI.
+
+Package: mechatrax-archive-keyring
+Version: 2023.06.01.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 14
+Depends: gnupg
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2023.06.01.2_all.deb
+Size: 5512
+SHA256: 32dddd6b4cc5bc46b3993faeea606f8fea97ef78857f8c45e03e92811ad60659
+SHA1: fa203ef0d7a5bd936fcca6edba368e35a7771d2a
+MD5sum: 726d2ea7fb83a3ab08c047852c8c2acd
+Description: GnuPG archive keys of the mechatrax archive
+ The mechatrax archive digitally signs its Release files.
+ This package contains the archive keys used for that.
+
+Package: python3-adpi
+Source: python-adpi
+Version: 1.0.2.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 32
+Depends: python3-smbus, python3-spidev, python3:any
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-adpi/python3-adpi_1.0.2.3_all.deb
+Size: 5280
+SHA256: e8d4d364c518053e69f18858946a7a3a83f8d11757100e376b998aa1afb33a6f
+SHA1: 4a57b3630c4f6d191c383ef92cb40b48614a40f2
+MD5sum: 85f7c59c04b3513146386e2ae302bd53
+Description: Python 3 module for ADPi family.
+ This package contains python module to control ADPi family.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-sleepi
+Source: python-sleepi
+Version: 1.1.1.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 28
+Depends: python3-smbus, python3:any
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.1.1.3_all.deb
+Size: 4708
+SHA256: 3cd7292b0ba4425a15646f0cf72683e5da5b8dd678c1a182a45e5457bb0ebb22
+SHA1: 02c171606c4ac06cf1192d845692950bed0f7c44
+MD5sum: af1e76e5093f4f77012347d03c9da30c
+Description: Python 3 module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 3.
+
+Package: sleepi3-dkms
+Version: 1.0.0.2
+Architecture: arm64
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 70
+Depends: dkms, xz-utils, linux-headers-rpi-dummy | linux-headers-rpi-v8 (>= 1:6.12) | linux-headers-rpi-2712 (>= 1:6.12)
+Conflicts: linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, raspberrypi-kernel-headers, raspberrypi-kernel-headers-mtx
+Homepage: https://mechatrax.com
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-dkms/sleepi3-dkms_1.0.0.2_arm64.deb
+Size: 14048
+SHA256: e1204ee8020bc2e69044cc444f39a86ff7609f0712dddf5579181321259d8e54
+SHA1: 3e62f1eefe6257543cba853b60f1fb12cc22842c
+MD5sum: 0effe44c160c5752ca393c7b38eb24ab
+Description: Linux kernel module to use slee-Pi 3 (DKMS)
+ This package contains the source for rtc kernel module. The RTC
+ kernel module for using slee-Pi 3 to be built with dkms.
+
+Package: sleepi3-firmware
+Version: 2.0.4.2
+Architecture: arm64
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 18
+Pre-Depends: mechatrax-firmware-dummy | raspi-firmware
+Depends: raspi-config (>= 20160506)
+Recommends: linux-image-rpi-dummy | linux-image-rpi-v8 (>= 1:6.12) | linux-image-rpi-2712 (>= 1:6.12), sleepi3-dkms
+Conflicts: sleepi-firmware, sleepi2-firmware
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi3-firmware/sleepi3-firmware_2.0.4.2_arm64.deb
+Size: 4304
+SHA256: d6e4f25f075af18f6c518d213d62e720c832e461f6672292d8e53e93117ff7a4
+SHA1: 0d6256136e102a130d94a0930bec9cefce435a14
+MD5sum: 835a60fc9a08ad87a7dd684c072c1875
+Description: Device tree overlay binary for slee-Pi 3
+ This package contains the device tree overlay binary for slee-Pi 3.
+
+Package: sleepi3-monitor
+Version: 2.1.0.3
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 43
+Depends: sleepi3-utils, python3-sleepi, python3-yaml, python3, systemd
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/s/sleepi3-monitor/sleepi3-monitor_2.1.0.3_all.deb
+Size: 6208
+SHA256: b9a7877a7268e68c23421cce72bd9a84846b9eefad544d76cd8f27093f0c68b7
+SHA1: 18b092ff845b3ee34e327b97951144b4666c5ff2
+MD5sum: 23b34cc24f2918a7770728935547a3ed
+Description: Monitoring daemon for slee-Pi 3
+ This package contains the daemon to monitor slee-Pi 3.
+
+Package: sleepi3-utils
+Version: 1.0.9.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 63
+Depends: sleepi3-firmware, python3-sleepi, python3, util-linux-extra
+Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: admin
+Filename: pool/main/s/sleepi3-utils/sleepi3-utils_1.0.9.1_all.deb
+Size: 9332
+SHA256: f3109e949c9804015a4b6329573b8be89b3199cc044f09137cc058737cfc1c65
+SHA1: fbd22792f3229904d90c8745dcdba8017115ac89
+MD5sum: 2e14034484f358ade1567d216e9b6d7b
+Description: Utilities for slee-Pi 3
+ This package contains command utilities to control slee-Pi 3.
+
