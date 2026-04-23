@@ -6,7 +6,7 @@ Trixie では arm64 対応パッケージのみインストール可能です。
 **スクリプトをダウンロードして実行する場合**  
 次のコマンドを実行してください。
 ```
-curl https://mechatrax.github.io/setup.sh | sudo bash
+sudo sh -c 'curl -fsSL https://mechatrax.github.io/setup.sh | bash'
 ```
 
 **個別に設定を行う場合**  
