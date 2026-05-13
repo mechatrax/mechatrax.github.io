@@ -52,3 +52,20 @@ MD5sum: 5a96d775945c78990eeeb96d6df07ab3
 Description: Utilities for 4GPi family
  This package contains command line utilities to control 4GPi family.
 
+Package: adpi-utils
+Version: 2.0.6.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 25
+Depends: adpi-utils-backend-spidev | adpi-utils-backend
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/a/adpi-utils/adpi-utils_2.0.6.1_all.deb
+Size: 5036
+SHA256: 6afc28a86687617d5e3341288afeffd9c4399b09bac73388b54bdb812feacba1
+SHA1: 3a74dc72e5a66deaba6a0e0ea969900c909dd7bf
+MD5sum: d4bd512a204255268df20a07cfb24c8a
+Description: Utilities for ADPi
+ This package contains command utilities to control ADPi.
+
