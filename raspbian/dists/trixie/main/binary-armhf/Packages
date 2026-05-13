@@ -15,6 +15,25 @@ MD5sum: 335043c034d6555f277aac565031d7e1
 Description: Network configuration for 4GPi
  This package contains network configuration files for 4GPi
 
+Package: 4gpi-networkmanager
+Version: 4.0.0.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 50
+Depends: python3, python3-gi, python3-dbus, network-manager, modemmanager, 4gpi-utils, gir1.2-modemmanager-1.0, gir1.2-nm-1.0, gir1.2-qmi-1.0
+Conflicts: 4gpi-networkmanager
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: net
+Filename: pool/main/4/4gpi-networkmanager/4gpi-networkmanager_4.0.0.2_all.deb
+Size: 9060
+SHA256: cf11afab11920ec4ae1652c86e267df7745e11aef2702bdf707ebc49a548690a
+SHA1: 4797bf0d0ec1b71377ac14b703ed21bfb2245cb1
+MD5sum: be55a1a381afc02d8e4034608fe2d1e8
+Description: NetworkManager settings and helper tools for 4GPi
+ This package contains udev rules and helper tools for using 4GPi with
+ NetworkManager.
+
 Package: 4gpi-utils
 Version: 3.2.3
 Architecture: all
