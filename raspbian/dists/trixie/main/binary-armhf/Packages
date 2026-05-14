@@ -89,6 +89,23 @@ MD5sum: 5ac815d750dc3abd33064acf2c8e8b74
 Description: Backend of adpi-utils to control ADPi with SPI
  This package contains backend files of adpi-utils to control ADPi with SPI.
 
+Package: pifield-monitor
+Version: 1.0.0.1
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 40
+Depends: python3-serial, python3-yaml, python3, systemd
+Homepage: https://mechatrax.com
+Priority: optional
+Section: misc
+Filename: pool/main/p/pifield-monitor/pifield-monitor_1.0.0.1_all.deb
+Size: 6200
+SHA256: de0db15bc1456d8ff385fa51b5395a44154d81f0bc4a18bc861f9c3eb7bfd34a
+SHA1: d4ee3273595ae47d95b9f8d3d4a0faa3a5b4d2b6
+MD5sum: 7ec1827246e9358f50d5f75fc19ddef1
+Description: Monitoring daemon for Pi-field
+ This package contains the daemon to monitoring serials connected to Pi-field.
+
 Package: python3-adpi
 Source: python-adpi
 Version: 1.0.2.3
