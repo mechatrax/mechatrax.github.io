@@ -1,0 +1,14 @@
+Package: soracom
+Maintainer: soracom-cli@soracom.jp
+Version: 1.7.0
+Architecture: armhf
+Priority: extra
+Section: devel
+Filename: pool/soracom/s/soracom/soracom_1.7.0_armhf.deb
+Size: 2433136
+SHA256: 27146f9f8572ed7402015c77b37e2af10395df895a60c6c31140dc124adf4fd6
+SHA1: 1c3a5ec58e7cb97ff9f95dc8e9c3bf72dacd63e9
+MD5sum: ab509335585ff05927189571ba206293
+Description: A command line tool `soracom\' to invoke SORACOM API.
+Installed-Size: 11137
+
