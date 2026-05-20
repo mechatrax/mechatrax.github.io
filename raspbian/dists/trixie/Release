@@ -1,13 +1,13 @@
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: trixie
-Date: Thu, 14 May 2026 09:52:46 UTC
+Date: Wed, 20 May 2026 01:54:04 UTC
 Architectures: armhf arm64
 Components: main soracom
 Description: Mechatrax archive for Raspbian Trixie
 MD5Sum:
- 314a05feb74fb647cdf19db867abd876 4516 main/binary-armhf/Packages
- c88d8139c942c79f795505a75baa343c 1576 main/binary-armhf/Packages.gz
+ 94f3c6a9e76448786179e31df1e33ed3 5180 main/binary-armhf/Packages
+ 127a55fa580f591dd745aecafc590482 1781 main/binary-armhf/Packages.gz
  ff679f6553ac4b3b55b9c465ceaf53bf 134 main/binary-armhf/Release
  45c27f14da9a9da754ac4025f4744285 8805 main/binary-arm64/Packages
  501e4a94a624307bd8aa14d4b621742b 2762 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
  b84189f496533c084e285fbea2d9ef72 138 soracom/source/Release
 SHA1:
- 9b4c398b4cc4f1f80538168d59eeb7de35f88449 4516 main/binary-armhf/Packages
- 6ce5005c5b99a9a493f412ad35a50c5a1116d12d 1576 main/binary-armhf/Packages.gz
+ 7cae7e7184d884ac40e169860d8d8b0f91fa8ed9 5180 main/binary-armhf/Packages
+ b14f091a52cee045ab78419b99e44e1f262ffe16 1781 main/binary-armhf/Packages.gz
  e6dcf7d412583c6283f3f33050675de8886f79d7 134 main/binary-armhf/Release
  dcaa73aa3fbd25915352fceeee6f33e34005e652 8805 main/binary-arm64/Packages
  3e81858775fb950d092cfd11ff755b627617246f 2762 main/binary-arm64/Packages.gz
@@ -44,8 +44,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
  5089d26702d208e3bd2d19797a0eaf2d1bd5db20 138 soracom/source/Release
 SHA256:
- badb5d54d7028a72ad83a83fceb8fcd13e4238b4e609a7f0d2e52f36c9f81a3b 4516 main/binary-armhf/Packages
- a8800d61ddf4c466ea0d7cfc3ac45e043b68b61ea977c4a170e9adef7bb21371 1576 main/binary-armhf/Packages.gz
+ 5a04d83886015f2430c154e31dde430c79f379a30e2ad69a4614fa7f67c16249 5180 main/binary-armhf/Packages
+ 4daead276648d159fb9f3daf9ef37afdcecad573c9a339f76da782ec2aab27be 1781 main/binary-armhf/Packages.gz
  c58e1994bab5c98d8aa437647ad7a62d9f12ea16e15d9aab3e76534c64a448b3 134 main/binary-armhf/Release
  03e3f2939332c7acd311267c7f3c7a443fabcbc592a82011d46b9df4573b3c5d 8805 main/binary-arm64/Packages
  ed28f79a77a184eef341cf1e6b8daec7b540156d61e1876a24ab0cb7013dd853 2762 main/binary-arm64/Packages.gz
