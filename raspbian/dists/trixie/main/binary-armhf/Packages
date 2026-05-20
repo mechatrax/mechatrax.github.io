@@ -89,6 +89,24 @@ MD5sum: 5ac815d750dc3abd33064acf2c8e8b74
 Description: Backend of adpi-utils to control ADPi with SPI
  This package contains backend files of adpi-utils to control ADPi with SPI.
 
+Package: mechatrax-archive-keyring
+Version: 2023.06.01.2
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 14
+Depends: gnupg
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/m/mechatrax-archive-keyring/mechatrax-archive-keyring_2023.06.01.2_all.deb
+Size: 5512
+SHA256: 32dddd6b4cc5bc46b3993faeea606f8fea97ef78857f8c45e03e92811ad60659
+SHA1: fa203ef0d7a5bd936fcca6edba368e35a7771d2a
+MD5sum: 726d2ea7fb83a3ab08c047852c8c2acd
+Description: GnuPG archive keys of the mechatrax archive
+ The mechatrax archive digitally signs its Release files.
+ This package contains the archive keys used for that.
+
 Package: pifield-monitor
 Version: 1.0.0.1
 Architecture: all
