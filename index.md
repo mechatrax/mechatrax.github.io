@@ -1,6 +1,6 @@
 Raspberry Pi OS Bookworm または Trixie では次のいずれかの方法でリポジトリの追加が可能です。
 <br />
-Trixie では arm64 対応パッケージのみインストール可能です。  
+Trixie では製品・アーキテクチャによって対応状況が異なります。詳細は[弊社ブログ](https://mechatrax.com/blog/support-trixie/#%E6%A6%82%E8%A6%81)をご覧ください。  
 <br />
 
 **スクリプトをダウンロードして実行する場合**  
