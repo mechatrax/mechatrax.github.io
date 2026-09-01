@@ -1,7 +1,7 @@
 Origin: MechaTracks Co., Ltd.
 Label: Mechatrax
 Codename: trixie
-Date: Mon, 25 May 2026 08:43:47 UTC
+Date: Tue, 01 Sep 2026 03:29:47 UTC
 Architectures: armhf arm64
 Components: main soracom
 Description: Mechatrax archive for Raspbian Trixie
@@ -15,11 +15,11 @@ MD5Sum:
  31377c41d4193c71902569a7b091fc4e 14308 main/source/Sources
  d146ddfc3f2ff611202a424ffa0ca3e8 3642 main/source/Sources.gz
  89f287865d043479cedbbb27c621231f 135 main/source/Release
- e2fe953421f959130cf0f1b9b9e71ef9 440 soracom/binary-armhf/Packages
- 541ac96d764bbd5bacccff92eb4c193b 331 soracom/binary-armhf/Packages.gz
+ fed121f8deda35c877959a6d26a46b79 440 soracom/binary-armhf/Packages
+ 7581d7e42b2933640714f8bb1c996fe6 333 soracom/binary-armhf/Packages.gz
  5db2fbafee1920c7ce38f1293cfe738f 137 soracom/binary-armhf/Release
- 711db8e222dafbc4997f2cfafef9d027 440 soracom/binary-arm64/Packages
- e1e81bfebd8cbe36c6f09fc9f8bd09c0 332 soracom/binary-arm64/Packages.gz
+ 8332853f3d142624a7eac699cf8f40f8 440 soracom/binary-arm64/Packages
+ 256b2f1d7812d37a3283330a628da12d 332 soracom/binary-arm64/Packages.gz
  cc49b6414332876f4f13467bef9d0476 137 soracom/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 soracom/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 soracom/source/Sources.gz
@@ -34,11 +34,11 @@ SHA1:
  49f1c9bb7d4fb5215a541ac1919d0cab1e26594c 14308 main/source/Sources
  7d582446e4c3af1c6092146a82eb7b0a3b263dfb 3642 main/source/Sources.gz
  25b4a61bdc6ae04100ec7709e0fa83b57e0bee38 135 main/source/Release
- 3d53b22be6068f9e40ef3b2b641d065fbf601fce 440 soracom/binary-armhf/Packages
- f4f06753cb336a59afb12e24916f3473b2d18afe 331 soracom/binary-armhf/Packages.gz
+ 2a36d220a5cd39313892680233fc4c3409e72d41 440 soracom/binary-armhf/Packages
+ 82f108b118fb16e4c224ac0641fac96f634763db 333 soracom/binary-armhf/Packages.gz
  a3783451f3061f1839b589406322d848095c4346 137 soracom/binary-armhf/Release
- 46d5b5d2b6be731cd17d6b200fbd1b172628cd59 440 soracom/binary-arm64/Packages
- d0a65197ee1a42d0d0eaac6f178279ef02fdc7c3 332 soracom/binary-arm64/Packages.gz
+ 2e5b35f12dfe44640fa3a7381067effdb550d3ac 440 soracom/binary-arm64/Packages
+ f192c0311ec1062f75ed8ff67aebf3b3f61ed0b9 332 soracom/binary-arm64/Packages.gz
  7c4b6c629cca8c2736a3136bc5c82061a9e4a99e 137 soracom/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 soracom/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 soracom/source/Sources.gz
@@ -53,11 +53,11 @@ SHA256:
  7d1b2f5e6768bb5ed7af0dfb7d0128cd308cf31572e804e82eb6bc8c6844df88 14308 main/source/Sources
  510b1c90ad2f74fcc164639649ec77661757ce904e75984b3de87eaf82bbe4f9 3642 main/source/Sources.gz
  f9aec3bd8a0b3e0d404a96deb65ccd9bb419b69f037e950d463a6de38765a717 135 main/source/Release
- 7682a0a207ef4255c259d5f1327f272140167cc1b4369ad0b9f08eff7497a398 440 soracom/binary-armhf/Packages
- 2fe9b78fc6e050b69912dcfca2ba273e4b71cda969119bb5499b7e856cce46e1 331 soracom/binary-armhf/Packages.gz
+ d15ccd22b133b299aa8107362306da6423eabe44e82c02f9dd121dabb5209f8f 440 soracom/binary-armhf/Packages
+ b90de29c2cc034daacc2b43dec5478b3eb5197fbfb4df9a086776fe93ad86d23 333 soracom/binary-armhf/Packages.gz
  1d95e5d56be9c1ad80e1563b237de33ab3315df472323fd56248d5269e67b867 137 soracom/binary-armhf/Release
- e913c7fbd27e654faf173805998725dbeb5c47d6d081a83400cc870bedbd49f3 440 soracom/binary-arm64/Packages
- 63fc03dbbcea52eab3b50469e631304882bb4309d176e04fef70c31f0d802a5c 332 soracom/binary-arm64/Packages.gz
+ 3f71c94691703f54db3dee1bcc3c66d129929b37c82a7fe35288cf62a69f1ed1 440 soracom/binary-arm64/Packages
+ c42c3b04c0f4608a00ade5bb0cdf014a88d8e6377833392c5dfde5fa81966f6a 332 soracom/binary-arm64/Packages.gz
  057e16fca0be227423940a5ac747bfcdf7a6e380613a1273a85ac376070aa47c 137 soracom/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 soracom/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 soracom/source/Sources.gz
