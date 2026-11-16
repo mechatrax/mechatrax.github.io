@@ -144,6 +144,23 @@ Description: Python 3 module for ADPi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi4-monitor
+Version: 1.0.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 47
+Depends: sleepi4-utils, python3-sleepi (>= 1.2.0), python3-yaml, python3, systemd
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: misc
+Filename: pool/main/s/sleepi4-monitor/sleepi4-monitor_1.0.0_all.deb
+Size: 5632
+SHA256: ec0e47bc7a1922a4150644623f3e9f10e0ebce85bf8c1a7caee3d99863b63a23
+SHA1: 55b632ffee79b5444579dac301dec0a52e32f7ab
+MD5sum: f8541b73bf85fd983e66b53f926463ce
+Description: Monitoring daemon for slee-Pi 4
+ This package contains the daemon to monitor slee-Pi 4.
+
 Package: sleepi4-utils
 Version: 1.0.0
 Architecture: all
