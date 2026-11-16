@@ -144,6 +144,25 @@ Description: Python 3 module for ADPi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi4-firmware
+Version: 1.0.0.1
+Architecture: armhf
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 19
+Depends: raspi-firmware, raspi-config (>= 20160506)
+Conflicts: sleepi-firmware, sleepi2-firmware, sleepi3-dkms, sleepi3-firmware
+Breaks: sleepi3-dkms
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: kernel
+Filename: pool/main/s/sleepi4-firmware/sleepi4-firmware_1.0.0.1_armhf.deb
+Size: 3692
+SHA256: 49099eae1e1a23391ec63fe7a02d11cf0a872ec8efc805067c363a54846ecbed
+SHA1: 82af327f669726aa084a6eb013990331cdab131d
+MD5sum: ba33212771e74b909c47427d115d699f
+Description: Device tree overlay binary for slee-Pi 4
+ This package contains the device tree overlay binary for slee-Pi 4.
+
 Package: sleepi4-monitor
 Version: 1.0.0
 Architecture: all
