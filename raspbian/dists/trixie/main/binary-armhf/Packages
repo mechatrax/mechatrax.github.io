@@ -144,6 +144,26 @@ Description: Python 3 module for ADPi family.
  .
  This package installs the library for Python 3.
 
+Package: python3-sleepi
+Source: python-sleepi
+Version: 1.2.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 31
+Depends: python3-smbus, python3:any
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-sleepi/python3-sleepi_1.2.0_all.deb
+Size: 5032
+SHA256: 8c37e9ccd60321d96b47fc3068be6b5465941dc726f5c4350d1f01b4c4d9734e
+SHA1: e52b88b145b5cab07fdd418c44e2114b34049bc2
+MD5sum: 466e14fe50bb57ea45165ec5770405f8
+Description: Python 3 module for slee-Pi family.
+ This package contains python module to control slee-Pi family.
+ .
+ This package installs the library for Python 3.
+
 Package: sleepi4-firmware
 Version: 1.0.0.1
 Architecture: armhf
