@@ -144,3 +144,21 @@ Description: Python 3 module for ADPi family.
  .
  This package installs the library for Python 3.
 
+Package: sleepi4-utils
+Version: 1.0.0
+Architecture: all
+Maintainer: Yuta Kiyonaga <kiyonaga@mechatrax.com>
+Installed-Size: 68
+Depends: sleepi4-firmware, python3-sleepi (>= 1.2.0), python3, util-linux-extra, gpiod (>= 2.0)
+Conflicts: fake-hwclock, sleepi-utils, sleepi2-utils, sleepi3-utils
+Homepage: https://mechatrax.com/
+Priority: optional
+Section: admin
+Filename: pool/main/s/sleepi4-utils/sleepi4-utils_1.0.0_all.deb
+Size: 9204
+SHA256: 915f12ea9f8a51b775d30be69b55a7e0183fa7aaa8ff59e9a1b5f8f1b1b17f02
+SHA1: 45d733ac89cb0db62c6656296ede02a94fbdcf70
+MD5sum: 8170e698c47d5edd0e0c338a784a7433
+Description: Utilities for slee-Pi 4
+ This package contains command utilities to control slee-Pi 4.
+
